@@ -18,6 +18,12 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MachActivity" />
+        <activity android:name=".AllViewActivity" />
+        <activity
+            android:name=".Mang_sho"
+            android:label="@string/title_activity_mang_sho"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

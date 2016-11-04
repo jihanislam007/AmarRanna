@@ -1,9 +1,10 @@
 <resources>
-    <string name="app_name">Amar Ranna</string>
-    <string name="title_activity_main">MainActivity</string>
+    <string name="app_name">আমার রান্না </string>
+    <string name="title_activity_main">আমার রান্না </string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="title_activity_mang_sho">Mang_sho</string>
 </resources>
