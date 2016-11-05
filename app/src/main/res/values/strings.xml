@@ -7,4 +7,6 @@
 
     <string name="action_settings">Settings</string>
     <string name="title_activity_mang_sho">মাংস </string>
+    <string name="title_activity_mach">MachActivity</string>
+    <string name="title_activity_beking">BekingActivity</string>
 </resources>
