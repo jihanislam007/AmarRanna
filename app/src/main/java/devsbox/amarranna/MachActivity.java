@@ -425,7 +425,6 @@ public class MachActivity extends AppCompatActivity
                         Int_a15.putExtra("karjodtails_name", karjodtails_obj15);
 
                         Int_a15.putExtra("picture", b_a15);
-
                         startActivity(Int_a15);
 
                         break;
@@ -446,7 +445,6 @@ public class MachActivity extends AppCompatActivity
                         Int_a16.putExtra("karjodtails_name", karjodtails_obj16);
 
                         Int_a16.putExtra("picture", b_a16);
-
                         startActivity(Int_a16);
 
                         break;

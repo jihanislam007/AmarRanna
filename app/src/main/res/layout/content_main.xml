@@ -51,7 +51,7 @@
                                                 android:layout_height="match_parent"
                                                 android:textAppearance="?android:attr/textAppearanceLarge"
                                                 android:text="চাল ডাল "
-                                                android:id="@+id/shakTextView"
+                                                android:id="@+id/chalTextView"
                                                 android:gravity="center"
                                                 android:textColor="@color/white" />
                                         </LinearLayout>
@@ -68,7 +68,7 @@
                                                 android:layout_height="match_parent"
                                                 android:textAppearance="?android:attr/textAppearanceLarge"
                                                 android:text="শাক সবজি "
-                                                android:id="@+id/indianTextView"
+                                                android:id="@+id/shakTextView"
                                                 android:gravity="center"
                                                 android:textColor="@color/white"
                                                 android:textStyle="bold" />
@@ -86,7 +86,7 @@
                                                 android:layout_height="match_parent"
                                                 android:textAppearance="?android:attr/textAppearanceLarge"
                                                 android:text="ভর্তা ভাজি "
-                                                android:id="@+id/thaiTextView"
+                                                android:id="@+id/vortaTextView"
                                                 android:gravity="center"
                                                 android:textColor="@color/white" />
                                         </LinearLayout>
@@ -103,7 +103,7 @@
                                                 android:layout_height="match_parent"
                                                 android:textAppearance="?android:attr/textAppearanceLarge"
                                                 android:text="ডিম "
-                                                android:id="@+id/desertTextView"
+                                                android:id="@+id/dimTextView"
                                                 android:gravity="center"
                                                 android:textColor="@color/white"
                                                 android:textStyle="bold" />
@@ -121,7 +121,7 @@
                                                 android:layout_height="match_parent"
                                                 android:textAppearance="?android:attr/textAppearanceLarge"
                                                 android:text="টক-ঝাল-মিষ্টি "
-                                                android:id="@+id/specialTextView"
+                                                android:id="@+id/tokTextView"
                                                 android:gravity="center"
                                                 android:textColor="@color/white" />
                                         </LinearLayout>
@@ -164,7 +164,7 @@
                                 android:layout_height="match_parent"
                                 android:textAppearance="?android:attr/textAppearanceLarge"
                                 android:text="কাবাব "
-                                android:id="@+id/panioTextView"
+                                android:id="@+id/kababTextView"
                                 android:gravity="center"
                                 android:textColor="@color/white" />
                         </LinearLayout>
@@ -181,7 +181,7 @@
                                 android:layout_height="match_parent"
                                 android:textAppearance="?android:attr/textAppearanceLarge"
                                 android:text="পানীয় "
-                                android:id="@+id/chainijTextView"
+                                android:id="@+id/panioTextView"
                                 android:gravity="center"
                                 android:textColor="@color/white"
                                 android:textStyle="bold" />
@@ -216,7 +216,7 @@
                                 android:layout_height="match_parent"
                                 android:textAppearance="?android:attr/textAppearanceLarge"
                                 android:text="স্যুপ "
-                                android:id="@+id/vortaTextView"
+                                android:id="@+id/soupTextView"
                                 android:gravity="center"
                                 android:textColor="@color/white"
                                 android:textStyle="bold" />
@@ -234,7 +234,7 @@
                                 android:layout_height="match_parent"
                                 android:textAppearance="?android:attr/textAppearanceLarge"
                                 android:text="বিদেশী "
-                                android:id="@+id/onnanoTextView"
+                                android:id="@+id/bideshiTextView"
                                 android:gravity="center"
                                 android:textColor="@color/white" />
                         </LinearLayout>

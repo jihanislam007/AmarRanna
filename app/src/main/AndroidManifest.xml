@@ -31,6 +31,42 @@
         <activity
             android:name=".BekingActivity"
             android:label="@string/title_activity_beking"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Bide_shi"
+            android:label="@string/title_activity_bide_shi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Chal_dal"
+            android:label="@string/title_activity_chal_dal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Dim"
+            android:label="@string/title_activity_dim"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Kabab"
+            android:label="@string/title_activity_kabab"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Panio"
+            android:label="@string/title_activity_panio"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Shak_shobji"
+            android:label="@string/title_activity_shak_shobji"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Supe"
+            android:label="@string/title_activity_supe"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tok_jal_misti"
+            android:label="@string/title_activity_tok_jal_misti"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Vorta"
+            android:label="@string/title_activity_vorta"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
