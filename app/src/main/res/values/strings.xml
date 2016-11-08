@@ -7,15 +7,15 @@
 
     <string name="action_settings">Settings</string>
     <string name="title_activity_mang_sho">মাংস </string>
-    <string name="title_activity_mach">MachActivity</string>
-    <string name="title_activity_beking">BekingActivity</string>
-    <string name="title_activity_bide_shi">Bide_shi</string>
-    <string name="title_activity_chal_dal">Chal_dal</string>
-    <string name="title_activity_dim">Dim</string>
-    <string name="title_activity_kabab">Kabab</string>
-    <string name="title_activity_panio">Panio</string>
-    <string name="title_activity_shak_shobji">Shak_shobji</string>
-    <string name="title_activity_supe">Supe</string>
-    <string name="title_activity_tok_jal_misti">Tok_jal_misti</string>
-    <string name="title_activity_vorta">Vorta</string>
+    <string name="title_activity_mach">মাছ </string>
+    <string name="title_activity_beking">বেকিং</string>
+    <string name="title_activity_bide_shi">বিদেশি </string>
+    <string name="title_activity_chal_dal">চাল ডাল </string>
+    <string name="title_activity_dim">ডিম </string>
+    <string name="title_activity_kabab">কাবাব </string>
+    <string name="title_activity_panio">পানীয় </string>
+    <string name="title_activity_shak_shobji">শাক সবজি </string>
+    <string name="title_activity_supe">স্যুপ  </string>
+    <string name="title_activity_tok_jal_misti">টক-ঝাল-মিষ্টি </string>
+    <string name="title_activity_vorta">ভর্তা </string>
 </resources>

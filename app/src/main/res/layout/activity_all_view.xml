@@ -25,14 +25,6 @@
             android:layout_marginTop="205dp"
             android:background="#000000" />
 
-        <Button
-            android:id="@+id/buttonback"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_below="@+id/imageView1"
-            android:layout_toLeftOf="@+id/view1" />
-
         <LinearLayout
             android:id="@+id/linearLayout1"
             android:layout_width="wrap_content"
@@ -56,12 +48,12 @@
             android:id="@+id/textViewupokoron"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/buttonback"
             android:layout_marginTop="15dp"
             android:padding="10dp"
             android:text="উপকরণ"
             android:textSize="25dp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:layout_below="@+id/imageView1" />
 
         <View
             android:id="@+id/view2"
@@ -121,16 +113,6 @@
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:textSize="20dp" />
-
-        <Button
-            android:id="@+id/buttonlike"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_above="@+id/textViewupokoron"
-            android:layout_alignParentRight="true"
-            android:layout_below="@+id/linearLayout1"
-            android:layout_toRightOf="@+id/view1" />
-
 
 
     </RelativeLayout>

@@ -3,34 +3,55 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:id="@+id/nav_mach"
+            android:icon="@drawable/ic_menu_send"
+            android:title="মাছ" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:id="@+id/nav_mansho"
+            android:icon="@drawable/ic_menu_send"
+            android:title="মাংস " />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:id="@+id/nav_chal"
+            android:icon="@drawable/ic_menu_send"
+            android:title="চাল ডাল " />
         <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:id="@+id/nav_kabab"
+            android:icon="@drawable/ic_menu_send"
+            android:title="কাবাব " />
+        <item
+            android:id="@+id/nav_shak"
+            android:icon="@drawable/ic_menu_send"
+            android:title="শাক সবজি " />
+        <item
+            android:id="@+id/nav_panio"
+            android:icon="@drawable/ic_menu_send"
+            android:title="পানীয় " />
+        <item
+            android:id="@+id/nav_vorta"
+            android:icon="@drawable/ic_menu_send"
+            android:title="ভর্তা ভাজি " />
+        <item
+            android:id="@+id/nav_beking"
+            android:icon="@drawable/ic_menu_send"
+            android:title="বেকিং " />
+        <item
+            android:id="@+id/nav_dim"
+            android:icon="@drawable/ic_menu_send"
+            android:title="ডিম " />
+        <item
+            android:id="@+id/nav_soup"
+            android:icon="@drawable/ic_menu_send"
+            android:title="স্যুপ " />
+        <item
+            android:id="@+id/nav_tok"
+            android:icon="@drawable/ic_menu_send"
+            android:title="টক-ঝাল-মিষ্টি " />
+        <item
+            android:id="@+id/nav_bideshi"
+            android:icon="@drawable/ic_menu_send"
+            android:title="বিদেশী " />
     </group>
 
-    <item android:title="Communicate">
-        <menu>
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
-        </menu>
-    </item>
+
 
 </menu>
