@@ -21,6 +21,9 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 public class Panio extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
     ListView list;
@@ -38,14 +41,14 @@ public class Panio extends AppCompatActivity
 
 
     Integer[] imageId = {
-            R.drawable.panio_1,
-            R.drawable.panio_2,
-            R.drawable.panio_3,
-            R.drawable.panio_4,
-            R.drawable.panio_5,
+            R.drawable.image,
+            R.drawable.image,
+            R.drawable.image,
+            R.drawable.image,
+            R.drawable.image,
             R.drawable.panio_6,
-            R.drawable.panio_7,
-            R.drawable.panio_,
+            R.drawable.image,
+            R.drawable.image,
 
     };
     @Override
@@ -54,6 +57,14 @@ public class Panio extends AppCompatActivity
         setContentView(R.layout.activity_panio);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        /////////////////////working for addmob///////////////////////////////////////////////////
+        AdView adView = (AdView) findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder()
+                .setRequestAgent("android_studio:ad_template").build();
+        adView.loadAd(adRequest);
+
+        /////////////////////working for addmob///////////////////////////////////////////////////
 
         CustomAdapter adapter = new CustomAdapter(Panio.this, web, imageId);
 
@@ -73,7 +84,7 @@ public class Panio extends AppCompatActivity
                         String upodetails_obj0= "- ৫০০ গ্রাম মিষ্টি দই\n- ১ কাপ গুঁড়ো দুধ\n- চিনি মিষ্টি অনুযায়ী\n- আধা কাপ পছন্দের ফ্লেভার (বাদাম, আম, কলা, আপেল, স্ট্রবেরি, চকলেট ইত্যাদি)\n- বরফ টুকরো পরিমাণ মতো\n- পানি পরিমাণ মতো";
                         String karjodtails_obj0= "- প্রথমে একটি বাটিতে গুঁড়ো দুধ, চিনি ও পানি একসাথে দিয়ে ভালো করে চিনি ও দুধ গলিয়ে মিশিয়ে রাখুন ১০ মিনিট।\n- এরপর ব্লেন্ডারে মিষ্টি দই ও পছন্দের ফ্লেভার অর্থাৎ আম, কলা, বাদাম, স্ট্রবেরি, গলানো চকলেট ইত্যাদি দিয়ে ভালো করে ব্লেন্ড করে নিন।\n- এরপর দুধ, চিনি ও পানির মিশ্রন ব্লেন্ডারে দিন ও ভালো করে ব্লেন্ড করে নিন।\n- তারপর বরফের টুকরো দিয়ে আরও একটু ব্লেন্ড করে নিন যাতে বরফ কুচি হয়ে মিশে যায় লাচ্ছির সাথে।\n- এখন গ্লাসে ঢেলে উপরে বাদাম কুচি ও খানিকটা গুঁড়ো দুধ ছিটিয়ে পরিবেশন করুন ঠাণ্ডা ঠাণ্ডা সুস্বাদু ‘লাচ্ছি’।";
 
-                        Bitmap bitmap_a0 = BitmapFactory.decodeResource(getResources(), R.drawable.panio_1);
+                        Bitmap bitmap_a0 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a0 = new ByteArrayOutputStream();
                         bitmap_a0.compress(Bitmap.CompressFormat.PNG, 100, baos_a0);
                         byte[] b_a0 = baos_a0.toByteArray();
@@ -94,7 +105,7 @@ public class Panio extends AppCompatActivity
                         String upodetails_obj1= "দই আধা কেজি (পাতলা কাপড়ে ঝুলিয়ে পানি ঝরানো), কলা অথবা পেঁপে ১ কাপ, বরফকুচি আধা কাপ, দুধ আধা কাপ, রুহআফজা ২ টেবিল চামচ, চিনি ১ টেবিল চা-চামচ।";
                         String karjodtails_obj1= "সব উপকরণ একসঙ্গে ব্ল্লেন্ডার মেশিনে মিলিয়ে নিন।";
 
-                        Bitmap bitmap_a1 = BitmapFactory.decodeResource(getResources(), R.drawable.panio_2);
+                        Bitmap bitmap_a1 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a1= new ByteArrayOutputStream();
                         bitmap_a1.compress(Bitmap.CompressFormat.PNG, 100, baos_a1);
                         byte[] b_a1 = baos_a1.toByteArray();
@@ -116,7 +127,7 @@ public class Panio extends AppCompatActivity
                         String upodetails_obj2= "পানি ১.৫ লিটার,চিনি ১.৫ কাপ,দুধ ১ কাপ,কাঠ বাদাম ১ টেবিল চামচ,তরমুজ অথবা পেঁপের বিচি ১ ,টেবিল চামচ,পোস্তদানা ১/২ টেবিল চামচ,শাহী জিরা ১/২ টেবিল চামচ,এলাচি গুড়া ১/২ চা চামচ ,সাদা গোলমরিচ ১ চা চামচ,গোলাপ জল ১/২ চা চামচ (জরুরী নয়),গোলাপ পাপড়ি ১/৪ কাপ";
                         String karjodtails_obj2= "সব উপকরণ এক সাথে মিশিয়ে ব্লেন্ডারে ভালো করে মিক্স করেন নিন। বাদাম, জিরা বা গোল মরিচ আলাদা করে বেটে নেবার প্রয়োজন নেই। ব্লেন্ডারেই সব মিশ্রিত হয়ে যাবে এক সাথে। এরপর একটা পাতলা সুতি কাপড়ে ছেঁকে গ্লাসে বরফ কুচি দিয়ে পরিবেশন করুন মজার স্বাদের ঠাণ্ডা ঠাণ্ডাই শরবত। একদম ভিন্ন রকম একটি স্বাদ অভিজ্ঞতার মুখোমুখি হবেন তা নিশ্চিত রূপেই বলা যায়!";
 
-                        Bitmap bitmap_a2 = BitmapFactory.decodeResource(getResources(), R.drawable.panio_3);
+                        Bitmap bitmap_a2 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a2 = new ByteArrayOutputStream();
                         bitmap_a2.compress(Bitmap.CompressFormat.PNG, 100, baos_a2);
                         byte[] b_a2 = baos_a2.toByteArray();
@@ -136,7 +147,7 @@ public class Panio extends AppCompatActivity
                         String upodetails_obj3= "ভ্যানিলা আইসক্রিম-৬ স্কুপ,কোকাকোলা-৬০০ মিলি";
                         String karjodtails_obj3= "আইসক্রিম ফ্রিজ থেকে বের করে ৫ মিনিট রেখে দিন। এবারে তিনটে কাঁচের গ্লাসে প্রথমে ১ স্কুপ করে আইক্রিম দিন। তারপর কোলা ঢালুন। চামচ দিয়ে নেড়ে স্মুদ, ফ্লাফি মিশ্রণ তৈরি করুন। ওপরে আরও ১ স্কুপ করে আইসক্রিম দিয়ে স্ট্র দিয়ে পরিবেশন করুন আইসক্রিম কোলা।";
 
-                        Bitmap bitmap_a3 = BitmapFactory.decodeResource(getResources(), R.drawable.panio_4);
+                        Bitmap bitmap_a3 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a3 = new ByteArrayOutputStream();
                         bitmap_a3.compress(Bitmap.CompressFormat.PNG, 100, baos_a3);
                         byte[] b_a3 = baos_a3.toByteArray();
@@ -157,7 +168,7 @@ public class Panio extends AppCompatActivity
                         String upodetails_obj4= "ল্যাংড়া আম : ৬ টি,টক দই : ৫০০ গ্রাম,ডানো ক্রিম : ২০০গ্রাম,কনডেন্স মিল্ক : ১ টিন,\nসাজানোর জন্য: পেস্তা বাদাম : প্রয়োজনমত";
                         String karjodtails_obj4= "প্রথমে ব্লেন্ডারে আমের টুকরোগুলোর সাথে একে একে টক দই , ডানো ক্রিম , এবং কনডেন্স মিল্ক দিয়ে হাইস্পিডে ব্লেন্ডার করে নিন । এবার পরিবেশন পাত্রে কিছু আমের টুকরো রেখে এর ওপর ব্লেন্ড করা মিশ্রণটি ঢেলে নিন । সবশেষে ওপরে পেস্তাবাদাম দিয়ে সাজিয়ে পরিবেশন করুন দারুন স্বাদের আমের শরবত ।";
 
-                        Bitmap bitmap_a4 = BitmapFactory.decodeResource(getResources(), R.drawable.panio_5);
+                        Bitmap bitmap_a4 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a4 = new ByteArrayOutputStream();
                         bitmap_a4.compress(Bitmap.CompressFormat.PNG, 100, baos_a4);
                         byte[] b_a4 = baos_a4.toByteArray();
@@ -200,7 +211,7 @@ public class Panio extends AppCompatActivity
                         String upodetails_obj6= "স্ট্রবেরি এক কাপ, চিনি পরিমাণমত, আইসক্রিম এক-দুই কাপ, ঠাণ্ডা দুধ দুই কাপ, বরফ কুচি তিন-চার টুকরা, চেরি দুই-তিনটি।";
                         String karjodtails_obj6= "প্রথমে স্ট্রবেরিগুলোকে টুকরা করে নিয়ে চিনি মিশিয়ে ব্লেন্ডারে ব্লেন্ড করে নিন। এবার একটি গ্লাসে ঢেলে দুধ মিশিয়ে উপরে আইসক্রিম, চেরি ও বরফ কুচি দিয়ে পরিবেশন করুন। ";
 
-                        Bitmap bitmap_a6 = BitmapFactory.decodeResource(getResources(), R.drawable.panio_7);
+                        Bitmap bitmap_a6 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a6 = new ByteArrayOutputStream();
                         bitmap_a6.compress(Bitmap.CompressFormat.PNG, 100, baos_a6);
                         byte[] b_a6 = baos_a6.toByteArray();
@@ -220,7 +231,7 @@ public class Panio extends AppCompatActivity
                         String upodetails_obj7= "বাঙ্গি, তরমুজ, আঙ্গুর, কমলা, আপেল সব ফলের টুকরো টুকরো করে তিন কাপ, চিনি এক কাপ, বিটলবণ আধা চা-চামচ, বরফ কুচি ১ কাপ।";
                         String karjodtails_obj7= "সব রকম ফলের টুকরো সঙ্গে চিনি, বিটলবণ দিয়ে ব্লেন্ড করুন পানি দিয়ে। ব্লেন্ড করার পর ছেঁকে বরফ কুচি দিয়ে পরিবেশন করুন।";
 
-                        Bitmap bitmap_a7 = BitmapFactory.decodeResource(getResources(), R.drawable.panio_);
+                        Bitmap bitmap_a7 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a7 = new ByteArrayOutputStream();
                         bitmap_a7.compress(Bitmap.CompressFormat.PNG, 100, baos_a7);
                         byte[] b_a7 = baos_a7.toByteArray();

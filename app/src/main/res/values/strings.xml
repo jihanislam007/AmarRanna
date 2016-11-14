@@ -18,4 +18,12 @@
     <string name="title_activity_supe">স্যুপ  </string>
     <string name="title_activity_tok_jal_misti">টক-ঝাল-মিষ্টি </string>
     <string name="title_activity_vorta">ভর্তা </string>
+    <string name="title_activity_testing">Testing</string>
+
+    <string name="hello_world">Hello world!</string>
+    <!-- -
+        This is an ad unit ID for a banner test ad. Replace with your own banner ad unit id.
+        For more information, see https://support.google.com/admob/answer/3052638
+    <!- -->
+    <string name="banner_ad_unit_id">ca-app-pub-1309629775280161/3485597534</string>
 </resources>

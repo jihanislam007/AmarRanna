@@ -19,6 +19,9 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 public class Mang_sho extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -75,7 +78,7 @@ public class Mang_sho extends AppCompatActivity
             R.drawable.mangsho_1,
             R.drawable.mangsho_2,
             R.drawable.mangsho_3,
-            R.drawable.mangsho_4,
+            R.drawable.image,
             R.drawable.mangsho_5,
             R.drawable.mangsho_6,
             R.drawable.mangsho_7,
@@ -99,7 +102,7 @@ public class Mang_sho extends AppCompatActivity
             R.drawable.mangsho_25,
             R.drawable.mangsho_26,
             R.drawable.mangsho_27,
-            R.drawable.mangsho_28,
+            R.drawable.image,
             R.drawable.mangsho_29,
             R.drawable.mangsho_30,
             R.drawable.mangsho_31,
@@ -122,6 +125,14 @@ public class Mang_sho extends AppCompatActivity
         setContentView(R.layout.activity_mang_sho);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        /////////////////////working for addmob///////////////////////////////////////////////////
+        AdView adView = (AdView) findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder()
+                .setRequestAgent("android_studio:ad_template").build();
+        adView.loadAd(adRequest);
+
+        /////////////////////working for addmob///////////////////////////////////////////////////
 
         CustomAdapter adapter = new CustomAdapter(Mang_sho.this, web, imageId);
 
@@ -204,7 +215,7 @@ public class Mang_sho extends AppCompatActivity
                         String upodetails_obj3= "১ কেজি গরুর মাংস, আদা ও রসুন বাটা ২০০ গ্রাম, গুঁড়া মরিচ ২ টেবিল চামচ, হলুদের গুঁড়া ২ টেবিল চামচ, জিরা গুঁড়া ১ টেবিল চামচ, ধনিয়া গুঁড়া ১ চা চামচ, পেঁয়াজ ১/২ কেজি, সিরকা ১/২ কাপ, তিনটা আলু, ১৫০ গ্রাম তেল, ১ চা চামচ গরম মসলা, ২ কাপ টক দই।";
                         String karjodtails_obj3= "প্রথমে একটি কড়াইয়ে তেল দিতে হবে। তেল গরম হয়ে গেলে পেঁয়াজ দিয়ে ব্রাউন রঙ করতে হবে। তারপর আদা রসুন বাটা দিতে হবে। একটু পাকানোর পর মরিচ, হলুদ, জিরা ও ধনিয়া গুঁড়া দিয়ে একটু পানি দিয়ে পাকাতে হবে। তারপর কিউব করা কাটা গরুর মাংস দিয়ে ১৫ মিনিট কষাতে হবে। তারপর আলু চার কাপ পানি দিয়ে অল্প তাপে ৪৫ মিনিট পাকাতে হবে। এরপর দই ও সিরকা ও কাঁচামরিচ দিয়ে পাকিয়ে নিতে হবে এবং লবণ দিতে হবে পরিমাণমতো।";
 
-                        Bitmap bitmap_a3 = BitmapFactory.decodeResource(getResources(), R.drawable.mangsho_4);
+                        Bitmap bitmap_a3 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a3 = new ByteArrayOutputStream();
                         bitmap_a3.compress(Bitmap.CompressFormat.PNG, 100, baos_a3);
                         byte[] b_a3 = baos_a3.toByteArray();
@@ -710,7 +721,7 @@ public class Mang_sho extends AppCompatActivity
                         String upodetails_obj27= "খাসির মাংস ১ কেজি, ছোট আলু ১৫টি, টক দই আধা কাপ, আদা বাটা ১ টেবিল চামচ, রসুন বাটা ১ টেবিল চামচ, মরিচের গুঁড়া ২ টেবিল চামচ, এলাচি ৩টি, দারুচিনি ৪-৫টি, তেজপাতা ৩টি, ধনের গুঁড়া ১ চা-চামচ, হলুদের গুঁড়া ১ চা-চামচ, পেঁয়াজের কুচি আধা কাপ, তেল আধা কাপ, লবণ পরিমাণমতো, জিরার গুঁড়া ১ চা-চামচ, কাঁচা মরিচ ৪-৫টি।";
                         String karjodtails_obj27= "খাসির মাংসগুলো কেটে ধুয়ে টক দই দিয়ে ২০ মিনিট রেখে দিতে হবে। এরপর আদা বাটা, রসুন বাটা ও লবণ মাখিয়ে আরও ১৫ মিনিট রেখে দিতে হবে। পাত্রে তেল গরম করে তাতে পেঁয়াজের কুচি ভেজে বাদামি করতে হবে। এবার এর মধ্যে আবার আদা বাটা, রসুন বাটা, মরিচের গুঁড়া, ধনে গুঁড়া, হলুদের গুঁড়া, এলাচি, দারুচিনি, তেজপাতা ও লবণ একসঙ্গে মিশিয়ে সামান্য পানি দিয়ে ভালোভাবে মসলাগুলো কষিয়ে নিতে হবে। ছোট আলুগুলো আগেই সেদ্ধ করে নিতে হবে। এবার কষানো মসলায় ছোট আলু ও মাংসগুলো ঢেলে দিন। সামান্য পানি দিয়ে সেদ্ধ করতে দিন। পানি কমে এলে তাতে জিরার গুঁড়া ও কাঁচা মরিচ দিয়ে আবার ঢেকে দিন। ভুনা ভুনা হলে নামিয়ে ফেলুন।";
 
-                        Bitmap bitmap_a27 = BitmapFactory.decodeResource(getResources(), R.drawable.mangsho_28);
+                        Bitmap bitmap_a27 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a27 = new ByteArrayOutputStream();
                         bitmap_a27.compress(Bitmap.CompressFormat.PNG, 100, baos_a27);
                         byte[] b_a27 = baos_a27.toByteArray();

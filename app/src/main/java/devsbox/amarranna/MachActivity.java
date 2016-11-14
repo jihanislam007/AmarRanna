@@ -21,6 +21,9 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 public class MachActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -68,7 +71,7 @@ public class MachActivity extends AppCompatActivity
             R.drawable.mas_13,
             R.drawable.mas_14,
             R.drawable.mas_15,
-            R.drawable.mas_16,
+            R.drawable.image,
             R.drawable.mas_17,
             R.drawable.mas_18,
             R.drawable.mas_19,
@@ -82,6 +85,14 @@ public class MachActivity extends AppCompatActivity
         setContentView(R.layout.activity_mach);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        /////////////////////working for addmob///////////////////////////////////////////////////
+        AdView adView = (AdView) findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder()
+                .setRequestAgent("android_studio:ad_template").build();
+        adView.loadAd(adRequest);
+
+        /////////////////////working for addmob///////////////////////////////////////////////////
 
         CustomAdapter adapter = new CustomAdapter(MachActivity.this, web, imageId);
 
@@ -267,7 +278,7 @@ public class MachActivity extends AppCompatActivity
                         String upodetails_obj8= "কৈ মাছ পরিষ্কার করে ধোয়া ৮টি, রসুন বাটা আধা চা-চামচ, ধনেপাতা গুঁড়া ১ চা-চামচ, কাঁচামরিচ/শুকনা মরিচ গুঁড়া ১ চা-চামচ, হলুদ গুঁড়া সামান্য, লেবুর রস ১ টেবিল চামচ, লবণ স্বাদমত, তেল পরিমাণমত (ভাজার জন্য)।";
                         String karjodtails_obj8= "কড়াইতে তেল দিয়ে গরম হলে একে একে কৈ মাছ ছেড়ে বাদামি বর্ণের করে ভেজে মচমচে কৈ মাছ ভাজা পরিবেশন করুন।";
 
-                        Bitmap bitmap_a8 = BitmapFactory.decodeResource(getResources(), R.drawable.mas_9);
+                        Bitmap bitmap_a8 = BitmapFactory.decodeResource(getResources(), R.drawable.mas_8);
                         ByteArrayOutputStream baos_a8 = new ByteArrayOutputStream();
                         bitmap_a8.compress(Bitmap.CompressFormat.PNG, 100, baos_a8);
                         byte[] b_a8 = baos_a8.toByteArray();
@@ -414,7 +425,7 @@ public class MachActivity extends AppCompatActivity
                         String upodetails_obj15= "মাছ ২৫০ গ্রাম, করলা দুইটা, পেঁয়াজ কুচি চার টেবিল চামচ, কুমড়ার বড়ি ১০/১৫ পিস, কাঁচামরিচ সাত-আটটা। হলুদ গুঁড়া আধা চা-চামচ, আদা বাটা এক চা-চামচ, রসুন বাটা এক চা-চামচ, সরিষা বাটা এক টেবিল-চামচ, সরিষার তেল সিকি কাপ।";
                         String karjodtails_obj15= "করলা লম্বা আঙুলের মতো কাটতে হবে। দুই টেবিল-চামচ তেলে বড়িগুলো হালকা ভেজে নিতে হবে। পাত্রে তেল দিয়ে কষাতে হবে। মসলার গন্ধ গেলে ঝোলের জন্য পানি দিতে হবে দুই কাপ। পানি ফুটে উঠলে মাছ, করলা ও বড়ি দিয়ে ঢেকে দিতে হবে। জোরে জ্বাল দিতে হবে। অল্প সময়ে চুলার আঁচে রাখতে হবে। কারণ বেশি জ্বাল দিলে করলা তেতো হয়ে যাবে। ঝোলটা নিজের পছন্দমতো করে নিতে হবে। সরিষা বাটা ছাড়াও এই ঝোল রান্না করা যাবে।";
 
-                        Bitmap bitmap_a15 = BitmapFactory.decodeResource(getResources(), R.drawable.mas_16);
+                        Bitmap bitmap_a15 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a15 = new ByteArrayOutputStream();
                         bitmap_a15.compress(Bitmap.CompressFormat.PNG, 100, baos_a15);
                         byte[] b_a15 = baos_a15.toByteArray();

@@ -22,6 +22,9 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 public class BekingActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -64,6 +67,14 @@ public class BekingActivity extends AppCompatActivity
         setContentView(R.layout.activity_beking);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        /////////////////////working for addmob///////////////////////////////////////////////////
+        AdView adView = (AdView) findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder()
+                .setRequestAgent("android_studio:ad_template").build();
+        adView.loadAd(adRequest);
+
+        /////////////////////working for addmob///////////////////////////////////////////////////
 
         CustomAdapter adapter = new CustomAdapter(BekingActivity.this, web, imageId);
 

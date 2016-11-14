@@ -22,6 +22,9 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 public class Supe extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -45,6 +48,14 @@ public class Supe extends AppCompatActivity
         setContentView(R.layout.activity_supe);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        /////////////////////working for addmob///////////////////////////////////////////////////
+        AdView adView = (AdView) findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder()
+                .setRequestAgent("android_studio:ad_template").build();
+        adView.loadAd(adRequest);
+
+        /////////////////////working for addmob///////////////////////////////////////////////////
 
         CustomAdapter adapter = new CustomAdapter(Supe.this, web, imageId);
 

@@ -23,6 +23,9 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 public class Shak_shobji extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -46,15 +49,15 @@ public class Shak_shobji extends AppCompatActivity
 
 
     Integer[] imageId = {
-            R.drawable.shak_1,
-            R.drawable.shak_2,
+            R.drawable.image,
+            R.drawable.image,
             R.drawable.shak_3,
             R.drawable.shak_4,
             R.drawable.shak_5,
             R.drawable.shak_6,
             R.drawable.shak_7,
             R.drawable.shak_8,
-            R.drawable.shak_9,
+            R.drawable.image,
             R.drawable.shak_10,
 
 
@@ -66,6 +69,14 @@ public class Shak_shobji extends AppCompatActivity
         setContentView(R.layout.activity_shak_shobji);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        /////////////////////working for addmob///////////////////////////////////////////////////
+        AdView adView = (AdView) findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder()
+                .setRequestAgent("android_studio:ad_template").build();
+        adView.loadAd(adRequest);
+
+        /////////////////////working for addmob///////////////////////////////////////////////////
 
 
         CustomAdapter adapter = new CustomAdapter(Shak_shobji.this, web, imageId);
@@ -86,7 +97,7 @@ public class Shak_shobji extends AppCompatActivity
                         String upodetails_obj0= "ঢ্যাঁড়স ২৫০ গ্রাম, চিংড়ি ১ কাপ, পেঁয়াজ কুচি ১ কাপ, হলুদগুঁড়া ১ চা-চামচ, মরিচগুঁড়া ১ চা-চামচ, টমেটো ১টা, টকদই ১ টেবিল চামচ, পেঁয়াজ বাটা ১ চা-চামচ, কাঁচা মরিচ কুচি ১ টেবিল চামচ, জিরাগুঁড়া ১ চা-চামচ, ধনেগুঁড়া ১ চা-চামচ, ধনেপাতা কুচি সামান্য।";
                         String karjodtails_obj0= "ঢ্যাঁড়স ধুয়ে পানি ঝরিয়ে নিন, মাঝে চিরে ভেতরের বিচি বের করে নিন। অল্প তেলে পেঁয়াজ ২ টেবিল চামচ, চিংড়ি (ছোট ছোট টুকরা করে কাটা), আধা চা-চামচ হলুদ ও মরিচগুঁড়া, ধনে ও জিরাগুঁড়া আধা চামচ, কাঁচা মরিচ কুচি ও সামান্য লবণ দিয়ে ভেজে নিন। ঢ্যাঁড়সের ভেতর চিংড়ির পুর ঢুকিয়ে দিন যাতে ঢ্যাঁড়স ভেঙে বা ফেটে না যায়। এবার অন্য পাত্রে ১ টেবিল চামচ তেলে বাকি সব উপকরণ ভেজে তাতে পুর ভরা ঢ্যাঁড়স ঢেলে ঢেকে দিন। চুলায় একটু রেখে ধনেপাতা দিয়ে নামিয়ে নিন।";
 
-                        Bitmap bitmap_a0 = BitmapFactory.decodeResource(getResources(), R.drawable.shak_1);
+                        Bitmap bitmap_a0 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a0 = new ByteArrayOutputStream();
                         bitmap_a0.compress(Bitmap.CompressFormat.PNG, 100, baos_a0);
                         byte[] b_a0 = baos_a0.toByteArray();
@@ -107,7 +118,7 @@ public class Shak_shobji extends AppCompatActivity
                         String upodetails_obj1= "মিষ্টি কুমড়া স্লাইস করে কাটা এক কাপ, বেসন ২ টেবিল চামচ, ময়দা ১/২ কাপ, কর্নফ্লাওয়ার ১ টেবিল চামচ, তিল পরিমাণমতো, হলুদের গুঁড়া ১ চা চামচ, মরিচের গুঁড়া ১ চা চামচ, লবণ স্বাদমতো, তেল পরিমাণমতো।";
                         String karjodtails_obj1= "মিষ্টি কুমড়া ও তেল বাদে বাকি সব উপকরণ একসঙ্গে মিশিয়ে পরিমাণমতো পানি দিয়ে গোলা তৈরি করে নিতে হবে। মিষ্টি কুমড়ায় লবণ মেখে গোলায় ডুবিয়ে তিল ছিটিয়ে ডুবো তেলে ভেজে পরিবেশন করতে হবে।";
 
-                        Bitmap bitmap_a1 = BitmapFactory.decodeResource(getResources(), R.drawable.shak_2);
+                        Bitmap bitmap_a1 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a1= new ByteArrayOutputStream();
                         bitmap_a1.compress(Bitmap.CompressFormat.PNG, 100, baos_a1);
                         byte[] b_a1 = baos_a1.toByteArray();
@@ -254,7 +265,7 @@ public class Shak_shobji extends AppCompatActivity
                         String upodetails_obj8= "মটরশুঁটি ২ কাপ, আলু টুকরা করে কাটা ১ কাপ, ভাজা ধনে গুঁড়া ১ চা চামচ, জিরা গুঁড়া ১ চা চামচ, শুকনা মরিচ গুঁড়া ১ চা চামচ, তেঁতুলের মাড় আধা কাপ, পেঁয়াজ কুচি আধা কাপ, ধনে পাতা কুচি ২ টেবিল চামচ, কাঁচামরিচ কুচি ১ টেবিল চামচ, চিনি সামান্য, লবণ স্বাদমতো।";
                         String karjodtails_obj8= "আলু ও মটরশুঁটি সিদ্ধ করে সব মসলা মেশাতে হবে। পরিমাণমতো পানিতে দিয়ে জ্বাল দিতে হবে। ফুটে উঠলে তেঁতুল মাড় ও চিনি দিয়ে নামাতে হবে। পাত্রে ঢেলে পেঁয়াজ কুচি, মরিচ কুচি ও ধনে পাতা কুচি দিয়ে সাজিয়ে পরিবেশন করতে হবে।";
 
-                        Bitmap bitmap_a8 = BitmapFactory.decodeResource(getResources(), R.drawable.shak_9);
+                        Bitmap bitmap_a8 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a8 = new ByteArrayOutputStream();
                         bitmap_a8.compress(Bitmap.CompressFormat.PNG, 100, baos_a8);
                         byte[] b_a8 = baos_a8.toByteArray();

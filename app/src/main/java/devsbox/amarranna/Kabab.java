@@ -23,6 +23,9 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 public class Kabab extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -51,15 +54,15 @@ public class Kabab extends AppCompatActivity
 
 
     Integer[] imageId = {
-            R.drawable.kabab_1,
-            R.drawable.kabab_2,
-            R.drawable.kabab_3,
-            R.drawable.kabab_4,
+            R.drawable.image,
+            R.drawable.image,
+            R.drawable.image,
+            R.drawable.image,
             R.drawable.kabab_5,
             R.drawable.kabab_6,
             R.drawable.kabab_7,
             R.drawable.kabab_8,
-            R.drawable.kabab_9,
+            R.drawable.image,
             R.drawable.kabab_10,
             R.drawable.kabab_11,
             R.drawable.kabab_12,
@@ -73,6 +76,14 @@ public class Kabab extends AppCompatActivity
         setContentView(R.layout.activity_kabab);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        /////////////////////working for addmob///////////////////////////////////////////////////
+        AdView adView = (AdView) findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder()
+                .setRequestAgent("android_studio:ad_template").build();
+        adView.loadAd(adRequest);
+
+        /////////////////////working for addmob///////////////////////////////////////////////////
 
         CustomAdapter adapter = new CustomAdapter(Kabab.this, web, imageId);
 
@@ -92,7 +103,7 @@ public class Kabab extends AppCompatActivity
                         String upodetails_obj0= "বড় মাছ ১টি, ছোলার ডাল ১৫০ গ্রাম, পেঁয়াজ কুচি ১ কাপ (চপকাট), পেঁয়াজ বাটা ২ টে. চামচ, আদা বাটা ১ চা চামচ, রসুন বাটা ১ চা চামচ, গোলমরিচ গুঁড়া ১ চা চামচ, ধনে গুঁড়া ১ চা চামচ, কাঁচা মরিচ (চপকাট) ১ চা চামচ, হলুদ গুঁড়া হাফ চা চামচ, গরম মসলা গুঁড়া ১ চা চামচ, লেবুর রস ১ টে. চামচ, ধনেপাতা কুচি ১ চা চামচ, ডিম ২টি, চিনি সামান্য, লবণ পরিমাণমতো, পাউরুটির গুঁড়া পরিমাণমতো, তেল পরিমাণমতো।";
                         String karjodtails_obj0= "প্রথমে বড় মাছ কেটে টুকরা করে ধুয়ে পরিষ্কার করে নিন। ছোলার ডাল আধা ঘণ্টা ভিজিয়ে রাখুন। আদা, রসুন, পেঁয়াজ, হলুদ, মরিচ, ধনে গুঁড়া ও গরম মসলা দিয়ে মাছ সিদ্ধ করুন। মাছ সিদ্ধ হলে নামিয়ে ঠাণ্ডা করে মাছের কাঁটা বেছে নিন। এবার ডাল ও মাছ একসঙ্গে বেটে নিন। ডিমের কুসুম একসঙ্গে মেখে নিন। কাঁচা মরিচ কুচি, পেঁয়াজ ও ধনেপাতা কুচি, লেবুর রস, লবণ একসঙ্গে মেখে নিন। মাছের খামির হাতের তালুতে অল্প করে নিয়ে গোল করে মাঝখানে বুড়ো আঙুলের গর্ত করে পেঁয়াজমাখা পুর ভরে মুখ বন্ধ করে চ্যাপ্টা আকারে কাবাব গড়ূন। এবার ডিমের সাদা অংশে ডুবিয়ে পাউরুটির গুঁড়ায় মেখে গরম তেলে মচমচে করে ভেজে তুলুন। গরম গরম পরিবেশন করুন।";
 
-                        Bitmap bitmap_a0 = BitmapFactory.decodeResource(getResources(), R.drawable.kabab_1);
+                        Bitmap bitmap_a0 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a0 = new ByteArrayOutputStream();
                         bitmap_a0.compress(Bitmap.CompressFormat.PNG, 100, baos_a0);
                         byte[] b_a0 = baos_a0.toByteArray();
@@ -113,7 +124,7 @@ public class Kabab extends AppCompatActivity
                         String upodetails_obj1= "রুই মাছ ১টি, রসুন বাটা ১ টে. চামচ, আদা বাটা ১ টে. চামচ, পেঁয়াজ বাটা ২ টে. চামচ, জিরা বাটা ১ চা চামচ, সরষে বাটা ১ চা চামচ, ডিম ১টি, লবণ পরিমাণমতো, কাঁচা মরিচ বাটা ১ চা চামচ, তেল সিকি কাপ, গরম মসলা গুঁড়া ১ চা চামচ, গোলমরিচ গুঁড়া ১ চা চামচ।";
                         String karjodtails_obj1= "প্রথমে মাছ টুকরা করে কেটে ধুয়ে পরিষ্কার করে নিন। এবার সিদ্ধ করে কাঁটা ছাড়িয়ে নিন। এবার সব মসলা, লবণ, মাছ ও ডিম একসঙ্গে মেখে নিন। গোল চ্যাপ্টা করে কাবাব বানিয়ে তেলে ভেজে নিন। হয়ে গেলে নামিয়ে গরম গরম পরিবেশন করুন।";
 
-                        Bitmap bitmap_a1 = BitmapFactory.decodeResource(getResources(), R.drawable.kabab_2);
+                        Bitmap bitmap_a1 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a1= new ByteArrayOutputStream();
                         bitmap_a1.compress(Bitmap.CompressFormat.PNG, 100, baos_a1);
                         byte[] b_a1 = baos_a1.toByteArray();
@@ -135,7 +146,7 @@ public class Kabab extends AppCompatActivity
                         String upodetails_obj2= "চিংড়ি মাছ হাফ কেজি, পেঁয়াজ বাটা সিকি কাপ, পুদিনা পাতা বাটা ১ টে. চামচ, আদা বাটা ১ টে. চামচ, রসুন বাটা ১ টে. চামচ, কাঁচা মরিচ বাটা ১ টে. চামচ, গরম মসলা গুঁড়া ১ টে. চামচ, গোলমরিচ গুঁড়া ১ চা চামচ, টকদই ২ টে. চামচ, ডিম ১টি, পাপর ৫-৬টি, পাউরুটির গুঁড়া পরিমাণমতো, তেল ১ কাপ, লবণ পরিমাণমতো।";
                         String karjodtails_obj2= "চিংড়ি মাছ পরিষ্কার করে ধুয়ে মিহি কিমা করে নিন। এবার পেঁয়াজ, আদা, রসুন পুদিনা পাতা, সব মসলা, ডিমের কুসুম, লবণ, দই, গরম মসলা সব একসঙ্গে মেখে রেখে দিন। পাপর পানিতে ভিজিয়ে নিন। পানি ছেঁকে কিছুক্ষণ রেখে দিন যেন পানি ঝরে যায়। এবার পাপরে মেরিনেড করা প্রন দিয়ে একটা একটা করে মুড়িয়ে নিন। ডিমের সাদা অংশে ডুবিয়ে পাউরুটির গুঁড়ায় গড়ায়ে ডুবো তেলে ভেজে নিন। হয়ে গেলে গরম গরম পরিবেশন করুন।";
 
-                        Bitmap bitmap_a2 = BitmapFactory.decodeResource(getResources(), R.drawable.kabab_3);
+                        Bitmap bitmap_a2 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a2 = new ByteArrayOutputStream();
                         bitmap_a2.compress(Bitmap.CompressFormat.PNG, 100, baos_a2);
                         byte[] b_a2 = baos_a2.toByteArray();
@@ -155,7 +166,7 @@ public class Kabab extends AppCompatActivity
                         String upodetails_obj3= "ইলিশ মাছ ১টি, আলু ১টি, পেঁয়াজ কুচি হাফ কাপ, কাঁচা মরিচ কুচি ১ চা চামচ, টমেটোর সস ২ টে. চামচ, গোলমরিচ গুঁড়া হাফ চা চামচ, লেবুর রস ১ টে. চামচ, লবণ পরিমাণমতো, পাউরুটির গুঁড়া পরিমাণমতো, তেল সিকি কাপ, পেঁয়াজ বেরেস্তা পরিমাণমতো।";
                         String karjodtails_obj3= "প্রথমে ইলিশ মাছের আঁশ ফেলে পেট চিরে ময়লা বের করে নিন। এবার পরিষ্কার করে ধুয়ে নিন। ডুবো পানিতে গোটা মাছ সিদ্ধ করুন। মাথা ও লেজ রেখে দু’পিঠের মাছ মাঝের কাঁটা থেকে স্লাইস করে তুলে কাঁটা বেছে নিন। মাছ ঝুরি করে নিন। আলু সিদ্ধ করে চটকে নিন। লেবুর খোসা গ্রোট করে নিন। পেঁয়াজ ও কাঁচা মরিচ কুচি ভেজে তুলে চটকানো আলু দিয়ে ভেজে নিন। আলু তুলে রেখে কড়াইয়ে এক টে. চামচ তেল দিয়ে মাছের ঝুরি টমেটোর সস, গোলমরিচ ও লবণ দিয়ে ভেজে নিন। ভাজা হলে পেঁয়াজ বেরেস্তা ও কাঁচা মরিচ, লেমন রাইন্ড লেবুর রস দিয়ে নেড়ে আলু দিন। সামান্য ভাজা হলে নামিয়ে পাউরুটি ভেজে মাছে মিশিয়ে নিন। এবার একটি ডিশে মাথা লম্বাভাবে বিছিয়ে রান্না করা মাছ ইলিশ মাছের আকারে বিছিয়ে দিন। ওপরে আরও পাউরুটি গুঁড়া সমানভাবে বিছিয়ে দিন। ওভেনে ১৯০ ডিগ্রি সে.গ্রে. তাপে ২০-২৫ মিনিট বেক করুন।";
 
-                        Bitmap bitmap_a3 = BitmapFactory.decodeResource(getResources(), R.drawable.kabab_4);
+                        Bitmap bitmap_a3 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a3 = new ByteArrayOutputStream();
                         bitmap_a3.compress(Bitmap.CompressFormat.PNG, 100, baos_a3);
                         byte[] b_a3 = baos_a3.toByteArray();
@@ -260,7 +271,7 @@ public class Kabab extends AppCompatActivity
                         String upodetails_obj8= "১ কেজি বিফ, গরম মসলা ১ চামচ, জিরা গুঁড়া ১ চামচ, ধনিয়া গুঁড়া ১ চামচ, লাল মরিচ গুঁড়া ২ চামচ, লবণ পরিমাণমতো, ডানো ক্রিম ২ চামচ, শুকনা মরিচ ভেজে গুঁড়া ১ চামচ, ড্রাই অনিয়ন পাউডার ১ চামচ, মাস্টার্ড পেস্ট আধা চামচ, মাস্টার্ড অয়েল আধা কাপ, দই আধা কাপ, আদা-রসুন পেস্ট ২ চামচ, পেঁপে আধা কাপ।";
                         String karjodtails_obj8= "বিফ পরিষ্কার করে কিউব করে কাটতে হবে। এরপর ধুয়ে পানি ছাড়িয়ে রাখতে হবে। সব মসলা এক সঙ্গে মিক্সড করে ১ ঘণ্টা ফ্রিজে রাখতে হবে। তারপর শিকে ভরে গ্রিলে দিতে হবে। ঘুরিয়ে ঘুরিয়ে এটা তৈরি করতে হবে। বাদামি কালার হয়ে গেলে নামিয়ে ফেলতে হবে। এটা করতে ৮ মিনিট সময় লাগতে পারে।";
 
-                        Bitmap bitmap_a8 = BitmapFactory.decodeResource(getResources(), R.drawable.kabab_9);
+                        Bitmap bitmap_a8 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a8 = new ByteArrayOutputStream();
                         bitmap_a8.compress(Bitmap.CompressFormat.PNG, 100, baos_a8);
                         byte[] b_a8 = baos_a8.toByteArray();
