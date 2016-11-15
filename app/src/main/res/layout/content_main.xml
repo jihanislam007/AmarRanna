@@ -125,7 +125,8 @@
                                                 android:text="টক-ঝাল-মিষ্টি "
                                                 android:id="@+id/tokTextView"
                                                 android:gravity="center"
-                                                android:textColor="@color/white" />
+                                                android:textColor="@color/white"
+                                                android:textStyle="bold" />
                                         </LinearLayout>
                                     </LinearLayout>
 
@@ -240,7 +241,8 @@
                                 android:text="বিদেশী "
                                 android:id="@+id/bideshiTextView"
                                 android:gravity="center"
-                                android:textColor="@color/white" />
+                                android:textColor="@color/white"
+                                android:textStyle="bold" />
                         </LinearLayout>
         </LinearLayout>
     </LinearLayout>

@@ -28,7 +28,6 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-
         TextView mach = (TextView) findViewById(R.id.machTextView);
         TextView mansho = (TextView) findViewById(R.id.manshoTextView);
         TextView chal = (TextView) findViewById(R.id.chalTextView);
