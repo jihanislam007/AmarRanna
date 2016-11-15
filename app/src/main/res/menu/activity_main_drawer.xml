@@ -3,22 +3,22 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/nav_fb"
             android:icon="@drawable/ic_menu_send"
             android:title="ফেসবুকে আমরা " />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_play_link"
             android:icon="@drawable/ic_menu_send"
             android:title="অন্যান্য অ্যাপ " />
 
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_about"
             android:icon="@drawable/ic_menu_send"
             android:title="আমাদের সম্পর্কে" />
 
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="">
         <menu>
             <item
                 android:id="@+id/nav_share"
@@ -26,7 +26,7 @@
                 android:title="শেয়ার করুন" />
 
             <item
-                android:id="@+id/nav_manage"
+                android:id="@+id/nav_out"
                 android:icon="@drawable/out"
                 android:title="বাতিল করুন" />
 

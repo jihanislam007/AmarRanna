@@ -37,9 +37,9 @@ public class Supe extends AppCompatActivity
 
     };
 
-    Integer[] imageId = { R.drawable.sup_1, R.drawable.sup_2, R.drawable.sup_3,
-            R.drawable.sup_4, R.drawable.sup_5, R.drawable.sup_6,
-            R.drawable.sup_7, R.drawable.sup_8 };
+    Integer[] imageId = { R.drawable.sup_1, R.drawable.image, R.drawable.sup_3,
+            R.drawable.sup_4, R.drawable.sup_5, R.drawable.image,
+            R.drawable.image, R.drawable.image };
 
 
     @Override
@@ -98,7 +98,7 @@ public class Supe extends AppCompatActivity
                         String karjodtails_obj1 = "মুরগির হাড়গুলি ২ লিটার পানিতে ২ঘন্টা সিদ্ধ করে নিন।স্টক ছেঁকে ১লিটার স্টক মেপে নিন।মাংস, ছোট কুচি করে নিন।এবার চুলায় একটি হাড়িতে স্টক বসিয়ে দিন।স্টকে মাংস, লবণ, স্বাদলবণ,গোল মরিচের গুড়া, কাঁচা মরিচ কুচি, চিনি এবং বেবি কর্ন/ভুট্টা একসাথে মিশিয়ে নিন।একটি কাপে সামান্য পানিতে কর্নফ্লাওয়ার গুলে স্টকে দিয়ে দিন।স্যুপ ক্রমাগত নাড়তে থাকুন।ফুটে উঠার ১-২ মিনিট পরে সুপ ঘন হয়ে আসলে ফেটানো ডিম ধীরে ধীরে দিয়ে হালকা  নেড়ে দিন।চুলা থেকে নামিয়ে গরম গরম পরিবেশন করুন মজাদার কর্ন স্যুপ।";
 
                         Bitmap bitmap_a1 = BitmapFactory.decodeResource(
-                                getResources(), R.drawable.sup_2);
+                                getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a1 = new ByteArrayOutputStream();
                         bitmap_a1.compress(Bitmap.CompressFormat.PNG, 100, baos_a1);
                         byte[] b_a1 = baos_a1.toByteArray();
@@ -186,7 +186,7 @@ public class Supe extends AppCompatActivity
                         String karjodtails_obj5 = "শীতের সন্ধ্যায় কনকনে ঠান্ডায় এক বাটি মিষ্টিকুমড়ার স্যুপ আপনার শরীরের উষ্ণতা বজায় রাখবে।প্রথমে একটি কড়াইয়ে মাখন দিয়ে টুকরো মিষ্টি কুমড়াগুলো কয়েক মিনিট নাড়ুন । এরপর এতে টুকরো করা গাজর , স্বাদমতো লবন ও গোলমরিচের গুড়ো দিয়ে ৫ মিনিট নাড়ুন।কুমড়ো ও গাজর দিয়ে পানি ছাড়তে শুরু করলে এতে পেঁয়াজ কুচি, রসুন কুচি, জিরা গুড়া ও চিংড়ি কুচি অর্ধেক দিতে হবে। এবার এতে চিকেন স্টক ঢেলে মৃদু আঁচে আরো ৫ মিনিট রাখুন। এরপর মিশ্রণটি ঠান্ডা করে ব্লেন্ডারে দিয়ে মিহি তরলে পরিণত করুন।\nএবার একটি প্যানে অল্প তেলে বাকি অর্ধেক চিংড়ি কুঁচি এক মিনিটের মতো ভেজে তুলে রাখতে হবে। এরপর এতে ব্লেন্ড করা সবজি ঢেলে দিতে হবে। এতে লেমন গ্রাস ও টেস্টিং সল্ট দিয়ে অনবরত নাড়তে থাকুন। দুই মিনিট পর চুলা থেকে নামিয়ে উপরে সামান্য ক্রিম ও চিংড়ি দিয়ে সাজিয়ে গরম গরম পরিবেশন করতে হবে।";
 
                         Bitmap bitmap_a5 = BitmapFactory.decodeResource(
-                                getResources(), R.drawable.sup_6);
+                                getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a5 = new ByteArrayOutputStream();
                         bitmap_a5.compress(Bitmap.CompressFormat.PNG, 100, baos_a5);
                         byte[] b_a5 = baos_a5.toByteArray();
@@ -209,7 +209,7 @@ public class Supe extends AppCompatActivity
                         String karjodtails_obj6 = "নুডলস স্যুপ খেতে কার না ভালো লাগে। কিন্তু কাজের চাপে হয়তো বাইরে যেতে পারছেন না। আবারও নুডলস স্যুপও খেতে ইচ্ছা করছে। সেক্ষেত্রে দেরি না করে নিজেই বানিয়ে ফেলুন মজাদার নুডলস স্যুপ। আসুন আজ তাহলে জেনে নিই মজাদার নুডলস স্যুপ রান্নার কৌশল:\n\nদুই কাপ পানি নিয়ে একটু তেল, একটা কাঁচা মরিচ ও অল্প লবণ দিয়ে চুলায় বসান। এর মধ্যে ‌সয়া সস, টমেটো সস ও মরিচের গুঁড়ো দিন। ভাল করে ফুটিয়ে প্যাকেটের নুডলস ঢেলে দিন। এবার ৫ মিনিট জ্বালিয়ে নুডলসের মশলা এর মধ্যে ঢেলে নেড়ে দিন। পরে বাটিতে ঢেলে ৫ মিনিট ঠান্ডা করুন। ব্যস, ঝটপট তৈরি হয়ে গেল নুডলস স্যুপ। এবার নিজের ইচ্ছামতো পরিবেশন করুন।";
 
                         Bitmap bitmap_a6 = BitmapFactory.decodeResource(
-                                getResources(), R.drawable.sup_7);
+                                getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a6 = new ByteArrayOutputStream();
                         bitmap_a6.compress(Bitmap.CompressFormat.PNG, 100, baos_a6);
                         byte[] b_a6 = baos_a6.toByteArray();
@@ -230,7 +230,7 @@ public class Supe extends AppCompatActivity
                         String karjodtails_obj7 = "মুরগীর মাংসের হাড় নিয়ে ১০-১২ কাপ পানিতে একটু লবণ দিয়ে সিদ্ধ করতে থাকুন। পানি শুকিয়ে অর্ধেক হলে চিকেন স্টক তৈরি হয়ে যাবে। এরপর ছেঁকে নিয়ে চিকেন স্টক চুলায় বসিয়ে দিন।\n\n চিকেন স্টকে মাংস, চিংড়ি মাছ, লেমন/থাই গ্রাস, সয়াসস, চিলি সস, টমেটো সস, লবণ, চিনি ও টেস্টিং সল্ট দিয়ে দিন ও নেড়ে মিশিয়ে নিন ভালো করে। ডিমের কুসুম একটি বাটিতে নিয়ে ভালো করে ফেটিয়ে নিন এবং স্টকে ডিম দিয়ে ভালো করে নেড়ে দিন যাতে পুরোপুরি মিশে যায়।\n\n মাংস ও চিংড়ি সেদ্ধ হওয়া পর্যন্ত অল্প আঁচে স্টক জ্বাল দিতে থাকুন। সেদ্ধ হয়ে গেলে আধা কাপ পানিতে কর্ণ ফ্লাওয়ার গুলিয়ে স্টকে দিয়ে দিন।\n\n খুব দ্রুত ও ঘন ঘন নাড়তে নেড়ে কর্নফ্লাওয়ার মিশিয়ে নিন। নতুবা কর্ন ফ্লাওয়ার দলা ধরে যাবে।\n\n ২-৩ মিনিট নেড়ে ঘন হয়ে এলে এতে লেবুর রস ও কাঁচা মরিচ ফালি দিয়ে একটু নেড়ে নিন।লবণের স্বাদ বুঝে নিন এবং এরপর চুলা থাকে নামিয়ে নিন। ব্যস, এবার গরম গরম স্পাইসি থাই স্যুপের মজা নিন হালকা এই শীতে।";
 
                         Bitmap bitmap_a7 = BitmapFactory.decodeResource(
-                                getResources(), R.drawable.sup_8);
+                                getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a7 = new ByteArrayOutputStream();
                         bitmap_a7.compress(Bitmap.CompressFormat.PNG, 100, baos_a7);
                         byte[] b_a7 = baos_a7.toByteArray();
@@ -306,17 +306,21 @@ public class Supe extends AppCompatActivity
             // Handle the camera action
             Intent intent= new Intent(Supe.this,MachActivity.class);
             startActivity(intent);
+            finish();
         } else if (id == R.id.nav_mansho) {
             Intent intent= new Intent(Supe.this,Mang_sho.class);
             startActivity(intent);
+            finish();
 
         } else if (id == R.id.nav_chal) {
             Intent intent= new Intent(Supe.this,Chal_dal.class);
             startActivity(intent);
+            finish();
 
         } else if (id == R.id.nav_kabab) {
             Intent intent= new Intent(Supe.this,Kabab.class);
             startActivity(intent);
+            finish();
 
         } else if (id == R.id.nav_shak) {
             Intent intent= new Intent(Supe.this,Shak_shobji.class);
@@ -325,30 +329,37 @@ public class Supe extends AppCompatActivity
         } else if (id == R.id.nav_panio) {
             Intent intent= new Intent(Supe.this,Panio.class);
             startActivity(intent);
+            finish();
 
         }else if (id == R.id.nav_vorta) {
             Intent intent= new Intent(Supe.this,Vorta.class);
             startActivity(intent);
+            finish();
 
         }else if (id == R.id.nav_beking) {
             Intent intent= new Intent(Supe.this,BekingActivity.class);
             startActivity(intent);
+            finish();
 
         }else if (id == R.id.nav_dim) {
             Intent intent= new Intent(Supe.this,Dim.class);
             startActivity(intent);
+            finish();
 
         }else if (id == R.id.nav_soup) {
             Intent intent= new Intent(Supe.this,Supe.class);
             startActivity(intent);
+            finish();
 
         }else if (id == R.id.nav_tok) {
             Intent intent= new Intent(Supe.this,Tok_jal_misti.class);
             startActivity(intent);
+            finish();
 
         }else if (id == R.id.nav_bideshi) {
             Intent intent= new Intent(Supe.this,Bide_shi.class);
             startActivity(intent);
+            finish();
 
         }
 

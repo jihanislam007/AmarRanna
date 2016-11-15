@@ -53,7 +53,8 @@
                                                 android:text="চাল ডাল "
                                                 android:id="@+id/chalTextView"
                                                 android:gravity="center"
-                                                android:textColor="@color/white" />
+                                                android:textColor="@color/white"
+                                                android:textStyle="bold" />
                                         </LinearLayout>
 
                                         <LinearLayout
@@ -88,7 +89,8 @@
                                                 android:text="ভর্তা ভাজি "
                                                 android:id="@+id/vortaTextView"
                                                 android:gravity="center"
-                                                android:textColor="@color/white" />
+                                                android:textColor="@color/white"
+                                                android:textStyle="bold" />
                                         </LinearLayout>
 
                                         <LinearLayout
@@ -166,7 +168,8 @@
                                 android:text="কাবাব "
                                 android:id="@+id/kababTextView"
                                 android:gravity="center"
-                                android:textColor="@color/white" />
+                                android:textColor="@color/white"
+                                android:textStyle="bold" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -201,7 +204,8 @@
                                 android:text="বেকিং "
                                 android:id="@+id/bekingTextView"
                                 android:gravity="center"
-                                android:textColor="@color/white" />
+                                android:textColor="@color/white"
+                                android:textStyle="bold" />
                         </LinearLayout>
 
                         <LinearLayout

@@ -472,50 +472,61 @@ public class Kabab extends AppCompatActivity
             // Handle the camera action
             Intent intent= new Intent(Kabab.this,MachActivity.class);
             startActivity(intent);
+            finish();
         } else if (id == R.id.nav_mansho) {
             Intent intent= new Intent(Kabab.this,Mang_sho.class);
             startActivity(intent);
+            finish();
 
         } else if (id == R.id.nav_chal) {
             Intent intent= new Intent(Kabab.this,Chal_dal.class);
             startActivity(intent);
+            finish();
 
         } else if (id == R.id.nav_kabab) {
             Intent intent= new Intent(Kabab.this,Kabab.class);
             startActivity(intent);
+            finish();
 
         } else if (id == R.id.nav_shak) {
             Intent intent= new Intent(Kabab.this,Shak_shobji.class);
             startActivity(intent);
+            finish();
 
         } else if (id == R.id.nav_panio) {
             Intent intent= new Intent(Kabab.this,Panio.class);
             startActivity(intent);
+            finish();
 
         }else if (id == R.id.nav_vorta) {
             Intent intent= new Intent(Kabab.this,Vorta.class);
             startActivity(intent);
+            finish();
 
         }else if (id == R.id.nav_beking) {
             Intent intent= new Intent(Kabab.this,BekingActivity.class);
             startActivity(intent);
+            finish();
 
         }else if (id == R.id.nav_dim) {
             Intent intent= new Intent(Kabab.this,Dim.class);
             startActivity(intent);
+            finish();
 
         }else if (id == R.id.nav_soup) {
             Intent intent= new Intent(Kabab.this,Supe.class);
             startActivity(intent);
+            finish();
 
         }else if (id == R.id.nav_tok) {
             Intent intent= new Intent(Kabab.this,Tok_jal_misti.class);
             startActivity(intent);
+            finish();
 
         }else if (id == R.id.nav_bideshi) {
             Intent intent= new Intent(Kabab.this,Bide_shi.class);
             startActivity(intent);
-
+            finish();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

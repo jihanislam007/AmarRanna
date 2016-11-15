@@ -49,13 +49,13 @@ public class BekingActivity extends AppCompatActivity
 
     Integer[] imageId = {
             R.drawable.beking_1,
-            R.drawable.beking_2,
-            R.drawable.beking_3,
+            R.drawable.image,
+            R.drawable.image,
             R.drawable.beking_4,
-            R.drawable.beking_5,
-            R.drawable.beking_6,
+            R.drawable.image,
+            R.drawable.image,
             R.drawable.beking_7,
-            R.drawable.beking_8,
+            R.drawable.image,
             R.drawable.beking_9,
             R.drawable.beking_10
     };
@@ -115,7 +115,7 @@ public class BekingActivity extends AppCompatActivity
                         String upodetails_obj1= "বাটার ২০০ গ্রাম, আইসিং সুগার ১০০ গ্রাম, ময়দা ১৫০ গ্রাম, ভেনিলা ১/২ চামচ, বেকিং পাউডার ১ চা চামচ, গুঁড়া দুধ ২ টেবিল চামচ, ফ্রুট কালার (যে কোনো) সামান্য।";
                         String karjodtails_obj1= "প্রথমে একটি পাত্রে বাটার ও আইসিং সুগার দিয়ে ভালো করে বিট করতে হবে যেন চিনি গলে যায়। এরপর ভেনিলা দিয়ে ময়দা, গুঁড়া দুধ, বেকিং পাউডার এক সঙ্গে চেলে মিশ্রণের সঙ্গে মেখে রুটির মতো খামি তৈরি করতে হবে। খামি দুই ভাগে ভাগ করে এক ভাগের সঙ্গে সবুজ রঙ মেশাতে হবে। এরপর একটার মধ্যে আরেকটা দিয়ে রোল করে কেটে ১৫০ ডিগ্রি সেন্টিগ্রেড তাপে ১০-১৫ মিনিট বেক করতে হবে।";
 
-                        Bitmap bitmap_a1 = BitmapFactory.decodeResource(getResources(), R.drawable.beking_2);
+                        Bitmap bitmap_a1 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a1= new ByteArrayOutputStream();
                         bitmap_a1.compress(Bitmap.CompressFormat.PNG, 100, baos_a1);
                         byte[] b_a1 = baos_a1.toByteArray();
@@ -137,7 +137,7 @@ public class BekingActivity extends AppCompatActivity
                         String upodetails_obj2= "ময়দা ৩ কাপ, আইসিং সুগার ১ কাপ, ডালডা গ্রেট ২ কাপ, ডিম ২টা, সুইট বল পরিমাণমতো, গোলাপজল সামান্য, খাবার সোডা সামান্য, গুঁড়া দুধ ৩ টেবিল চামচ।";
                         String karjodtails_obj2= "ডালডা একটু নরম করে তার মধ্যে আইসিং সুগার দিয়ে বিট করতে হবে। ময়দা ও খাবার সোডা, গুঁড়া দুধ চেলে নিতে হবে। ডিম ও গোলাপজল দিয়ে আবার বিট করতে হবে। এরপর ময়দার মিশ্রণ মিশিয়ে রুটির মতো ডো করতে হবে। বিস্কুটের ডাইসে কেটে ওপরে সুইট দিয়ে ১৫০ সেন্টিগ্রেট তাপে ২০-২৫ মিনিট বেক করুন।";
 
-                        Bitmap bitmap_a2 = BitmapFactory.decodeResource(getResources(), R.drawable.beking_3);
+                        Bitmap bitmap_a2 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a2 = new ByteArrayOutputStream();
                         bitmap_a2.compress(Bitmap.CompressFormat.PNG, 100, baos_a2);
                         byte[] b_a2 = baos_a2.toByteArray();
@@ -178,7 +178,7 @@ public class BekingActivity extends AppCompatActivity
                         String upodetails_obj4= "ময়দা পৌনে ২ কাপ, গুঁড়ো দুধ পৌনে ১ কাপ, বেকিং পাউডার আধা চা চামচ, ওট ১ কাপ, চিনি ২ টেবিল চামচ, সফট মাখন ১৭৫ গ্রাম, কনডেন্সড মিল্ক সিকি কাপ।";
                         String karjodtails_obj4= "ময়দা, গুঁড়ো দুধ ও বেকিং পাউডার একসঙ্গে চেলে নিতে হবে। বোলে মাখন ও চিনি বিট করতে হবে। হালকা ও ফাঁপিয়ে ওঠা পর্যন্ত। এখন কনডেন্সড মিল্ক দিয়ে বিট করতে হবে। এই মিশ্রণে ময়দার মিশ্রণ ও ওট মিলিয়ে ডো বানাতে হবে। ডো আধা ঘণ্টা নরমাল ফ্রিজে রেখে দিতে হবে। পিঁড়ির ওপর পলিথিন বিছিয়ে এর ওপরে ডো, তারপর পলিথিন দিয়ে ডো মোটা করে বেলে নিতে হবে। মানুষের শেপের ছাঁচ বা কাটার দিয়ে কেটে গ্রিজ করা বেকিং ট্রেতে সাজিয়ে বেক করতে হবে। প্রিহিটেড ওভেনে ১২০ ডিগ্রি সেলসিয়াসে ৪০ থেকে ৪৫ মিনিট। ঠান্ডা করে চকলেট দিয়ে নাম লিখতে হবে। সব কুকি নরমাল ফ্রিজে রাখতে হবে, মচমচে থাকবে।\n\nলেখার জন্য চকলেটের প্রস্তুতি:\n ৬০ গ্রাম চকলেট ডবল বয়লারে গলিয়ে ঠান্ডা করে পাইপিং ব্যাগ বা কোণে ভরে কুকির ওপর লিখতে হবে।";
 
-                        Bitmap bitmap_a4 = BitmapFactory.decodeResource(getResources(), R.drawable.beking_5);
+                        Bitmap bitmap_a4 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a4 = new ByteArrayOutputStream();
                         bitmap_a4.compress(Bitmap.CompressFormat.PNG, 100, baos_a4);
                         byte[] b_a4 = baos_a4.toByteArray();
@@ -199,7 +199,7 @@ public class BekingActivity extends AppCompatActivity
                         String upodetails_obj5= "কেকের জন্য : মাখন ১২৫ গ্রাম, ভ্যানিলা এসেন্স ১ চা-চামচ, ব্লেন্ড করা চিনি সোয়া এক কাপ, ময়দা দেড় কাপ, বেকিং পাউডার ১ চা-চামচ, সোডিয়াম বাই কার্বোনেট সিকি চা-চামচ, দুধ আধা কাপ।\n\nফ্রস্টিংয়ের জন্য :\n মাখন আধা কাপ, আইসিং সুগার ২ কাপ, লবণ ১ চিমটি, ক্রিম ২ টেবিল চামচ।";
                         String karjodtails_obj5= "কেকের সব উপকরণ একত্রে মিশিয়ে মসৃণ ব্যাটার তৈরি করুন, যতক্ষণ পর্যন্ত ফ্যাকাশে রং ধারণ না করে। একটি গোল বেকিং প্যানে মাখন ব্রাশ করে নিন। তাতে কেকের ব্যাটার ঢেলে প্রি-হিটেড ওভেনে ১৮০ ডিগ্রি সেলসিয়াস তাপে এ দেড় থেকে পৌনে ২ ঘণ্টা বেক করুন। কেক হয়েছে কি না, দেখার জন্য কাঁচি বা ছুরির আগা ঢুকিয়ে পরীক্ষা করে নিন। একটি পরিষ্কার বাটিতে মাখন ও এক চিমটে লবণ মসৃণ করে বিট করে নিন। এবার মাখনে ১ চা-চামচ করে আইসিং সুগার দিয়ে বিট করতে থাকুন। যখন আইসিং সুগার জমাট বাঁধবে, তখন পরিমাণমতো ক্রিম দিয়ে বিট করে নরম করে নিন। বাটার ক্রিম ফ্রস্টিং তৈরি হয়ে গেল। এটি কেকের ওপরে ব্রাশ করে নিয়ে মনের মতো নকশা করুন।";
 
-                        Bitmap bitmap_a5 = BitmapFactory.decodeResource(getResources(), R.drawable.beking_6);
+                        Bitmap bitmap_a5 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a5 = new ByteArrayOutputStream();
                         bitmap_a5.compress(Bitmap.CompressFormat.PNG, 100, baos_a5);
                         byte[] b_a5 = baos_a5.toByteArray();
@@ -241,7 +241,7 @@ public class BekingActivity extends AppCompatActivity
                         String upodetails_obj7= "ডিম ৪টি, ময়দা ১ কাপ, চিনি ১ কাপ, তেল ও ঘি ১ কাপ, ঘিয়ে ভাজা গাজর কুচি ১ কাপ, গুঁড়া দুধ ২ টেবিল চামচ, বেকিং পাউডার দেড় টেবিল চামচ, ক্রিম সাজানোর জন্য।";
                         String karjodtails_obj7= "ডিম ভালোভাবে চিনি দিয়ে বিট করুন। এতে অল্প অল্প ময়দা দিয়ে বিট করুন। তারপর দুধ, বেকিং পাউডার, গাজর কুচি দিয়ে ভালোভাবে বিট করুন। ঘি ও তেল মেশান। একটি সস প্যানে তেল মেখে, কাগজে তেল মাখিয়ে মিশ্রণটি ঢেলে দিন। অন্য একটি পাত্রে বালি বিছিয়ে কেকের পাত্রটি ঢেকে বসিয়ে দিন। ৪৫ মিনিট পর কেকটি ফুলে উঠলে নামিয়ে ফেলুন। ঠাণ্ডা হলে ক্রিম দিয়ে সাজিয়ে পরিবেশন করুন।";
 
-                        Bitmap bitmap_a7 = BitmapFactory.decodeResource(getResources(), R.drawable.beking_8);
+                        Bitmap bitmap_a7 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a7 = new ByteArrayOutputStream();
                         bitmap_a7.compress(Bitmap.CompressFormat.PNG, 100, baos_a7);
                         byte[] b_a7 = baos_a7.toByteArray();
@@ -361,49 +361,61 @@ public class BekingActivity extends AppCompatActivity
             // Handle the camera action
             Intent intent= new Intent(BekingActivity.this,MachActivity.class);
             startActivity(intent);
+            finish();
         } else if (id == R.id.nav_mansho) {
             Intent intent= new Intent(BekingActivity.this,Mang_sho.class);
             startActivity(intent);
+            finish();
 
         } else if (id == R.id.nav_chal) {
             Intent intent= new Intent(BekingActivity.this,Chal_dal.class);
             startActivity(intent);
+            finish();
 
         } else if (id == R.id.nav_kabab) {
             Intent intent= new Intent(BekingActivity.this,Kabab.class);
             startActivity(intent);
+            finish();
 
         } else if (id == R.id.nav_shak) {
             Intent intent= new Intent(BekingActivity.this,Shak_shobji.class);
             startActivity(intent);
+            finish();
 
         } else if (id == R.id.nav_panio) {
             Intent intent= new Intent(BekingActivity.this,Panio.class);
             startActivity(intent);
+            finish();
 
         }else if (id == R.id.nav_vorta) {
             Intent intent= new Intent(BekingActivity.this,Vorta.class);
             startActivity(intent);
+            finish();
 
         }else if (id == R.id.nav_beking) {
             Intent intent= new Intent(BekingActivity.this,BekingActivity.class);
             startActivity(intent);
+            finish();
 
         }else if (id == R.id.nav_dim) {
             Intent intent= new Intent(BekingActivity.this,Dim.class);
             startActivity(intent);
+            finish();
 
         }else if (id == R.id.nav_soup) {
             Intent intent= new Intent(BekingActivity.this,Supe.class);
             startActivity(intent);
+            finish();
 
         }else if (id == R.id.nav_tok) {
             Intent intent= new Intent(BekingActivity.this,Tok_jal_misti.class);
             startActivity(intent);
+            finish();
 
         }else if (id == R.id.nav_bideshi) {
             Intent intent= new Intent(BekingActivity.this,Bide_shi.class);
             startActivity(intent);
+            finish();
 
         }
 

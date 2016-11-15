@@ -43,8 +43,6 @@ public class Vorta extends AppCompatActivity
             "শিমের ভর্তা ",
             "কুমড়ো পাতার ভর্তা ",
             "কাঁঠালের বিচি ভর্তা "
-
-
     } ;
 
     Integer[] imageId = {
@@ -332,49 +330,61 @@ public class Vorta extends AppCompatActivity
             // Handle the camera action
             Intent intent= new Intent(Vorta.this,MachActivity.class);
             startActivity(intent);
+            finish();
         } else if (id == R.id.nav_mansho) {
             Intent intent= new Intent(Vorta.this,Mang_sho.class);
             startActivity(intent);
+            finish();
 
         } else if (id == R.id.nav_chal) {
             Intent intent= new Intent(Vorta.this,Chal_dal.class);
             startActivity(intent);
+            finish();
 
         } else if (id == R.id.nav_kabab) {
             Intent intent= new Intent(Vorta.this,Kabab.class);
             startActivity(intent);
+            finish();
 
         } else if (id == R.id.nav_shak) {
             Intent intent= new Intent(Vorta.this,Shak_shobji.class);
             startActivity(intent);
+            finish();
 
         } else if (id == R.id.nav_panio) {
             Intent intent= new Intent(Vorta.this,Panio.class);
             startActivity(intent);
+            finish();
 
         }else if (id == R.id.nav_vorta) {
             Intent intent= new Intent(Vorta.this,Vorta.class);
             startActivity(intent);
+            finish();
 
         }else if (id == R.id.nav_beking) {
             Intent intent= new Intent(Vorta.this,BekingActivity.class);
             startActivity(intent);
+            finish();
 
         }else if (id == R.id.nav_dim) {
             Intent intent= new Intent(Vorta.this,Dim.class);
             startActivity(intent);
+            finish();
 
         }else if (id == R.id.nav_soup) {
             Intent intent= new Intent(Vorta.this,Supe.class);
             startActivity(intent);
+            finish();
 
         }else if (id == R.id.nav_tok) {
             Intent intent= new Intent(Vorta.this,Tok_jal_misti.class);
             startActivity(intent);
+            finish();
 
         }else if (id == R.id.nav_bideshi) {
             Intent intent= new Intent(Vorta.this,Bide_shi.class);
             startActivity(intent);
+            finish();
 
         }
 

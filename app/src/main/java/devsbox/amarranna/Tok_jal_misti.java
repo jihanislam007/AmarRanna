@@ -35,7 +35,7 @@ public class Tok_jal_misti extends AppCompatActivity
             "আমলকী, রসুন ও আদার আচার ", "সাতকড়ার আচার" };
 
     Integer[] imageId = { R.drawable.tok_pic1, R.drawable.tok_pic2,
-            R.drawable.tok_pic3, R.drawable.tok_pic4, R.drawable.tok_pic5,
+            R.drawable.tok_pic3, R.drawable.tok_pic4, R.drawable.image,
             R.drawable.tok_pic6, R.drawable.tok_pic7, R.drawable.tok_pic8 };
 
     @Override
@@ -166,7 +166,7 @@ public class Tok_jal_misti extends AppCompatActivity
                         String karjodtails_ob4 = "তেল গরম করে এতে সব মসলা দিয়ে কষিয়ে নিন। তেঁতুল, সিরকা, চিনি ও লবণ দিন। এরপর মরিচ দিয়ে কিছুক্ষণ নেড়ে নামিয়ে ফেলুন।";
 
                         Bitmap bitmap4 = BitmapFactory.decodeResource(
-                                getResources(), R.drawable.tok_pic5);
+                                getResources(), R.drawable.image);
                         ByteArrayOutputStream baos4 = new ByteArrayOutputStream();
                         bitmap4.compress(Bitmap.CompressFormat.PNG, 100, baos4);
                         byte[] b4 = baos4.toByteArray();
@@ -309,49 +309,61 @@ public class Tok_jal_misti extends AppCompatActivity
             // Handle the camera action
             Intent intent= new Intent(Tok_jal_misti.this,MachActivity.class);
             startActivity(intent);
+            finish();
         } else if (id == R.id.nav_mansho) {
             Intent intent= new Intent(Tok_jal_misti.this,Mang_sho.class);
             startActivity(intent);
+            finish();
 
         } else if (id == R.id.nav_chal) {
             Intent intent= new Intent(Tok_jal_misti.this,Chal_dal.class);
             startActivity(intent);
+            finish();
 
         } else if (id == R.id.nav_kabab) {
             Intent intent= new Intent(Tok_jal_misti.this,Kabab.class);
             startActivity(intent);
+            finish();
 
         } else if (id == R.id.nav_shak) {
             Intent intent= new Intent(Tok_jal_misti.this,Shak_shobji.class);
             startActivity(intent);
+            finish();
 
         } else if (id == R.id.nav_panio) {
             Intent intent= new Intent(Tok_jal_misti.this,Panio.class);
             startActivity(intent);
+            finish();
 
         }else if (id == R.id.nav_vorta) {
             Intent intent= new Intent(Tok_jal_misti.this,Vorta.class);
             startActivity(intent);
+            finish();
 
         }else if (id == R.id.nav_beking) {
             Intent intent= new Intent(Tok_jal_misti.this,BekingActivity.class);
             startActivity(intent);
+            finish();
 
         }else if (id == R.id.nav_dim) {
             Intent intent= new Intent(Tok_jal_misti.this,Dim.class);
             startActivity(intent);
+            finish();
 
         }else if (id == R.id.nav_soup) {
             Intent intent= new Intent(Tok_jal_misti.this,Supe.class);
             startActivity(intent);
+            finish();
 
         }else if (id == R.id.nav_tok) {
             Intent intent= new Intent(Tok_jal_misti.this,Tok_jal_misti.class);
             startActivity(intent);
+            finish();
 
         }else if (id == R.id.nav_bideshi) {
             Intent intent= new Intent(Tok_jal_misti.this,Bide_shi.class);
             startActivity(intent);
+            finish();
 
         }
 

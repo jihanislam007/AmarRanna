@@ -46,26 +46,26 @@ public class Bide_shi extends AppCompatActivity
             "ফ্রাইড রাইস",
             "গ্রিল্ড চিজ এন্ড ভেজিটেবল স্যুপ",
             "তিউনিশিয়ান মাটন স্টু ইন ক্লে পট",
-            "13থাই টম ইয়াম কুন",
+            "থাই টম ইয়াম কুন",
             "গ্রেভি নুডলস",
             "ফিলিপিনো প্রন আদাবো"
     } ;
     Integer[] imageId = {
-            R.drawable.bideshi_1,
-            R.drawable.bideshi_2,
-            R.drawable.bideshi_3,
+            R.drawable.image,
+            R.drawable.image,
+            R.drawable.image,
             R.drawable.bideshi_4,
-            R.drawable.bideshi_5,
+            R.drawable.image,
             R.drawable.bideshi_6,
-            R.drawable.bideshi_7,
+            R.drawable.image,
             R.drawable.bideshi_8,
             R.drawable.bideshi_9,
             R.drawable.bideshi_10,
             R.drawable.bideshi_11,
-            R.drawable.bideshi_12,
+            R.drawable.image,
             R.drawable.bideshi_13,
-            R.drawable.bideshi_14,
-            R.drawable.bideshi_15,
+            R.drawable.image,
+            R.drawable.image,
     };
 
     @Override
@@ -82,7 +82,6 @@ public class Bide_shi extends AppCompatActivity
         adView.loadAd(adRequest);
 
         /////////////////////working for addmob///////////////////////////////////////////////////
-
 
         CustomAdapter adapter = new CustomAdapter(Bide_shi.this, web, imageId);
 
@@ -101,7 +100,7 @@ public class Bide_shi extends AppCompatActivity
                         String upodetails_obj0= "হাড় ছাড়া মাংস ২ কেজি, কর্নফ্লাওয়ার ১০০ গ্রাম, ডিম ৪টি, পেঁয়াজ ৫০০ গ্রাম, মরিচ ১০টি, আদা ১০ গ্রাম, সয়া সস ৩০ গ্রাম, ওয়েস্টার সস ৫০ গ্রাম, লবণ পরিমাণমতো, গোলমরিচ ২ টেবিল চামচ, কুকিং অয়েল ৫০০ গ্রাম, বাটার ৫০ গ্রাম।";
                         String karjodtails_obj0= "মাংসগুলোকে ছোট ছোট পিস করে কেটে ধুয়ে নিতে হবে। এবার মাংস, ডিম ও কর্নফ্লাওয়ার দিয়ে ম্যারিনেট করতে হবে। মাংসগুলোকে ডিপ ফ্রাই করতে হবে। একটি ননস্টিক প্যানে বাটার দিতে হবে। বাটার গরম হলে এতে আদা বাটাও দিতে হবে এবং ধীরে ধীরে ফ্রাই করতে হবে। তারপর পেঁয়াজ ও মরিচ দিয়ে ভাজতে হবে বাদামি রঙ না হওয়া পর্যন্ত। এতে মাংসের টুকরাগুলো দিতে হবে। অতঃপর সয়া সস ও ওয়েস্টার সস দিয়ে মেশাতে হবে। এরপর স্টক অথবা পানি দিয়ে কয়েক মিনিট রান্না করতে হবে। তারপর গাঢ় করতে কর্নফ্লাওয়ার দিতে হবে। স্বাদ বাড়ানোর জন্য লবণ ও গোলমরিচ দেবেন পরিমাণমতো। ব্যস তৈরি হয়ে গেল আপনার মজাদার স্বাদের খাবার।";
 
-                        Bitmap bitmap_a0 = BitmapFactory.decodeResource(getResources(), R.drawable.bideshi_1);
+                        Bitmap bitmap_a0 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a0 = new ByteArrayOutputStream();
                         bitmap_a0.compress(Bitmap.CompressFormat.PNG, 100, baos_a0);
                         byte[] b_a0 = baos_a0.toByteArray();
@@ -122,7 +121,7 @@ public class Bide_shi extends AppCompatActivity
                         String upodetails_obj1= "পুরোনো বাসমতী চাল দুই কাপ (ধুয়ে কুসুম গরম পানিতে ভিজিয়ে রাখুন), তেল সিকি কাপ, পেঁয়াজকুচি আধা কাপ, এলাচি চারটি, লবঙ্গ দুটি, লবণ এক টেবিল-চামচ অথবা স্বাদ অনুযায়ী, চিনি এক টেবিল-চামচ অথবা স্বাদ অনুযায়ী, কিশমিশ দুই টেবিল-চামচ, শাহি বিরিয়ানি মসলা এক টেবিল-চামচ, পোলাও রান্নার জন্য ফুটানো গরম পানি আড়াই কাপ, আদাবাটা এক চা-চামচ, কেওড়া এক টেবিল-চামচ, জাফরান আধা চা-চামচ, মাওয়া সিকি কাপ, আনারসকুচি এক কাপ, আঙুর চিরে নেওয়া ২৫০ গ্রাম, ঘি সিকি কাপ, তেজপাতা দুটি, দারচিটি চার টুকরা, গুঁড়ো দুধ দুই টেবিল-চামচ, কাজু বাদাম আধা কাপ, গরম পানি আড়াই কাপ, রসুনবাটা আধা চা-চামচ, গোলাপজল এক টেবিল-চামচ (দুই টেবিল-চামচ দুধে ভিজিয়ে ঢেকে রাখুন), ডালিম বা আনার দানা আধা কাপ, আপেলকুচি এক কাপ, চেরিকুচি সিকি কাপ, কমলা দুটি (ছিলে কোষের ভেতরের অংশ বের করে নিন)।\n\nশাহি বিরিয়ানি মসলা: দারচিনি, এলাচি (বড় ও ছোট), লবঙ্গ, জায়ফল, জয়ত্রী, সাদা গোলমরিচ, শাহি জিরা, কাবাব ও চিনি পরিমাণমতো টেলে গুঁড়া করে নিন।";
                         String karjodtails_obj1= "খুব সোজা , সবাই পারে । তা ও বলি । প্রথমে টাকি মাছ ধুয়ে নিতে হবে । এরপর লবণ আর হলুদ মাখিয়ে অল্প তেলে ভেজে নিতে হবে যেটা কে আমরা টেলে নেয়া বলি । তারপর মাছের কাঁটা বেচে নিতে হবে । তারপর,পেঁয়াজ কুচি,রসুন কুচি সরিষার তেলে একটু ভেজে নিতে হবে । শুকনা মরিচ ও টেলে নিতে হবে । এখন সব কিছু একসাথে মাখালেই রেডি টাকি মাছের ভর্তা ।";
 
-                        Bitmap bitmap_a1 = BitmapFactory.decodeResource(getResources(), R.drawable.bideshi_2);
+                        Bitmap bitmap_a1 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a1 = new ByteArrayOutputStream();
                         bitmap_a1.compress(Bitmap.CompressFormat.PNG, 100, baos_a1);
                         byte[] b_a1 = baos_a1.toByteArray();
@@ -143,7 +142,7 @@ public class Bide_shi extends AppCompatActivity
                         String upodetails_obj= "ডিম ৪টি, দুধ ২ টেবিল চামচ, লবণ ১/২ চা চামচ, কুচি পেঁয়াজ ১/২ চা চামচ, কাঁচা মরিচ কুচি ১/২ চা চামচ, তেল ১ টেবিল চামচ, বাটার ১ টেবিল চামচ, পনির গ্রেট ২ টেবিল চামচ, গোল মরিচ গুঁড়া ১/৪ চা চামচ, গাজর গ্রেট সিদ্ধ করা ৩ টেবিল চামচ।";
                         String karjodtails_obj= "ডিম, দুধ, লবণ ও গোলমরিচ এক সাথে বিট করুন বিটার দিয়ে। চুলায় প্যান বসিয়ে দিন মাঝারি আঁচে। এরপর পেঁয়াজ, মরিচ কুচি ও গাজর ৫ মিনিট ভাজুন। জ্বালটা মাঝারি থেকে কমিয়ে ডিম দিয়ে দুই মিনিট ভাজুন। এবার পনির দিয়ে ৩০ সেকেন্ড ভেজে মাখন দিয়ে নেড়ে নামিয়ে নিন। ব্রেড টোস্ট দিয়ে পরিশেন করুন।";
 
-                        Bitmap bitmap_a = BitmapFactory.decodeResource(getResources(), R.drawable.bideshi_3);
+                        Bitmap bitmap_a = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a= new ByteArrayOutputStream();
                         bitmap_a.compress(Bitmap.CompressFormat.PNG, 100, baos_a);
                         byte[] b_a = baos_a.toByteArray();
@@ -185,7 +184,7 @@ public class Bide_shi extends AppCompatActivity
                         String upodetails_obj3= "টমেটো ১ কেজি, পেঁয়াজ কুচি পৌনে এক কাপ, রসুন ছেঁচা ৩ টেবিল-চামচ, জলপাই তেল ৩ টেবিল-চামচ, চিনি ২ টেবিল-চামচ, শুকনা মরিচ গুঁড়া ১ চা-চামচ, লবণ পরিমাণমতো, বেসিল শুকনা গুঁড়া ১ চা-চামচ, অরিগেনো ১ চা-চামচ, সিরকা ৪ টেবিল-চামচ।";
                         String karjodtails_obj3= "টমেটো পাতলা আবরণ ছাড়িয়ে কুচি করে নিতে হবে। তেল গরম করে তাতে রসুন-পেঁয়াজ ভাজতে হবে। নরম হলে মরিচ, লবণ, চিনি দিয়ে কিছুক্ষণ নাড়াচাড়া করে টমেটো দিয়ে আরও কিছুক্ষণ নাড়াচাড়া করে বাকি উপকরণ দিয়ে নামাতে হবে।";
 
-                        Bitmap bitmap_a3 = BitmapFactory.decodeResource(getResources(), R.drawable.bideshi_5);
+                        Bitmap bitmap_a3 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a3 = new ByteArrayOutputStream();
                         bitmap_a3.compress(Bitmap.CompressFormat.PNG, 100, baos_a3);
                         byte[] b_a3 = baos_a3.toByteArray();
@@ -230,7 +229,7 @@ public class Bide_shi extends AppCompatActivity
                         String upodetails_obj6= "গলদা চিংড়ি ৫০০ গ্রাম, মাখন ৬ টেবিল চামচ, জলপাই তেল আধা কাপ, লেবুর রস ১ টেবিল চামচ, ছোট পেঁয়াজ কুচি সিকি কাপ, রসুন কুচি ১ টেবিল চামচ, পার্সলে কুচানো ৪ টেবিল চামচ, গোলমরিচ গুঁড়া ১ চা চামচ, লবণ স্বাদমতো।";
                         String karjodtails_obj6= "লেজের অংশ বাদে চিংড়ি মাছের খোসা ফেলে ভালোভাবে পরিষ্কার করে ধুয়ে পানি ঝরিয়ে শুকিয়ে নিতে হবে। প্যানে অল্প আঁচে মাখন গলিয়ে চিংড়ি ছাড়তে হবে। চিংড়ি হালকা রং ধরলে জলপাই তেল, লেবুর রস দিয়ে নাড়তে হবে। রসুন কুচি, লবণ ও কিছু গোলমরিচ গুঁড়া মাছের ওপর দিতে হবে। গলদা চিংড়িগুলো উভয় পাশে উল্টে দিয়ে ভুনতে হবে। একটু পরে চিংড়ি ভুনে মজে উঠলে গরম গরম প্লেটে উঠিয়ে নিতে হবে। চিংড়ি ওঠানোর পর পাত্রে থাকা তরল অংশ ৫-১০ মিনিট কড়া জ্বালে ঘন সসের মতো হয়ে এলে প্লেটে রাখা সাজানো চিংড়িগুলোর ওপরে ওই সস গরম গরম ঢেলে দিতে হবে। মাছের ওপর কিছু পার্সলে কুচি ও লেবুর রস দিয়ে গরম গরম পরিবেশন করতে হবে পাস্তা বা ওই জাতীয় খাদ্যের সঙ্গে।";
 
-                        Bitmap bitmap_a6 = BitmapFactory.decodeResource(getResources(), R.drawable.bideshi_7);
+                        Bitmap bitmap_a6 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a6 = new ByteArrayOutputStream();
                         bitmap_a6.compress(Bitmap.CompressFormat.PNG, 100, baos_a6);
                         byte[] b_a6 = baos_a6.toByteArray();
@@ -334,7 +333,7 @@ public class Bide_shi extends AppCompatActivity
                         String upodetails_obj11= "খাসির মাংস ২ কেজি, তেল ১ কাপ, মাখন ২ টেবিল চামচ, পেঁয়াজ কাটা ২ কাপ, সাদা গোলমরিচ গুঁড়া আধা চা চামচ, লবণ পরিমাণমতো, টমেটো পেস্ট ১ কাপ, বাদাম পেস্ট আধা কাপ, লাল মরিচ গুঁড়া ১ চা চামচ, হলুদ গুঁড়া ১ চা চামচ, দারুচিনি গুঁড়া আধা চা চামচ, জিরা গুঁড়া ১ চা চামচ, পানি পরিমাণমতো, পেস্তা পেস্ট আধা কাপ, স্যাফরন ১ চিমটি।";
                         String karjodtails_obj11= "একটি পাত্রে কাটা পেঁয়াজ, তেল, রসুন বাদামি রঙ না হওয়া পর্যন্ত ভাজতে থাকুন। এবার এর মধ্যে টমেটো পেস্ট, হলুদ, লাল মরিচ এবং লবণ দিয়ে ৫ মিনিট রাখুন। এরপর এতে মাংস দিয়ে ভালোভাবে মেশান। পানি দিয়ে মাঝারি আঁচে রান্না করুন। মাংস সিদ্ধ হয়ে গেলে ওভেনপ্রুফ মাটির পাত্রে ঢেলে তাতে সাদা গোলমরিচ গুঁড়া, দারুচিনি গুঁড়া, জিরা গুঁড়া, পেস্তা ও বাদাম পেস্ট দিয়ে ভালোভাবে মেশান, মাটির পাত্রটির ঢাকনা ময়দার পেস্ট দিয়ে বন্ধ করুন। এবার হালকা আঁচে ৪৫ মিনিট রান্না করুন।";
 
-                        Bitmap bitmap_a11 = BitmapFactory.decodeResource(getResources(), R.drawable.bideshi_12);
+                        Bitmap bitmap_a11 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a11 = new ByteArrayOutputStream();
                         bitmap_a11.compress(Bitmap.CompressFormat.PNG, 100, baos_a11);
                         byte[] b_a11 = baos_a11.toByteArray();
@@ -376,7 +375,7 @@ public class Bide_shi extends AppCompatActivity
                         String upodetails_obj13= "নুডলস ১০০ গ্রাম, ক্যাপসিকাম আধা কাপ, রেড ক্যাবেজ ১ কাপ, গাজর জুলিয়ান কাট ১ কাপ, বকচয় ১ কাপ, চিংড়ি আধা কাপ, বেবিকর্ন স্লাইস আধা কাপ, বাটন মাশরুম আধা কাপ, সুইট কর্ন কোয়ার্টার কাপ, তেল ৬ টেবিল চামচ, চিলি সস ১ চা চামচ, চিকেন স্টক দেড় কাপ, উস্টার সস ১ টেবিল চামচ, ফিশসস আধা চা চামচ, কর্নফ্লাওয়ার ২ টেবিল চামচ, রসুন কুচি ২ চা চামচ, কাঁচামরিচ ফালি ৬টি, গোলমরিচ গুঁড়ো আধা চা চামচ, টেস্টিং সল্ট কোয়ার্টার চা চামচ, লেবুর রস ১ টেবিল চামচ, ফিশসস ২ টেবিল চামচ, কাজুবাদাম ভাজা কোয়ার্টার কাপ।";
                         String karjodtails_obj13= "ক্যাপসিকাম, রেড ক্যাবেজ, গাজর, বকচয় ধুয়ে ঝুরি করে কাটুন। চিংড়ির লেজ রেখে মাথা ও খোসা ছাড়িয়ে ধুয়ে রাখুন। ফ্রাইপ্যানে ২ টেবিল চামচ তেল গরম করে চিংড়ি ১ মিনিট নেড়ে সব সবজি দিয়ে ২ মিনিট ভাজুন। এক কাপ চিকেন স্টক ও বাকি সব উপকরণ পরপর দিন। কর্নফ্লাওয়ার কোয়ার্টার কাপ স্টকে গুলে দিন। স্টারফ্রাই করে নামান। কোয়ার্টার কাপ তেলে রসুন কুচি ভেজে নুডলস, ফিশসস দিয়ে ২ মিনিট ভাজুন। গরম নুডলস একটি ছড়ানো ডিশে ঢালুন। উপরে গ্রেভি সবজি ছড়িয়ে দিন। কাজুবাদাম ছিটিয়ে পরিবেশন করুন।";
 
-                        Bitmap bitmap_a13 = BitmapFactory.decodeResource(getResources(), R.drawable.bideshi_14);
+                        Bitmap bitmap_a13 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a13 = new ByteArrayOutputStream();
                         bitmap_a13.compress(Bitmap.CompressFormat.PNG, 100, baos_a13);
                         byte[] b_a13= baos_a13.toByteArray();
@@ -398,7 +397,7 @@ public class Bide_shi extends AppCompatActivity
                         String upodetails_obj14= "বড় সাইজের চিংড়ি আধা কেজি, কুচি করে কাটা রসুন ১ চা চামচ, সাদা গোলমরিচ গুঁড়া ১ চা চামচ, সাদা সিরকা ২ টেবিল চামচ, লবণ পরিমাণমতো, চিনি ২ চা চামচ, সয়াসস ১ টেবিল চামচ, গারলিক সস ১ টেবিল চামচ, ময়দা ১ টেবিল চামচ, পার্সলে পাতা ১ ছড়া, মাখন ৫০ গ্রাম।";
                         String karjodtails_obj14= "চিংড়ি লেজ ও মাথা রেখে খোসা ছাড়িয়ে পিঠের দিক অল্প চিরে শিরা বের করতে হবে। সিরকা, গোলমরিচ, লবণ, চিনি ১ কাপ পানিতে মিশিয়ে চিংড়িতে দিয়ে ৫ মিনিট ফুটিয়ে চুলা থেকে নামিয়ে আরও ৫-৭ মিনিট রেখে পানি থেকে চিংড়ি উঠিয়ে রাখতে হবে। সসের জন্য প্যানে ১ টেবিল চামচ মাখন গলিয়ে ময়দা মৃদু আঁচে বাদামি রং করে ভেজে অল্প অল্প করে চিংড়ি সেদ্ধ পানি মেশাতে হবে। ফ্রাইপ্যানে বাকি মাখন গলিয়ে রসুন দিয়ে ভেজে চিংড়ি দিয়ে বেশি জ্বালে ২ মিনিট ভেজে সয়াসস দিয়ে চুলা থেকে নামিয়ে সস মেশাতে হবে। পরিবেশন পাত্রে প্রন আদাবো ঢেলে সাদা গোলমরিচ গুঁড়া ও পার্সলে পাতা ছিটিয়ে দিয়ে গরম গরম পরিবেশন করতে হবে।";
 
-                        Bitmap bitmap_a14 = BitmapFactory.decodeResource(getResources(), R.drawable.bideshi_15);
+                        Bitmap bitmap_a14 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a14 = new ByteArrayOutputStream();
                         bitmap_a14.compress(Bitmap.CompressFormat.PNG, 100, baos_a14);
                         byte[] b_a14 = baos_a14.toByteArray();
@@ -472,49 +471,61 @@ public class Bide_shi extends AppCompatActivity
             // Handle the camera action
             Intent intent= new Intent(Bide_shi.this,MachActivity.class);
             startActivity(intent);
+            finish();
         } else if (id == R.id.nav_mansho) {
             Intent intent= new Intent(Bide_shi.this,Mang_sho.class);
             startActivity(intent);
+            finish();
 
         } else if (id == R.id.nav_chal) {
             Intent intent= new Intent(Bide_shi.this,Chal_dal.class);
             startActivity(intent);
+            finish();
 
         } else if (id == R.id.nav_kabab) {
             Intent intent= new Intent(Bide_shi.this,Kabab.class);
             startActivity(intent);
+            finish();
 
         } else if (id == R.id.nav_shak) {
             Intent intent= new Intent(Bide_shi.this,Shak_shobji.class);
             startActivity(intent);
+            finish();
 
         } else if (id == R.id.nav_panio) {
             Intent intent= new Intent(Bide_shi.this,Panio.class);
             startActivity(intent);
+            finish();
 
         }else if (id == R.id.nav_vorta) {
             Intent intent= new Intent(Bide_shi.this,Vorta.class);
             startActivity(intent);
+            finish();
 
         }else if (id == R.id.nav_beking) {
             Intent intent= new Intent(Bide_shi.this,BekingActivity.class);
             startActivity(intent);
+            finish();
 
         }else if (id == R.id.nav_dim) {
             Intent intent= new Intent(Bide_shi.this,Dim.class);
             startActivity(intent);
+            finish();
 
         }else if (id == R.id.nav_soup) {
             Intent intent= new Intent(Bide_shi.this,Supe.class);
             startActivity(intent);
+            finish();
 
         }else if (id == R.id.nav_tok) {
             Intent intent= new Intent(Bide_shi.this,Tok_jal_misti.class);
             startActivity(intent);
+            finish();
 
         }else if (id == R.id.nav_bideshi) {
             Intent intent= new Intent(Bide_shi.this,Bide_shi.class);
             startActivity(intent);
+            finish();
 
         }
 

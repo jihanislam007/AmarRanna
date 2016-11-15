@@ -56,20 +56,20 @@ public class Dim extends AppCompatActivity
 
     Integer[] imageId = {
             R.drawable.dim_1,
-            R.drawable.dim_2,
-            R.drawable.dim_3,
-            R.drawable.dim_4,
+            R.drawable.image,
+            R.drawable.image,
+            R.drawable.image,
             R.drawable.dim_5,
             R.drawable.dim_6,
             R.drawable.dim_7,
-            R.drawable.dim_8,
-            R.drawable.dim_9,
-            R.drawable.dim_10,
-            R.drawable.dim_11,
+            R.drawable.image,
+            R.drawable.image,
+            R.drawable.image,
+            R.drawable.image,
             R.drawable.dim_12,
-            R.drawable.dim_13,
-            R.drawable.dim_14,
-            R.drawable.dim_15
+            R.drawable.image,
+            R.drawable.image,
+            R.drawable.image
     };
 
     @Override
@@ -125,7 +125,7 @@ public class Dim extends AppCompatActivity
                         String upodetails_obj1= "সেদ্ধ ডিম ৪টি, সেদ্ধ আলু ৩ কাপ, কাচা ডিম ২টি, টোস্ট গুঁড়া ১কাপ, পেঁয়াজ কুচি আধা কাপ, আদা কুচি ১ চা চামচ, কাঁচামরিচ কুচি ১ টেবিল চামচ, জিরা গুঁড়া ১ চা-চামচ, গোলমরিচ গুঁড়া ১ চা চামচ, টেস্টিং সল্ট আধা চা চামচ, সাধারণ লবণ পরিমাণ মতো, তেল পরিমাণ মতো।";
                         String karjodtails_obj1= "প্রথমে কড়াইয়ে তেল গরম করে নিন। গরম তেলে পেঁয়াজ কুচি, আদা বাদামি রং করে ভেজে কাঁচামরিচ দিয়ে কিছুক্ষণ চুলায় রেখে নামিয়ে নিন। তেল ঝরিয়ে সেদ্ধ আলুগুলো পেঁয়াজের সঙ্গে মেখে নিন। এরপর আলুর সঙ্গে গোলমরিচ ও জিরা গুঁড়া মাখিয়ে আটটি ভাগ করে নিন। দ্বিতীয় পর্বে ৪টি সেদ্ধ ডিম লম্বা করে দুই ভাগে কেটে আটটি ভাগ করে নিন। অর্ধেক করে কাটা ডিমের পিস আলুর মধ্যে ভরে চপের মতো আকার করুন। এবার অন্য একটি পাত্রে কাচা ডিম দটি ফেটিয়ে চপগুলো ডিমে ডুবিয়ে টোস্টের গুঁড়া মেঘে ডুবো তেলে ছেড়ে দিন। ভাজা হয়ে গেলে তুলে ফেলুন। হয়ে গেলো ডিম চপ। এবার টমেটো সস বা তেঁতুলের চাটনি দিয়ে গরম গরম পরিবেশন করুন।";
 
-                        Bitmap bitmap_a1 = BitmapFactory.decodeResource(getResources(), R.drawable.dim_2);
+                        Bitmap bitmap_a1 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a1= new ByteArrayOutputStream();
                         bitmap_a1.compress(Bitmap.CompressFormat.PNG, 100, baos_a1);
                         byte[] b_a1 = baos_a1.toByteArray();
@@ -147,7 +147,7 @@ public class Dim extends AppCompatActivity
                         String upodetails_obj2= "ডিম ফেটানো দুটা, চিচিঙ্গা কুচি দুই বাটি, পেঁয়াজ কুচি এক টেবিল চামচ, কাঁচা মরিচ ফাড়া ৪টা, টেস্টিং সল্ট একটুখানি, লবণ স্বাদমত, তেল সামান্য, রসুন কুচি অল্প।";
                         String karjodtails_obj2= "কড়াইতে তেল দিয়ে তাতে চিচিঙ্গা, পেঁয়াজ, রসুন, কাঁচা মরিচ দিন। নেড়েচেড়ে লবণ দিন। চিচিঙ্গা সিদ্ধ হয়ে এলে তাতে দুটো ডিম ও টেস্টিং সল্ট দিয়ে খুব ভালো করে মেশান। কিছুক্ষণ নেড়েচেড়ে নামিয়ে পরিবেশন করুন। এটা সকালে রুটি বা পরোটার সঙ্গে ভালো লাগবে।";
 
-                        Bitmap bitmap_a2 = BitmapFactory.decodeResource(getResources(), R.drawable.dim_3);
+                        Bitmap bitmap_a2 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a2 = new ByteArrayOutputStream();
                         bitmap_a2.compress(Bitmap.CompressFormat.PNG, 100, baos_a2);
                         byte[] b_a2 = baos_a2.toByteArray();
@@ -167,7 +167,7 @@ public class Dim extends AppCompatActivity
                         String upodetails_obj3= "ডিম ৫টি, শসা ১টি, সুইটকর্ণ ১/২ কাপ, কুচি টমেটো ছোট একটি, কুচানো সিদ্ধ মুরগির মাংস ১/২ কাপ, লবণ পরিমাণমতো, তেল ৩ টেবিল চামচ, গোল মরিচ গুঁড়া ১/২ চা চামচ।";
                         String karjodtails_obj3= "প্যানে তেল দিয়ে শসা, সুইটকর্ণ, টমেটো কুচি, মুরগি দিয়ে ১ মিনিট ভাজুন। ডিম, লবণ ও গোল মরিচ বিট করুন। প্যানের সবজির উপর ডিম ঢেলে পনির গ্রেট করে ঢাকন দিয়ে রাখুন। অল্প আঁচে ৫ মিনিট রান্না করুন। হয়ে গেলে পিজ্জার শেইপে কেটে পরিবেশন করুন।";
 
-                        Bitmap bitmap_a3 = BitmapFactory.decodeResource(getResources(), R.drawable.dim_4);
+                        Bitmap bitmap_a3 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a3 = new ByteArrayOutputStream();
                         bitmap_a3.compress(Bitmap.CompressFormat.PNG, 100, baos_a3);
                         byte[] b_a3 = baos_a3.toByteArray();
@@ -251,7 +251,7 @@ public class Dim extends AppCompatActivity
                         String upodetails_obj7= "ঘন দুধ ২ কাপ, চিনি ১ কাপ, মুরগির ডিম ৪টি, এলাচ গুঁড়া ২টি, ক্রিম ২ টেবিল চামচ।";
                         String karjodtails_obj7= "১ লিটার দুধ জ্বাল দিয়ে ঘন করে অর্ধেক করে নিতে হবে। ডিমের সঙ্গে চিনি মিশিয়ে দুধ, ডিম, চিনি, এলাচ গুঁড়া ও ক্রিম ভালো করে ব্লেন্ড করে নিতে হবে। এবার একটা পাত্র চুলায় দিয়ে তাতে সামান্য ঘি/তেল/মাখন/চিনি দিয়ে ক্যারামেল করে নিতে হবে। এবার চিনি দিয়ে ক্যারামেল করা পাত্রে ডিমের মিশ্রণটি ঢেলে পাত্রের মুখ ঢাকনা দিয়ে ঢেকে ভাপে সেদ্ধ অথবা প্রেসার কুকারে পানি দিয়ে ১৫-২০ মিনিট ভাপে রাখতে হবে। পুডিং ঠাণ্ডা হতে দিতে হবে। ছুরি দিয়ে ছাঁচের চারপাশে ঘুরিয়ে কেটে নিতে হবে। প্লেট ছাঁচের মুখে চেপে ধরে উল্টে দিতে হবে। ফ্রিজে রেখে ঠাণ্ডা হলে পরিবেশন করুন সুস্বাদু ক্রিম পুডিং।";
 
-                        Bitmap bitmap_a7 = BitmapFactory.decodeResource(getResources(), R.drawable.dim_8);
+                        Bitmap bitmap_a7 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a7 = new ByteArrayOutputStream();
                         bitmap_a7.compress(Bitmap.CompressFormat.PNG, 100, baos_a7);
                         byte[] b_a7 = baos_a7.toByteArray();
@@ -272,7 +272,7 @@ public class Dim extends AppCompatActivity
                         String upodetails_obj8= "সিদ্ধ ডিম ৬টি, টক দই আধা কাপ, মিষ্টি দই সিকি কাপ, পেঁয়াজ কুচি ২ কাপ, পেঁয়াজ বাটা ২ টেবিল চামচ, আদা বাটা ১ চা চামচ, বাদাম বাটা ২ টেবিল চামচ, ঘি সিকি কাপ, তেল আধা কাপ, গরম মসলার গুঁড়া ১ চা চামচ, কিসমিস ২ টেবিল চামচ, লবণ পরিমাণমতো, গোলমরিচ গুঁড়া ১ চা চামচ।";
                         String karjodtails_obj8= "তেল, ঘি গরম করে পেঁয়াজ বাদামি রং করে ভেজে সব বাটা মসলা কষিয়ে গুঁড়া মসলা দিয়ে ১ কাপ পানি দিতে হবে। ফুটে উঠলে বাদাম বাটা ও দই দিতে হবে। কিসমিস ও ডিম দিয়ে নামাতে হবে।";
 
-                        Bitmap bitmap_a8 = BitmapFactory.decodeResource(getResources(), R.drawable.dim_9);
+                        Bitmap bitmap_a8 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a8 = new ByteArrayOutputStream();
                         bitmap_a8.compress(Bitmap.CompressFormat.PNG, 100, baos_a8);
                         byte[] b_a8 = baos_a8.toByteArray();
@@ -293,7 +293,7 @@ public class Dim extends AppCompatActivity
                         String upodetails_obj9= "সেদ্ধ ডিম ৫টি, সেদ্ধ আলু ৫টি মাঝারি, গরম মসলা গুঁড়ো এক টেবিল-চামচ, ধনেপাতা কুচি ১ চা-চামচ, পেঁয়াজ মিহি কুচি ২ টেবিল-চামচ, কাঁচা মরিচ কুচি ১ টেবিল-চামচ, ফেটানো ডিম ২টি, টোস্টের গুঁড়ো ১ কাপ, লবণ স্বাদমতো, তেল ভাজার জন্য যতটুকু লাগে।";
                         String karjodtails_obj9= "সেদ্ধ ডিম ও তেল ছাড়া বাকি উপকরণ দিয়ে একটি মণ্ড তৈরি করতে হবে। এবং পাঁচ ভাগে ভাগ করে নিন। তার মাঝখানে সেদ্ধ ডিম দিয়ে ফেটানো ডিমে ডুবিয়ে নিন। এরপর টোস্টের গুঁড়ো মেখে ডুবো তেলে ভেজে তুলুন। সস দিয়ে পরিবেশন করুন।";
 
-                        Bitmap bitmap_a9 = BitmapFactory.decodeResource(getResources(), R.drawable.dim_10);
+                        Bitmap bitmap_a9 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a9 = new ByteArrayOutputStream();
                         bitmap_a9.compress(Bitmap.CompressFormat.PNG, 100, baos_a9);
                         byte[] b_a9 = baos_a9.toByteArray();
@@ -315,7 +315,7 @@ public class Dim extends AppCompatActivity
                         String upodetails_obj10= "পাফ ডো : বাটার ২০০ গ্রাম, ডিম ২টা, লবণ স্বাদমতো, ময়দা ২ কাপ, সয়াবিন তেল ৩ টেবিল চামচ।\n\nফিলিং : সিদ্ধ ডিম ৩টা, পেঁয়াজ কুচি ১ কাপ, লবণ স্বাদমতো, গরম মসলা পাউডার ১ টেবিল চামচ, কাঁচামরিচ কুচি ১ টেবিল চামচ, সয়াবিন তেল ৪ টেবিল চামচ।";
                         String karjodtails_obj10= "ময়দা, লবণ, সয়াবিন তেল একসঙ্গে ভালো করে মাখিয়ে ডিম দিয়ে খামির তৈরি করে নিতে হবে। এবার কড়াইয়ে সয়াবিন তেল দিয়ে পেঁয়াজ কুচি একটু লাল করে ভেজে গরম মসলার পাউডার, লবণ, কাঁচামরিচ কুচি দিয়ে নামাতে হবে। এরপর পাফ ডো থেকে রুটি বেলে তার ওপর বাটার দিয়ে তিন ভাগ করে কেটে আবার রুটি মতো বেলে চারকোণা করে কাটতে হবে। তারপর পেঁয়াজের ফিলিং তার ওপরে অর্ধেক সিদ্ধ ডিম দিয়ে ভাঁজ দিতে হবে। সবশেষে কনভেকশন ওভেনে ২২০ ডিগ্রি সেন্টিগ্রেড তাপে ২০-২৫ মিনিট বেক করুন।";
 
-                        Bitmap bitmap_a10 = BitmapFactory.decodeResource(getResources(), R.drawable.dim_11);
+                        Bitmap bitmap_a10 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a10 = new ByteArrayOutputStream();
                         bitmap_a10.compress(Bitmap.CompressFormat.PNG, 100, baos_a10);
                         byte[] b_a10 = baos_a10.toByteArray();
@@ -356,7 +356,7 @@ public class Dim extends AppCompatActivity
                         String upodetails_obj12= "করলা পাতলা গোল গোল করে কেটে বিচি পরিষ্কার করে নেওয়া দুই কাপ। আলু পাতলা করে কাটা আধা কাপ। যেকোনো বড় মাছের ডিম সিদ্ধ আধা কাপ। পেঁয়াজ গোল পাতলা করে কাটা এক কাপ। হলুদ গুঁড়া আধা চা-চামচ। মরিচ গুঁড়া আধা চা-চামচ। তেল সিকি কাপ। কাঁচা ও পাকা মরিচ ফালি এক চা-চামচ অথবা স্বাদ অনুযায়ী। লবণ স্বাদ অনুযায়ী।";
                         String karjodtails_obj12= "বাটিতে তেল, আধা কাপ পেঁয়াজ কুচি, কাঁচা মরিচ ফালি ও ডিম বাদে সব উপকরণ একত্রে মিশিয়ে আলতোভাবে মেখে নিন। অন্য একটি বাটিতে বাকি আধা কাপ পেঁয়াজ কুচির সঙ্গে মাছের ডিমগুলো মেখে ফালি করা কাঁচা মরিচ দিয়ে আলাদা রাখুন। কড়াইয়ে তেল গরম করে সব উপকরণ দিয়ে মাখা করলা ও আলু দিয়ে নেড়ে আঁচ কমিয়ে ঢেকে দিন। মাঝে ঢাকনা খুলে হালকাভাবে নাড়ুন। করলা ও আলু সিদ্ধ হয়ে এলে পেঁয়াজ ও কাঁচা মরিচ ফালিসহ মিশিয়ে রাখা মাছের ডিমগুলো ওপর থেকে ছিটিয়ে দিন। চুলার আঁচ কমিয়ে নেড়ে ঢেকে দিন। দু-তিনবার ঢাকনা খুলে নাড়ুন। বেশ ভাজা ভাজা হয়ে তেল ছাড়া শুরু করলে ঢেকে চুলা বন্ধ করে দিন। গরম গরম ভাতের সঙ্গে পরিবেশন করুন।";
 
-                        Bitmap bitmap_a12 = BitmapFactory.decodeResource(getResources(), R.drawable.dim_13);
+                        Bitmap bitmap_a12 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a12 = new ByteArrayOutputStream();
                         bitmap_a12.compress(Bitmap.CompressFormat.PNG, 100, baos_a12);
                         byte[] b_a12 = baos_a12.toByteArray();
@@ -377,7 +377,7 @@ public class Dim extends AppCompatActivity
                         String upodetails_obj13= "মাছের ডিম (যেকোনো) ১ কাপ, হলুদ গুঁড়া আধা চা-চামচ, মরিচ গুঁড়া আধা চা-চামচ, সরিষা বাটা আধা চা-চামচ, লেবুর রস ১ চা-চামচ, লবণ স্বাদমতো, পুঁইপাতা ১০-১২টি, টুথপিক ১০-১২টি, ময়দা ১ কাপ ও তেল ভাজার জন্য।";
                         String karjodtails_obj13= "ডিম (মাছের) পরিষ্কার করে ধুয়ে তাতে হলুদ, মরিচ, সরিষা বাটা, লবণ ও লেবুর রস মাখিয়ে নিন। একেকটি পুঁইপাতা পানের খিলির মতো করে তাতে মাছের ডিম ভরে দিন এবং টুথপিক দিয়ে পাতার মুখ বন্ধ করে ময়দা, পানি ও লবণ দিয়ে একটি মিশ্রণ তৈরি করে তাতে খিলিগুলো ডুবিয়ে ডুবো তেলে বাদামি করে ভেজে তুলুন। পরিবেশনের সময় টুথপিকগুলো খুলে চায়ের সঙ্গেও পরিবেশন করা যায়।";
 
-                        Bitmap bitmap_a13 = BitmapFactory.decodeResource(getResources(), R.drawable.dim_14);
+                        Bitmap bitmap_a13 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a13 = new ByteArrayOutputStream();
                         bitmap_a13.compress(Bitmap.CompressFormat.PNG, 100, baos_a13);
                         byte[] b_a13= baos_a13.toByteArray();
@@ -399,7 +399,7 @@ public class Dim extends AppCompatActivity
                         String upodetails_obj14= "ডিম ফেটানো দুটা, চিচিঙ্গা কুচি দুই বাটি, পেঁয়াজ কুচি এক টেবিল চামচ, কাঁচা মরিচ ফাড়া ৪টা, টেস্টিং সল্ট একটুখানি, লবণ স্বাদমত, তেল সামান্য, রসুন কুচি অল্প।";
                         String karjodtails_obj14= "কড়াইতে তেল দিয়ে তাতে চিচিঙ্গা, পেঁয়াজ, রসুন, কাঁচা মরিচ দিন। নেড়েচেড়ে লবণ দিন। চিচিঙ্গা সিদ্ধ হয়ে এলে তাতে দুটো ডিম ও টেস্টিং সল্ট দিয়ে খুব ভালো করে মেশান। কিছুক্ষণ নেড়েচেড়ে নামিয়ে পরিবেশন করুন। এটা সকালে রুটি বা পরোটার সঙ্গে ভালো লাগবে।";
 
-                        Bitmap bitmap_a14 = BitmapFactory.decodeResource(getResources(), R.drawable.dim_15);
+                        Bitmap bitmap_a14 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a14 = new ByteArrayOutputStream();
                         bitmap_a14.compress(Bitmap.CompressFormat.PNG, 100, baos_a14);
                         byte[] b_a14 = baos_a14.toByteArray();
@@ -474,49 +474,61 @@ public class Dim extends AppCompatActivity
             // Handle the camera action
             Intent intent= new Intent(Dim.this,MachActivity.class);
             startActivity(intent);
+            finish();
         } else if (id == R.id.nav_mansho) {
             Intent intent= new Intent(Dim.this,Mang_sho.class);
             startActivity(intent);
+            finish();
 
         } else if (id == R.id.nav_chal) {
             Intent intent= new Intent(Dim.this,Chal_dal.class);
             startActivity(intent);
+            finish();
 
         } else if (id == R.id.nav_kabab) {
             Intent intent= new Intent(Dim.this,Kabab.class);
             startActivity(intent);
+            finish();
 
         } else if (id == R.id.nav_shak) {
             Intent intent= new Intent(Dim.this,Shak_shobji.class);
             startActivity(intent);
+            finish();
 
         } else if (id == R.id.nav_panio) {
             Intent intent= new Intent(Dim.this,Panio.class);
             startActivity(intent);
+            finish();
 
         }else if (id == R.id.nav_vorta) {
             Intent intent= new Intent(Dim.this,Vorta.class);
             startActivity(intent);
+            finish();
 
         }else if (id == R.id.nav_beking) {
             Intent intent= new Intent(Dim.this,BekingActivity.class);
             startActivity(intent);
+            finish();
 
         }else if (id == R.id.nav_dim) {
             Intent intent= new Intent(Dim.this,Dim.class);
             startActivity(intent);
+            finish();
 
         }else if (id == R.id.nav_soup) {
             Intent intent= new Intent(Dim.this,Supe.class);
             startActivity(intent);
+            finish();
 
         }else if (id == R.id.nav_tok) {
             Intent intent= new Intent(Dim.this,Tok_jal_misti.class);
             startActivity(intent);
+            finish();
 
         }else if (id == R.id.nav_bideshi) {
             Intent intent= new Intent(Dim.this,Bide_shi.class);
             startActivity(intent);
+            finish();
 
         }
 

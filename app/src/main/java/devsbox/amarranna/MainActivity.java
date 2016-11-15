@@ -13,9 +13,14 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.InterstitialAd;
+
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
+    private InterstitialAd mInterstitialAd;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -176,20 +181,71 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+        if (id == R.id.nav_fb) {
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+            int web= 1;
+            Intent intent = new Intent(MainActivity.this , WebActivity.class);
+            intent.putExtra("int_value", web);
+            startActivity(intent);
+        } else if (id == R.id.nav_play_link) {
+            int web= 2;
+            Intent intent = new Intent(MainActivity.this , WebActivity.class);
+            intent.putExtra("int_value", web);
+            startActivity(intent);
 
-        } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.nav_about) {
+            int web= 3;
+            Intent intent = new Intent(MainActivity.this , WebActivity.class);
+            intent.putExtra("int_value", web);
+            startActivity(intent);
 
         } else if (id == R.id.nav_share) {
+            String shareBody = "https://play.google.com/store/apps/details?id=devsbox.amarranna";
 
+            Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
+            sharingIntent.setType("text/plain");
+            sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "APP NAME (Open it in Google Play Store to Download the Application)");
+
+            sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBody);
+            startActivity(Intent.createChooser(sharingIntent, "Share via"));
+        } else if (id == R.id.nav_out) {
+
+
+            /////////////////working for add///////////////////////////////////////////
+            mInterstitialAd = new InterstitialAd(this);
+            mInterstitialAd.setAdUnitId("ca-app-pub-1309629775280161/9473255533");
+            AdRequest adR = new AdRequest.Builder()
+
+                    // Add a test device to show Test Ads
+                    .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
+                    .addTestDevice("8658D8B4C243BA29458FD6F9524161C8") //Random Text
+                    .build();
+
+
+            mInterstitialAd.loadAd(adR);
+            mInterstitialAd.setAdListener(new AdListener() {
+                @Override
+                public void onAdLoaded() {
+                    displayInterstitial();
+                }
+            });
+            /////////////////finish add////////////////////////////////////////////////*
+
+            finish();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
+    /////////////////////also working for add//////////////////////////
+
+    public void displayInterstitial(){
+        if(mInterstitialAd.isLoaded()){
+
+            mInterstitialAd.show();
+        }
+    }
+    /////////////////////also working for add//////////////////////////
 }
