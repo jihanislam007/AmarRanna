@@ -48,16 +48,16 @@ public class BekingActivity extends AppCompatActivity
 
 
     Integer[] imageId = {
-            R.drawable.beking_1,
+      //      R.drawable.beking_1,
             R.drawable.image,
             R.drawable.image,
-            R.drawable.beking_4,
+     //       R.drawable.beking_4,
             R.drawable.image,
             R.drawable.image,
-            R.drawable.beking_7,
+    //        R.drawable.beking_7,
             R.drawable.image,
-            R.drawable.beking_9,
-            R.drawable.beking_10
+     //       R.drawable.beking_9,
+     //       R.drawable.beking_10
     };
 
 
@@ -94,7 +94,7 @@ public class BekingActivity extends AppCompatActivity
                         String upodetails_obj0= "৩ কাপ ময়দা, ৩/৪ চা চামচ বেকিং পাউডার, ১/৪ চা চামচ লবণ, ১ কাপ মাখন, ১ কাপ চিনি, ১ টি ফেটা ডিম, ১ টেবিল চামচ দুধ, পাউডার চিনি খামির বেলার জন্য, ১ চা চামচ ভ্যানিলা এক্সট্র্যাক্ট।";
                         String karjodtails_obj0= "ময়দা, বেকিং পাউডার এবং লবণ একসঙ্গে মিশিয়ে চালনি দিয়ে ছাঁকুন। এগুলো সরিয়ে রাখুন। একটি বড় বাটির মধ্যে মাখন এবং চিনি মিক্সিং মেশিনে দিয়ে মিক্স করতে থাকুন। তারপর মাখন এবং চিনি যখন ক্রিমের মতো আকার ধারণ করবে, তখন ডিম ও দুধ দিয়ে আরো কিছুক্ষণ মেশান। তারপর দ্বিতীয় বারে বাকি ময়দাটা ডিম মিশ্রণের সঙ্গে মেশান। ময়দার খামিরের চার ভাগের এক ভাগ আলাদা করে এতে লাল রং মেশাবেন। মেশানোর পরে প্লাস্টিক দিয়ে মুড়িয়ে একে একটা সিলিন্ডারের আকৃতি দেবেন এবং ডিপ ফ্রিজের ভেতরে রেখে দেবেন। বাদবাকি খামিরকে সবুজ রং দেবেন এবং ফ্রিজের ভেতরে রেখে দেবেন। আধাঘণ্টা পরে এই খামিরকে পিঁড়িতে বেলবেন।\nপিঁড়িতে ময়দার বদলে পাউডার চিনি ছড়িয়ে দিন। তারপর সবুজ রঙের খামিরটাকে বেলতে থাকুন। ১/৪ ইঞ্চি পুরুত্ব হলে লাল রঙের খামিরকে এনে মাঝখানে রেখে চারদিকে সবুজ রঙের খামির দিয়ে মুড়ে দেবেন। তারপর প্লাস্টিক দিয়ে মুড়িয়ে বর্গাকারের আকৃতি দেবেন এবং আবার ফ্রিজে রেখে দেবেন।\n১-২ ঘণ্টা পরে এই বর্গাকৃতির খামিরকে বের ফ্রিজ থেকে বের করে প্লাস্টিক সরিয়ে ১/৪ ইঞ্চি পুরু করে স্লাইস করুন। তারপর বেকিং ট্রেতে নিয়ে ৩৭৫ ডিগ্রি ফা. তাপমাত্রায় রেখে ১৫-২০ মিনিট বেক করুন। তারপর ঠাণ্ডা করে সুন্দর পাত্রে পরিবেশন করুন।";
 
-                        Bitmap bitmap_a0 = BitmapFactory.decodeResource(getResources(), R.drawable.beking_1);
+                        Bitmap bitmap_a0 = BitmapFactory.decodeResource(getResources(), R.drawable.nav);
                         ByteArrayOutputStream baos_a0 = new ByteArrayOutputStream();
                         bitmap_a0.compress(Bitmap.CompressFormat.PNG, 100, baos_a0);
                         byte[] b_a0 = baos_a0.toByteArray();
@@ -157,7 +157,7 @@ public class BekingActivity extends AppCompatActivity
                         String upodetails_obj3= "বাটার ১০০ গ্রাম, ব্রাউন সুগার ৭৫ গ্রাম, ডিম ১টা, চকোলেট পাউডার ২ টেবিল চামচ, ময়দা ১ কাপ, নারিকেল কোরা ১/৩ কাপ, চকোলেট ভেনিলা ১.২ চা চামচ, কর্নফ্লেক্স পরিমাণমতো।";
                         String karjodtails_obj3= "প্রথমে একটি পাত্রে বাটার একটু নরম করে ব্রাউন সুগার দিয়ে বিট করতে হবে। এরপর ডিম, নারিকেল কোরা এবং ভেনিলা দিয়ে আবার বিট করতে হবে। ময়দা, চকোলেট পাউডার একসঙ্গে চেলে মিশ্রণে মেশাতে হবে। কর্নফ্লেক্স একটু ভেঙে খামি ছোট গোল করে কর্নফ্লেক্সে গড়াতে হবে। এরপর কনভেনশন ওভেনে ১৮০ ডিগ্রি সেন্টিগ্রেড তাপে ২০-২৫ মিনিট বেক করুন।";
 
-                        Bitmap bitmap_a3 = BitmapFactory.decodeResource(getResources(), R.drawable.beking_4);
+                        Bitmap bitmap_a3 = BitmapFactory.decodeResource(getResources(), R.drawable.nav);
                         ByteArrayOutputStream baos_a3 = new ByteArrayOutputStream();
                         bitmap_a3.compress(Bitmap.CompressFormat.PNG, 100, baos_a3);
                         byte[] b_a3 = baos_a3.toByteArray();
@@ -221,7 +221,7 @@ public class BekingActivity extends AppCompatActivity
                         String upodetails_obj6= "ময়দা দেড় কাপ, ডিম ৪টি, চিনি দেড় কাপের একটু কম, মাখন ১০০ গ্রাম, সয়াবিন তেল আধা কাপ, বেকিং পাউডার ১ চা-চামচ, গুঁড়া দুধ ২ টেবিল-চামচ, ভ্যানিলা সিকি চা-চামচ, চকোলেট দেড় প্যাকেট, মাখন ২ টেবিল-চামচ, কোকো পাউডার ২ টেবিল-চামচ। সব উপকরণ সিকি কাপ পানি দিয়ে গুলিয়ে নিতে হবে।";
                         String karjodtails_obj6= "ডিমের সাদা অংশ ফেটিয়ে ফেনা তুলে তাতে চিনি মেশাতে হবে। তারপর কুসুম মেশাতে হবে। এতে ময়দা, গুঁড়া দুধ, বেকিং পাউডার ঢেলে দিয়ে মেশাতে হবে। মাখন ও তেল একত্রে গলিয়ে ডিমের মিশ্রণে মেশাতে হবে। এতে ভ্যানিলা দিতে হবে। তৈরি মিশ্রণ তিন ভাগে ভাগ করে এক ভাগের সঙ্গে কোকো পাউডার মিশিয়ে নিতে হবে। এবার এক ভাগ মিশ্রণ ওভেন প্রুফ পাত্রে বসিয়ে তার ওপর কোকো পাউডারের মিশ্রণ বসাতে হবে। এর ওপর আরেক ভাগ মিশ্রণ দিয়ে মাইক্রোওয়েভে ১০০ ডিগ্রি সেলসিয়াসে ৬ মিনিট বেক করতে হবে। বের করে চকলেট গলিয়ে কেকের ওপর ঢেলে পছন্দমতো সাজিয়ে পরিবেশন।";
 
-                        Bitmap bitmap_a6 = BitmapFactory.decodeResource(getResources(), R.drawable.beking_7);
+                        Bitmap bitmap_a6 = BitmapFactory.decodeResource(getResources(), R.drawable.nav);
                         ByteArrayOutputStream baos_a6 = new ByteArrayOutputStream();
                         bitmap_a6.compress(Bitmap.CompressFormat.PNG, 100, baos_a6);
                         byte[] b_a6 = baos_a6.toByteArray();
@@ -262,7 +262,7 @@ public class BekingActivity extends AppCompatActivity
                         String upodetails_obj8= "ময়দা ১ কাপ, ডিম ৪টা, বাটার ১ কাপ, তালের গোলা ২ টেবিল চামচ, বেকিং পাউডার আধা চা চামচ, কেক ইম্প্র্রভার আধা চা চামচ, চিনি আধা কাপ।";
                         String karjodtails_obj8= "ময়দা ও বেকিং পাউডার চেলে নিন, একটা পাত্রে বাটার ও চিনি বিট করে এতে একটা একটা ডিম দিয়ে বিট করে নিন। এবার তালের গোলা ও ময়দা দিয়ে আলতো করে মিশিয়ে ডায়াসে ঢেলে প্রিহিট ওভেনে ১৬০০ তাপে ২০ মিনিট বেক করে নিন।";
 
-                        Bitmap bitmap_a8 = BitmapFactory.decodeResource(getResources(), R.drawable.beking_9);
+                        Bitmap bitmap_a8 = BitmapFactory.decodeResource(getResources(), R.drawable.nav);
                         ByteArrayOutputStream baos_a8 = new ByteArrayOutputStream();
                         bitmap_a8.compress(Bitmap.CompressFormat.PNG, 100, baos_a8);
                         byte[] b_a8 = baos_a8.toByteArray();
@@ -283,7 +283,7 @@ public class BekingActivity extends AppCompatActivity
                         String upodetails_obj9= "মাখন ৫০০ গ্রাম, চিনি ৫০০ গ্রাম, ডিম ১০টা, ময়দা ৬২৫ গ্রাম, বেকিং পাউডার ৫ গ্রাম, ভ্যানিলা ৫ মিলি লিটার, চেরি ১০০ গ্রাম, কমলার খোসা ১০০ গ্রাম, কাঠবাদাম কুচি ১০০ গ্রাম, কিশমিশ ১০০ গ্রাম, গুঁড়া চিনি ৫০০ গ্রাম, ৩টা ডিমের সাদা অংশ।";
                         String karjodtails_obj9= "মাখন ও চিনি ডিমের সঙ্গে মিশিয়ে বিট করুন। ময়দা ও বেকিং পাউডার ছেঁকে নিয়ে মিশিয়ে দিন। এবার ভ্যানিলা, চেরি, কমলার খোসা, কাঠবাদাম কুচি কিশমিশ দিয়ে ভালো করে খামির তৈরি করুন। এবার এটাকে ১৮০ ডিগ্রি সেন্টিগ্রেট তাপমাত্রায় আঁচ দিন। ৩০ থেকে ৩৫ মিনিট পর নামিয়ে ঠান্ডা করে নিন। চিনির গুঁড়া ও ডিমের সাদা অংশ দিয়ে রয়েল আইসিন তৈরি করুন। ঠান্ডা কেক সাইজ করে কেটে নিয়ে রয়েল আইসিন দিয়ে সাজিয়ে পরিবেশন করুন।";
 
-                        Bitmap bitmap_a9 = BitmapFactory.decodeResource(getResources(), R.drawable.beking_10);
+                        Bitmap bitmap_a9 = BitmapFactory.decodeResource(getResources(), R.drawable.nav);
                         ByteArrayOutputStream baos_a9 = new ByteArrayOutputStream();
                         bitmap_a9.compress(Bitmap.CompressFormat.PNG, 100, baos_a9);
                         byte[] b_a9 = baos_a9.toByteArray();

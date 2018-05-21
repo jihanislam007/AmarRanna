@@ -64,13 +64,13 @@ public class Chal_dal extends AppCompatActivity
             R.drawable.image,
             R.drawable.image,
             R.drawable.image,
-            R.drawable.chal_6,
-            R.drawable.chal_7,
+            R.drawable.nav,
+            R.drawable.nav,
             R.drawable.image,
             R.drawable.image,
-            R.drawable.chal_10,
+            R.drawable.nav,
             R.drawable.image,
-            R.drawable.chal_12,
+            R.drawable.nav,
             R.drawable.image,
             R.drawable.image,
             R.drawable.image,
@@ -219,7 +219,7 @@ public class Chal_dal extends AppCompatActivity
                         String upodetails_obj5= "বাসমতি চাল ২ কাপ, সবজি (গাজর, বরবটি, মটরশুঁটি, ফুলকপি) ছোট টুকরো সব মিলিয়ে ২ কাপ, আলু আধা কাপ, ভাজা মুগডাল ১ কাপ, আদা বাটা দেড় চা চামচ, রসুন বাটা ১ চা চামচ, হলুদ গুঁড়া দেড় চা চামচ, টক দই ১ কাপের ৪ ভাগের ১ ভাগ, জিরার গুঁড়া ১ চা চামচ, লবণ ১ চা চামচ, চিনি ১ চা চামচ, গরম মসলা গুঁড়া ১ চা চামচ, পেঁয়াজ কুচি আধা কাপ, এলাচ ২টি, দারুচিনি ২টি, তেজপাতা ২টি, গরম পানি ৬ কাপ, ঘি ২ টেবিল চামচ, তেল আধা কাপ।";
                         String karjodtails_obj5= "১. মুগডাল ২ ঘণ্টা ও চাল আধা ঘণ্টা ভিজিয়ে রেখে পানি ঝরিয়ে নিন। মটরশুঁটি ছাড়া সব সবজি চুলার আঁচে ভাপিয়ে নিন।\n২. কড়াইয়ে অর্ধেক তেল দিয়ে গরম হলে গরম মসলা ও পেঁয়াজ দিয়ে ভেজে টক দই, চিনি ও আধা চা চামচ লবণ দিন। একটু পর মসলা কষিয়ে সবজি দিন। সবজি আধা সিদ্ধ হলে আলাদা পাত্রে তুলে রাখুন।\n৩. এবার ওই কড়াইয়ে চাল দিয়ে ভাজুন। ভাজা হয়ে গেলে গরম পানি ও আধা চা চামচ লবণ দিয়ে ঢেকে দিন। ৪. চাল পানি সমান সমান হলে রান্না করা সবজি দিয়ে নেড়ে ঢেকে আঁচ কমিয়ে ১০ মিনিট রান্না করুন। ৫. ১০ মিনিট পর কাঁচা মরিচ ও ঘি দিয়ে আরো ১৫ মিনিট দমে রেখে নামিয়ে গরম গরম পরিবেশন করুন।";
 
-                        Bitmap bitmap_a5 = BitmapFactory.decodeResource(getResources(), R.drawable.chal_6);
+                        Bitmap bitmap_a5 = BitmapFactory.decodeResource(getResources(), R.drawable.nav);
                         ByteArrayOutputStream baos_a5 = new ByteArrayOutputStream();
                         bitmap_a5.compress(Bitmap.CompressFormat.PNG, 100, baos_a5);
                         byte[] b_a5 = baos_a5.toByteArray();
@@ -241,7 +241,7 @@ public class Chal_dal extends AppCompatActivity
                         String upodetails_obj6= "১ কাপ বাসমতী চাল, আধা কাপ ভাজা মুগডাল, পরিমাণমতো পাঁচফোড়ন, আদা কুচি পরিমাণমতো, সয়াবিন তেল, লবণ ও হলুদের গুঁড়া, শুকনো মরিচ, কাঁচা মরিচ ও তেজপাতা।";
                         String karjodtails_obj6= "চাল ও ডাল আলাদা করে ধুয়ে নিন। পাত্রে সয়াবিন তেল ঢেলে গরম করে তেজপাতা ও শুকনো মরিচ নেড়েচেড়ে পাঁচফোড়ন দিয়ে দিন। হালকা ভাজা হয়ে গেলে আদা কুচি ছেড়ে দিন। বাদামি রং হলে তেলের মধ্যে চাল ও ডাল দিয়ে দিন। এরপর পরিমাণমতো লবণ ও এক চা-চামচ হলুদের গুঁড়া দিয়ে চালটা ভেজে নিন। এবার তিন কাপ পানি দিয়ে ঢেকে দিন। মাঝারি আঁচে মিনিট দশেক জ্বাল দিলে পানি কমে আসবে। তখনই বুঝতে হবে চাল সেদ্ধ হয়ে নরম হয়ে এসেছে। চুলা থেকে নামানোর আগে কয়েকটি কাঁচা মরিচ লম্বালম্বি করে কেটে খিচুড়ির ওপর ছড়িয়ে দিতে হবে। খিচুড়ি পরিবেশনের সময় মাছ ভাজি, বেগুন ভাজি বা লুচি দেওয়া যেতে পারে।";
 
-                        Bitmap bitmap_a6 = BitmapFactory.decodeResource(getResources(), R.drawable.chal_7);
+                        Bitmap bitmap_a6 = BitmapFactory.decodeResource(getResources(), R.drawable.nav);
                         ByteArrayOutputStream baos_a6 = new ByteArrayOutputStream();
                         bitmap_a6.compress(Bitmap.CompressFormat.PNG, 100, baos_a6);
                         byte[] b_a6 = baos_a6.toByteArray();
@@ -303,7 +303,7 @@ public class Chal_dal extends AppCompatActivity
                         String upodetails_obj9= "পোলাও’র চাল ৬ কাপ, মসুরের ডাল আধা কাপ, মুগ ডাল আধা কাপ, মাংস ১ কেজি, পেঁয়াজ কুঁচি ১ কাপ, আদা বাটা ২ টেবিল চামচ, রসুন বাটা ২ টেবিল চামচ, জিরা গুড়া ১ চা চামচ, শুকনা মরিচ গুড়া ১ বা দেড় চা চামচ (ঝাল কতখানি খেতে চান সেইভাবে দেবেন), হলুদ গুড়া ২ চা চামচ, জয়ত্রী বাটা আধা চা চামচ, জয়ফল বাটা এক চিমটি, গরম মশলা (এলাচি কয়েকটা, দারুচিনি কয়েক পিস), লবণ স্বাদমতো, ভিনেগার ১ চা চামচ অথবা লেবুর রস ২ চা চামচ (গোশত নরম করার জন্য), কয়েকটা আস্ত কাঁচামরিচ, তেল দেড় কাপ, পানি (প্রণালীতে বলা হবে)";
                         String karjodtails_obj9= "পাতিলে তেল গরম করে পেঁয়াজ কুচি ও কয়েকটা কাঁচামরিচ ভেজে নিন। এবার এক এক করে উপকরণের সকল মসলা দিয়ে দিন। শুরুতে আদা বাটা, রসুন বাটা দিন। এবার গুড়া মশলা গুলো দিয়ে দিন। এরপর বাকি মসলা দিয়ে কিছুক্ষণ নেড়ে এককাপ পানি দিয়ে ঢেকে দিন। তেল উপরে উঠে আসা পর্যন্ত অপেক্ষা করুন। এখন মাংস দিয়ে দিন। দুইকাপ পানি দিন। ভিনেগার বা লেবুর রস দিয়ে দিন। ঢাকনা দিয়ে রান্না করুন। মাঝে মাঝে ঢাকনা তুলে উলটে দিন। এবার ফ্রাইপ্যানে অল্প তেল দিয়ে চাল, ডাল কিছুক্ষণ ভেজে নিন। মাংসের সঙ্গে চাল আর ডাল ভালোমতো মেশান। এবার পানি দিন। পানির পরিমাণ হবে চালের উপরে এক ইঞ্চির মত। পানি শুকিয়ে এলে ঢাকনা তুলে কাঠের চামচ দিয়ে যত্ন করে খিচুড়ি উল্টে-পাল্টে চুলার আঁচ কমিয়ে দিন। ১০ মিনিট পর নামান। সালাদ/ আচার দিয়ে পরিবেশন করুন।";
 
-                        Bitmap bitmap_a9 = BitmapFactory.decodeResource(getResources(), R.drawable.chal_10);
+                        Bitmap bitmap_a9 = BitmapFactory.decodeResource(getResources(), R.drawable.nav);
                         ByteArrayOutputStream baos_a9 = new ByteArrayOutputStream();
                         bitmap_a9.compress(Bitmap.CompressFormat.PNG, 100, baos_a9);
                         byte[] b_a9 = baos_a9.toByteArray();
@@ -345,7 +345,7 @@ public class Chal_dal extends AppCompatActivity
                         String upodetails_obj11= "সিদ্ধ চাল এক কেজি, মসুর ডাল ১০০ গ্রাম, বুট ১০০ গ্রাম, মাষকলাই ১০০ গ্রাম, মটর ১০০ গ্রাম, মুগ ১০০ গ্রাম। পেঁয়াজ কিউব করে কাটা ১ কাপ, আস্ত কাঁচামরিচ ১০-১৫টি, তেজপাতা ২টি, লবণ স্বাদ অনুযায়ী, হলুদ গুঁড়া ২ চা চামচ, মরিচ গুঁড়া ২ চা চামচ, ধনিয়া গুঁড়া ১ চা চামচ, গরম মসলা গুঁড়া ১ চা চামচ, আদাবাটা আধা টেবিল চামচ, রসুন বাটা ২ চা চামচ, সরিষার তেল আধা কাপ ও পানি পরিমাণমতো।";
                         String karjodtails_obj11= "প্রথমে বুট, মটর ও মাষকলাইর ডাল পরিমাণমতো পানি দিয়ে সিদ্ধ করে পানি ঝরিয়ে রাখুন। চালের সঙ্গে মসুর ও মুগডাল ভালো করে ধুয়ে পানি ঝরিয়ে রাখুন। পাতিলে তেল গরম করে তাতে পেঁয়াজ ভেজে একে একে সব বাটা ও গুঁড়া মসলা, স্বাদ অনুযায়ী লবণ ও সামান্য পানি দিয়ে কষিয়ে নিন। তারপর তাতে চাল, ডাল এবং গরম মসলা দিয়ে কিছুক্ষণ ভেজে নিন। পরে তেজপাতা, কাঁচামরিচ ও পরিমাণমতো পানি দিয়ে ঢেকে আধ ঘণ্টা চুলায় রেখে রান্না করুন। খিচুড়ি মাখামাখা হয়ে এলে নামিয়ে পরিবেশন করুন।";
 
-                        Bitmap bitmap_a11 = BitmapFactory.decodeResource(getResources(), R.drawable.chal_12);
+                        Bitmap bitmap_a11 = BitmapFactory.decodeResource(getResources(), R.drawable.nav);
                         ByteArrayOutputStream baos_a11 = new ByteArrayOutputStream();
                         bitmap_a11.compress(Bitmap.CompressFormat.PNG, 100, baos_a11);
                         byte[] b_a11 = baos_a11.toByteArray();

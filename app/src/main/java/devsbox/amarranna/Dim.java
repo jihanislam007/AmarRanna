@@ -55,18 +55,18 @@ public class Dim extends AppCompatActivity
 
 
     Integer[] imageId = {
-            R.drawable.dim_1,
-            R.drawable.image,
-            R.drawable.image,
-            R.drawable.image,
-            R.drawable.dim_5,
-            R.drawable.dim_6,
-            R.drawable.dim_7,
             R.drawable.image,
             R.drawable.image,
             R.drawable.image,
             R.drawable.image,
-            R.drawable.dim_12,
+            R.drawable.image,
+            R.drawable.image,
+            R.drawable.image,
+            R.drawable.image,
+            R.drawable.image,
+            R.drawable.image,
+            R.drawable.image,
+            R.drawable.image,
             R.drawable.image,
             R.drawable.image,
             R.drawable.image
@@ -104,7 +104,7 @@ public class Dim extends AppCompatActivity
                         String upodetails_obj0= "ডিম ৬টি, দুধ ১ লিটার, কনডেন্সড মিল্ক আধা কৌটা, চিজনি আধা কাপ বা স্বাদ অনুযায়ী, এলাচ গুঁড়া ৪/৫টি, দারুচিনি ৩ টুকরো, কিশমিশ ১ টেবিল চামচ, গোলাপজল ১ টেবিল চামচ, ঘি ১ কাপ, পেস্তা বাদাম কুচি ১ টেবিল চামচ।";
                         String karjodtails_obj0= "দুধ জ্বাল দিয়ে ঘন করে ঠাণ্ডা করুন। ডিম ফেটিয়ে নিন। এবার সব উপকরণ একসঙ্গে মিশিয়ে নিন। প্যানে ঘি দিয়ে সব উপকরণ ঢেলে নাড়তে থাকুন। হয়ে গেলে নামিয়ে নিন এবং পরিবেশন করুন।";
 
-                        Bitmap bitmap_a0 = BitmapFactory.decodeResource(getResources(), R.drawable.dim_1);
+                        Bitmap bitmap_a0 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a0 = new ByteArrayOutputStream();
                         bitmap_a0.compress(Bitmap.CompressFormat.PNG, 100, baos_a0);
                         byte[] b_a0 = baos_a0.toByteArray();
@@ -188,7 +188,7 @@ public class Dim extends AppCompatActivity
                         String upodetails_obj4= "ইলিশ মাছের ডিম বড় ৪ টুকরো, ময়দা ১ কাপ, মুরগির ডিম ২টি, বেকিং পাউডার ১ চা-চামচ, গোলমরিচের গুঁড়া আধা চা-চামচ, দুধ সিকি কাপ, চিনি ২ চা-চামচ, লবণ আধা চা-চামচ (স্বাদ অনুযায়ী), তেল বা মাখন আধা কাপ, পেঁয়াজ কুচি আধা কাপ, কাঁচা মরিচ কুচি ২ টেবিল-চামচ, পুদিনাপাতা কুচি ২ টেবিল-চামচ ও লেবুর রস ১ টেবিল-চামচ।";
                         String karjodtails_obj4= "তেল বা মাখন, চিনি, সিকি চা-চামচ লবণ, গোলমরিচের গুঁড়া ও বেকিং পাউডার একসঙ্গে ফেটে নিন। মাখন ও চিনির সঙ্গে একেকটি করে মোট ২টি মুরগির ডিম ফেটে নিন। অল্প অল্প দুধ দিয়ে ফেটুন ও ময়দা আলতোভাবে মিশিয়ে নিন। বেকিং কেকের পাত্রে সামান্য মাখন মেখে ময়দা ছড়িয়ে চারধারে বিছিয়ে দিন। তৈরি মিশ্রণ এই পাত্রে ঢেলে সমানভাবে ছড়িয়ে দিন। এক চিমটি লবণ মাছের ডিমে মেখে কেকের মিশ্রণের ওপর পাশাপাশি বিছিয়ে দিন। লেবুর রস, পেঁয়াজ, মরিচ ও পুদিনাপাতা এক চিমটি লবণ দিয়ে মেখে নিন। ডিমের পাশে খালি জায়গা পেঁয়াজ ও মরিচের মিশ্রণ দিয়ে ঢেকে দিন। ১৮০ ডিগ্রি সেলসিয়াস তাপে প্রি-হিট ওভেনে ৪০ থেকে ৫০ মিনিট কেক বেক করুন।";
 
-                        Bitmap bitmap_a4 = BitmapFactory.decodeResource(getResources(), R.drawable.dim_5);
+                        Bitmap bitmap_a4 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a4 = new ByteArrayOutputStream();
                         bitmap_a4.compress(Bitmap.CompressFormat.PNG, 100, baos_a4);
                         byte[] b_a4 = baos_a4.toByteArray();
@@ -209,7 +209,7 @@ public class Dim extends AppCompatActivity
                         String upodetails_obj5= "যেকোনো বড় মাছের ডিম দেড় কাপ। লবণ ও হলুদ দিয়ে সিদ্ধ করে পানি ঝরিয়ে নিন। বড় আলু সিদ্ধ একটি। কাঁচা কলা সিদ্ধ দুটি ২৫০ গ্রাম। সয়াসস এক টেবিল চামচ। সিজনিং সস (যেকোনো শপিংমলে পাওয়া যাবে) সিকি চামচ। কর্নফ্লাওয়ার চার টেবিল চামচ। লবণ দুই চা-চামচ। মরিচ গুঁড়া আধা চা-চামচ। গোলমরিচ ফাঁকি আধা চামচ। গরম মসলার ফাঁকি আধা চামচ। পেঁয়াজ মিহি কুচি দুই টেবিল চামচ। পুদিনা পাতা কুচি দুই টেবিল চামচ। ডিমের সাদা অংশ একটি। বিস্কুটের গুঁড়া এক কাপ। লেবুর রস এক টেবিল চামচ। চিনি দুই চা-চামচ। তেল ভাজার জন্য।";
                         String karjodtails_obj5= "আলু ও কাঁচা কলা খোসা ছাড়িয়ে আধা ভাঙা করে নিন। তেল, কাঁচা মরিচ কুচি, পেঁয়াজ ও পুদিনা পাতা কুচি, কর্নফ্লাওয়ার, মুরগির ডিম ও বিস্কুটের গুঁড়া বাদে বাকি সব উপকরণ কাঁচা কলা ও আলুর সঙ্গে মিশিয়ে পাটায় মসৃণ করে বেটে নিন। একটি বাটিতে ডিমের সাদা অংশের সঙ্গে এক চিমটি লবণ মিশিয়ে ফেটে নিন। অন্য একটি সমতল প্লেটে টোস্ট বিস্কুটের গুঁড়া রাখুন। পেঁয়াজ, কাঁচা মরিচ ও পুদিনা পাতা কুচি কচলে নিন। তারপর কাঁচা কলা, আলু ও মাছের ডিমের মিশ্রণ, পেঁয়াজ, কাঁচা মরিচ ও পুদিনা পাতা কুচি এবং কর্নফ্লাওয়ার—সবকিছু একত্রে ভালো করে মিশিয়ে মেখে ৮-১০টি গোলা আলাদাভাবে ভাগ করে নিন। হাতের তালুতে সামান্য করে তেল মেখে নিয়ে একেকটি গোলা দিয়ে চেপে কাটলেটের আকারে তৈরি করে নিন। এটি গোলানো ডিমে চুবিয়ে বিস্কুটের গুঁড়ায় গড়িয়ে একটি ট্রেতে সাজিয়ে ফ্রিজে দুই ঘণ্টা রেখে দিন। ফ্রাই প্যানে তেল গরম করে দুই পিঠ লাল করে ভেজে যেকোনো সস বা চাটনির সঙ্গে গরম গরম পরিবেশন করুন।";
 
-                        Bitmap bitmap_a5 = BitmapFactory.decodeResource(getResources(), R.drawable.dim_6);
+                        Bitmap bitmap_a5 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a5 = new ByteArrayOutputStream();
                         bitmap_a5.compress(Bitmap.CompressFormat.PNG, 100, baos_a5);
                         byte[] b_a5 = baos_a5.toByteArray();
@@ -231,7 +231,7 @@ public class Dim extends AppCompatActivity
                         String upodetails_obj6= "আলু ৫০০ গ্রাম, সিদ্ধ ডিম ২টি, ধনেপাতা কুচি ২ টেবিল চামচ, পেঁয়াজ কুচি আধা কাপ, কাঁচামরিচ কুচি ১ টেবিল চামচ, পুদিনাপাতা কুচি ১ চা-চামচ, জিরা গুঁড়া ১ চা-চামচ, মরিচ গুঁড়া আধা চা-চামচ (টেলে নেওয়া মরিচ), ধনে গুঁড়া আধা চা-চামচ, লবণ স্বাদ অনুযায়ী, বিস্কুটের গুঁড়া প্রয়োজনমতো, একটি ডিম ফেটানো এবং তেল ভাজার জন্য।";
                         String karjodtails_obj6= "প্রথমে আলু সিদ্ধ করে খোসা ছাড়িয়ে ভর্তা করে নিন। ডিমও একইভাবে সিদ্ধ করে খোসা ছাড়িয়ে ভর্তা করে নিন। তারপর ভর্তা করা ডিম ও আলুর সঙ্গে একে একে সব মসলা ও পেঁয়াজ কুচি ভালো করে মাখিয়ে হাত দিয়ে গোল গোল বা চ্যাপ্টা করে প্রথমে ফেটানো ডিমে মাখিয়ে তারপর বিস্কুটের গুঁড়ায় গড়িয়ে কিছুক্ষণ ফ্রিজে রেখে দিন। তারপর চপগুলো গরম গরম ডুবন্ত তেলে ভেজে সাজিয়ে পরিবেশন করুন।";
 
-                        Bitmap bitmap_a6 = BitmapFactory.decodeResource(getResources(), R.drawable.dim_7);
+                        Bitmap bitmap_a6 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a6 = new ByteArrayOutputStream();
                         bitmap_a6.compress(Bitmap.CompressFormat.PNG, 100, baos_a6);
                         byte[] b_a6 = baos_a6.toByteArray();
@@ -335,7 +335,7 @@ public class Dim extends AppCompatActivity
                         String upodetails_obj11= "যেকোনো বড় মাছের ডিম দেড় কাপ। লবণ ও হলুদ দিয়ে সিদ্ধ করে পানি ঝরিয়ে নিন। বড় আলু সিদ্ধ একটি। কাঁচা কলা সিদ্ধ দুটি ২৫০ গ্রাম। সয়াসস এক টেবিল চামচ। সিজনিং সস (যেকোনো শপিংমলে পাওয়া যাবে) সিকি চামচ। কর্নফ্লাওয়ার চার টেবিল চামচ। লবণ দুই চা-চামচ। মরিচ গুঁড়া আধা চা-চামচ। গোলমরিচ ফাঁকি আধা চামচ। গরম মসলার ফাঁকি আধা চামচ। পেঁয়াজ মিহি কুচি দুই টেবিল চামচ। পুদিনা পাতা কুচি দুই টেবিল চামচ। ডিমের সাদা অংশ একটি। বিস্কুটের গুঁড়া এক কাপ। লেবুর রস এক টেবিল চামচ। চিনি দুই চা-চামচ। তেল ভাজার জন্য।";
                         String karjodtails_obj11= "আলু ও কাঁচা কলা খোসা ছাড়িয়ে আধা ভাঙা করে নিন। তেল, কাঁচা মরিচ কুচি, পেঁয়াজ ও পুদিনা পাতা কুচি, কর্নফ্লাওয়ার, মুরগির ডিম ও বিস্কুটের গুঁড়া বাদে বাকি সব উপকরণ কাঁচা কলা ও আলুর সঙ্গে মিশিয়ে পাটায় মসৃণ করে বেটে নিন। একটি বাটিতে ডিমের সাদা অংশের সঙ্গে এক চিমটি লবণ মিশিয়ে ফেটে নিন। অন্য একটি সমতল প্লেটে টোস্ট বিস্কুটের গুঁড়া রাখুন। পেঁয়াজ, কাঁচা মরিচ ও পুদিনা পাতা কুচি কচলে নিন। তারপর কাঁচা কলা, আলু ও মাছের ডিমের মিশ্রণ, পেঁয়াজ, কাঁচা মরিচ ও পুদিনা পাতা কুচি এবং কর্নফ্লাওয়ার—সবকিছু একত্রে ভালো করে মিশিয়ে মেখে ৮-১০টি গোলা আলাদাভাবে ভাগ করে নিন। হাতের তালুতে সামান্য করে তেল মেখে নিয়ে একেকটি গোলা দিয়ে চেপে কাটলেটের আকারে তৈরি করে নিন। এটি গোলানো ডিমে চুবিয়ে বিস্কুটের গুঁড়ায় গড়িয়ে একটি ট্রেতে সাজিয়ে ফ্রিজে দুই ঘণ্টা রেখে দিন। ফ্রাই প্যানে তেল গরম করে দুই পিঠ লাল করে ভেজে যেকোনো সস বা চাটনির সঙ্গে গরম গরম পরিবেশন করুন।";
 
-                        Bitmap bitmap_a11 = BitmapFactory.decodeResource(getResources(), R.drawable.dim_12);
+                        Bitmap bitmap_a11 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a11 = new ByteArrayOutputStream();
                         bitmap_a11.compress(Bitmap.CompressFormat.PNG, 100, baos_a11);
                         byte[] b_a11 = baos_a11.toByteArray();

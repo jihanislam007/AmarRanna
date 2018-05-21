@@ -58,17 +58,17 @@ public class Kabab extends AppCompatActivity
             R.drawable.image,
             R.drawable.image,
             R.drawable.image,
-            R.drawable.kabab_5,
-            R.drawable.kabab_6,
-            R.drawable.kabab_7,
-            R.drawable.kabab_8,
             R.drawable.image,
-            R.drawable.kabab_10,
-            R.drawable.kabab_11,
-            R.drawable.kabab_12,
-            R.drawable.kabab_13,
-            R.drawable.kabab_14,
-            R.drawable.kabab_15,
+            R.drawable.image,
+            R.drawable.image,
+            R.drawable.image,
+            R.drawable.image,
+            R.drawable.image,
+            R.drawable.image,
+            R.drawable.image,
+            R.drawable.image,
+            R.drawable.image,
+            R.drawable.image,
     };
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -187,7 +187,7 @@ public class Kabab extends AppCompatActivity
                         String upodetails_obj4= "হাড্ডি ছাড়া গরুর মাংস কিউব করে নিতে হবে ১ কেজি, নারিকেল পাউডার ২ টেবিল চামচ, ধনে গুঁড়া ১ টেবিল চামচ, জিরা গুঁড়া ২ টেবিল চামচ, গরম মসলা গুঁড়া ১ টেবিল চামচ, মরিচ গুঁড়া ২ টেবিল চামচ, শুকনা মেথিপাতা ১ টেবিল চামচ, গরুর চর্বি ২০০ গ্রাম, পুদিনা পাতা ৫০ গ্রাম, ধনেপাতা ৫০ গ্রাম, কাঁচামরিচ ৫টি, আদা-রসুন আস্ত ২০ গ্রাম।";
                         String karjodtails_obj4= "সব উপকরণ একসঙ্গে মেখে কিমা করে নিতে হবে। তারপর শিকে ভরে কয়লার চুলায় সেঁকতে হবে। বারবার উল্টিয়ে নিতে হবে।";
 
-                        Bitmap bitmap_a4 = BitmapFactory.decodeResource(getResources(), R.drawable.kabab_5);
+                        Bitmap bitmap_a4 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a4 = new ByteArrayOutputStream();
                         bitmap_a4.compress(Bitmap.CompressFormat.PNG, 100, baos_a4);
                         byte[] b_a4 = baos_a4.toByteArray();
@@ -208,7 +208,7 @@ public class Kabab extends AppCompatActivity
                         String upodetails_obj5= "গরুর মাংস ১ কেজি, পেঁয়াজ মিডিয়াম সাইজের ১টি, আধা টেবিল চামচ আদা বাটা, আধা টেবিল চামচ রসুন বাটা, ব্ল্যাক পিপার, হোয়াইট পিপার, লবণ পরিমাণ মতো, অলিভ অয়েল এক কাপের তিনের এক অংশ, ডানো ক্রিম, রাঁধুনী গরম মসলা, আদা পাউডার, রসুন পাউডার ও লেবু।";
                         String karjodtails_obj5= "পেঁয়াজ, লেবুর রস, আদা, রসুন, ডানো ক্রিম, অলিভ অয়েল এগুলো একসঙ্গে মিশিয়ে ব্লেন্ড করে নিতে হবে। এরপর মাংসের সঙ্গে বাকি মসলা মেশাতে হবে। ১ ঘণ্টা ফ্রিজে রাখতে হবে। ফ্রিজ থেকে বের করে শিকে ভরে কয়লার আগুনে চারপাশ পরিমাণ মতো পুড়িয়ে নিন।";
 
-                        Bitmap bitmap_a5 = BitmapFactory.decodeResource(getResources(), R.drawable.kabab_6);
+                        Bitmap bitmap_a5 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a5 = new ByteArrayOutputStream();
                         bitmap_a5.compress(Bitmap.CompressFormat.PNG, 100, baos_a5);
                         byte[] b_a5 = baos_a5.toByteArray();
@@ -230,7 +230,7 @@ public class Kabab extends AppCompatActivity
                         String upodetails_obj6= "গরুর মাংসের কিমা আধা কেজি, ডিম ২টি, আদা বাটা আধা চা চামচ, রসুন বাটা আধা চা চামচ, গরম মসলা গুঁড়া ১ চা চামচ, জিরা গুঁড়া আধা চা চামচ, টক দই ১ টেবিল চামচ, লবণ পরিমাণ মতো, কাঁচামরিচ কুচি ১ টেবিল চামচ, পেঁয়াজ কুচি ১ টেবিল চামচ, কাবাব মসলা ১ চা চামচ, মরিচ গুঁড়া আধা চা চামচ, টমাটো সস ১ টেবিল চামচ, তেল ভাজার জন্য, বেরেস্তা ১ টেবিল চামচ।";
                         String karjodtails_obj6= "প্রথমে পেঁয়াজ কুচি ও কাঁচামরিচ কুচি সামান্য তেলে ভেজে নিতে হবে। এবার কিমার সঙ্গে ডিম ও তেল ছাড়া সব উপকরণ একসঙ্গে ভালো করে মেখে নিতে হবে। আধা ঘণ্টা মেরিনেট করতে হবে। এবার মাখানো কিমা ডোনাটের আকারে গড়ে নিতে হবে। এরপর সেটাকে ছেঁকা তেলে ভেজে নিতে হবে। ঠাণ্ডা হলে ডিশে চুবিয়ে ডুবো তেলে ভেজে বাদামি করে তুলে পরিবেশন করতে হবে।";
 
-                        Bitmap bitmap_a6 = BitmapFactory.decodeResource(getResources(), R.drawable.kabab_7);
+                        Bitmap bitmap_a6 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a6 = new ByteArrayOutputStream();
                         bitmap_a6.compress(Bitmap.CompressFormat.PNG, 100, baos_a6);
                         byte[] b_a6 = baos_a6.toByteArray();
@@ -250,7 +250,7 @@ public class Kabab extends AppCompatActivity
                         String upodetails_obj7= "হাড়সহ গরুর মাংস এক কেজি, টক দই এক কাপ, পেঁয়াজ বাটা এক টেবিল চামচ, রসুন এক চা চামচ, আদা বাটা এক চা চামচ, জিরা বাটা এক চা চামচ, পোস্ত বাটা আধা চা চামচ, কাঠবাদাম বাটা এক চা চামচ, গোলমরিচ গুঁড়া এক চা চামচ, মরিচ গুঁড়া স্বাদ অনুযায়ী, এলাচ, দারুচিনি, লবঙ্গ, তেজপাতা তিনটি করে, জায়ফল বাটা এক চা চামচ, জয়ত্রী বাটা আদা চা চামচ, পেঁয়াজ বেরেস্তা আধা চা চামচ, ঘি এক কাপের চার ভাগের এক ভাগ, লবণ স্বাদমতো, চিনি আধা কাপ, কেওড়া পানি এক টেবিল চামচ।";
                         String karjodtails_obj7= "১. গরুর মাংস ধুয়ে পানি ঝরিয়ে নিন।\n২. জায়ফল, জয়ত্রী ছাড়া সব উপকরণ দিয়ে মাংস ম্যারিনেট করে রাখুন এক ঘণ্টা।\n৩. কড়াইয়ে ঘি গরম করে গোটা গরম মসলা দিয়ে ফোড়ন দিন। এরপর ম্যারিনেট করা মাংস দিয়ে দিন।\n৪. মাংস নেড়ে লবণ ও চিনি দিন।মাংস কষানো হলে দুই কাপ পানি দিয়ে ঢেকে দিন।\n৫. সিদ্ধ হয়ে এলে ঘি ও বেরেস্তা, জায়ফল, জয়ত্রী দিয়ে নেড়ে অল্প আঁচে ঢেকে রাখুন ৩০ মিনিট।\n৬. নামিয়ে পরিবেশন করুন কাবাব গোশত।";
 
-                        Bitmap bitmap_a7 = BitmapFactory.decodeResource(getResources(), R.drawable.kabab_8);
+                        Bitmap bitmap_a7 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a7 = new ByteArrayOutputStream();
                         bitmap_a7.compress(Bitmap.CompressFormat.PNG, 100, baos_a7);
                         byte[] b_a7 = baos_a7.toByteArray();
@@ -292,7 +292,7 @@ public class Kabab extends AppCompatActivity
                         String upodetails_obj9= "বিফ বনলেস ১ কেজি, গরুর চর্বি ১০০ গ্রাম, লবণ পরিমাণমতো, পেঁপে (পাকা) দুই টেবিল চামচ, গরম মসলা ১ চামচ, জিরা গুঁড়া ১ চামচ, ধনিয়া ১ চামচ, আদা-রসুন পেস্ট ২ চামচ, লাল মরিচ গুঁড়া ২ চামচ, পেঁয়াজ মিডিয়াম সাইজ দুটি। ধনিয়া পাতা, পুঁদিনা পাতা ও কাঁচা মরিচ ৪-৫টি। শুকনা মরিচ ব্লেন্ড পরিমাণমতো।";
                         String karjodtails_obj9= "প্রথমে ১ কেজি পুরোটা ধুয়ে নিন (আস্ত থাকা অবস্থায়)। তারপর ছোট ছোট পিস করে নিন। এর সঙ্গে চর্বিও ছোট ছোট পিস করে মিশিয়ে নিন। এরপর সব মসলা দিয়ে ম্যারিনেট করতে হবে। তারপর এটাকে ব্লেন্ডারে দুই রাউন্ড দিয়ে কিমা করে নিন। তারপর ১ ঘণ্টার জন্য রেখে দিন। শিকের মধ্য দিয়ে সুতা পেঁচিয়ে দিন। অতপর গ্রিলে দিতে হবে। বাদামি কালার হওয়া পর্যন্ত রাখতে হবে। এরপর গরম গরম পরিবেশন করুন। দেশি ঘ্রাণ চাইলে বাটার লাগিয়ে দিতে পারেন। নান বা পরোটার সঙ্গে খেতে পারেন।";
 
-                        Bitmap bitmap_a9 = BitmapFactory.decodeResource(getResources(), R.drawable.kabab_10);
+                        Bitmap bitmap_a9 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a9 = new ByteArrayOutputStream();
                         bitmap_a9.compress(Bitmap.CompressFormat.PNG, 100, baos_a9);
                         byte[] b_a9 = baos_a9.toByteArray();
@@ -314,7 +314,7 @@ public class Kabab extends AppCompatActivity
                         String upodetails_obj10= "গরুর হাড়ছাড়া মাংস ৫০০ গ্রাম পাতলা ফিতার মতো করে কেটে নিতে হবে। আদা বাটা ১ টেবিল চামচ, রসুন বাটা ২ চা চামচ, পেঁপে বাটা আধা কাপ, পেঁয়াজ বাটা ২ টেবিল চামচ, পেস্তদানা বাটা ২ চা চামচ, বাদাম বাটা ২ চা চামচ। লবণ স্বাদ অনুযায়ী, সরিষার তেল পরিমাণমতো, লাল গুঁড়া মরিচ ১ টেবিল চামচ, গরম মসলা বাটা ২ টেবিল চামচ এবং টক দই ২০০ গ্রাম।";
                         String karjodtails_obj10= "প্রথমে গরুর মাংস ভালো করে ধুয়ে পানি ছেঁকে নিয়ে পাতলা করে কেটে তাতে সব বাটা ও গুঁড়া মসলা, লবণ, টক দই এবং সরিষার তেল মাখিয়ে প্রায় ১ দিন ফ্রিজে রেখে দিন। তারপর মাংসগুলো শিকে গেঁথে কয়লার চুলোয় নিজের পছন্দ অনুযায়ী সেঁকে নিয়ে সার্ভিং ডিশে সাজিয়ে পরিবেশন করুন গরম গরম শিককাবাব।";
 
-                        Bitmap bitmap_a10 = BitmapFactory.decodeResource(getResources(), R.drawable.kabab_11);
+                        Bitmap bitmap_a10 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a10 = new ByteArrayOutputStream();
                         bitmap_a10.compress(Bitmap.CompressFormat.PNG, 100, baos_a10);
                         byte[] b_a10 = baos_a10.toByteArray();
@@ -334,7 +334,7 @@ public class Kabab extends AppCompatActivity
                         String upodetails_obj11= "১ কেজি মাটন (কিউব পিস করে এবং চর্বি ছাড়া), গরম মসলা ১ চামচ, ধনিয়া পাতা ১ চামচ, জিরা ১ চামচ, লাল মরিচ ২ চামচ, হলুদ আধা চামচ, লবণ পরিমাণমতো, সরিষার তেল ২ চামচ, সয়াবিন তেল আধা কাপ ও কাস্তুরি মেথি পাউডার। আদা-রসুন পেস্ট ২ চামচ, পেঁপে আধা কাপ।";
                         String karjodtails_obj11= "এবার সব উপকরণ মিশিয়ে এর মধ্যে আধা কাপ ইয়োগর দিয়ে দিন। এবার ১ ঘণ্টা ফ্রিজে রেখে দিন। শিকের মধ্যে পিসগুলোকে ঢোকাতে হবে। তারপর গ্রিলে দিয়ে দিন। বাদামি কালার হওয়ার পর নামাতে হবে। মাঝে মধ্যে ঘুরিয়ে তেল দিতে হবে। এটা হতে ৮ মিনিট সময় লাগতে পারে।";
 
-                        Bitmap bitmap_a11 = BitmapFactory.decodeResource(getResources(), R.drawable.kabab_12);
+                        Bitmap bitmap_a11 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a11 = new ByteArrayOutputStream();
                         bitmap_a11.compress(Bitmap.CompressFormat.PNG, 100, baos_a11);
                         byte[] b_a11 = baos_a11.toByteArray();
@@ -355,7 +355,7 @@ public class Kabab extends AppCompatActivity
                         String upodetails_obj12= "খাসির মাংসের কিমা-৫০০ গ্রাম, বেসন-১০০ গ্রাম, পেঁপে বাটা ২ টেবিল চামচ, পেঁয়াজ-৩টি, রসুন-৬ কোয়া, আদা-২ চা চামচ, লবঙ্গ-৪টি (বাটা), শা জিরা-আধা চা চামচ, টকদই-১০০ গ্রাম, শুকনো মরিচ বাটা-২ চা চামচ, কিশমিশ বাটা-১ টেবিল চামচ, বাদাম বাটা-১ টেবিল চামচ, জায়পলগুঁড়ো-আধা চা চামচ, ছোট এলাচ গুঁড়ো-আধা চা চামচ, বড় এলাচ গুঁড়ো-আধা চা চামচ, চিনি-১ চা চামচ, লবণ-আন্দাজমতো, ডিম-৪টি, ঘি-১০০ গ্রাম, টমাটো সস-১ কাপ।";
                         String karjodtails_obj12= "কিমার সাথে আন্দাজমতো লবণ ও পেঁপে বাটা মিশিয়ে আধঘণ্টা রেখে দিন। ১টি পেঁয়াজ বেটে নিন। দই ভাল করে ফেটিয়ে তাতে রসুন বাটা, আদা বাটা ও পেঁয়াজ মিহি কুচি করে রাখুন। কড়াইয়ে ২ টেবিল চামচ ঘি দিয়ে প্রথমে কুচানো পেঁয়াজ সবই দিন। একটু নরম হলে এর মধ্যে চিনি ও মিশমিশ বাটা ও বাকি মসলা দিয়ে ভাজুন। একটু লালচে রঙ হলে মাখানো কিমা দিন। আঁচ কমিয়ে দিন। পানি শুকিয়ে গেলে নামিয়ে নিন। ঠাণ্ডা হলে কাবাবের আকারে গড়ে রাখুন।\nএকটা পাত্রে ডিম ও লবণ ফেটিয়ে রাখুন। বেসন পানিতে করে গুলে এর মধ্যে সামান্য লবণ ও ১ চা চামচ তেল দিয়ে ভাল করে ফেটিয়ে রাখুন। ফেটানো ডিম ও বেসন এক সঙ্গে মিশিয়ে রাখুন। একটা কড়াইয়ে ঘি গরম করে কাবাবগুলো বেসন ও ডিমের গোলায় ডুবিয়ে ভেজে তুলুন। বাকি ডিম ও বেসনের গোলা ছাঁকা তেলে ভেজে ঠাণ্ডা করে কুচি কুচি করে বেটে নিন।পরিবেশনের পাত্রে প্রথমে টমেটো সস ছড়িয়ে তার ওপর কাবাব রেখে ভাজা ডিম ও বেসন ভাজা ঝুরি ছড়িয়ে দিন।";
 
-                        Bitmap bitmap_a12 = BitmapFactory.decodeResource(getResources(), R.drawable.kabab_13);
+                        Bitmap bitmap_a12 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a12 = new ByteArrayOutputStream();
                         bitmap_a12.compress(Bitmap.CompressFormat.PNG, 100, baos_a12);
                         byte[] b_a12 = baos_a12.toByteArray();
@@ -376,7 +376,7 @@ public class Kabab extends AppCompatActivity
                         String upodetails_obj13= "খাসির মাংস ১ কেজি, মরিচ গুঁড়া দেড় চা-চামচ, আদা বাটা ২ চা-চামচ, তেল আধা কাপ, রসুন বাটা ১ চা-চামচ, পেঁয়াজ কুচি দেড় কাপ, লবণ প্রয়োজনমতো। জয়ফল, জয়ত্রী, এলাচ, দারুচিনি ১টা করে, তেজপাতা ২টি, কাঁচা মরিচ ১টা, চিনি ১ টেবিল চামচ।";
                         String karjodtails_obj13= "খাসির বুকের মাংস এক আকারে কেটে নিতে হবে। মাংসে আদা, রসুন, লবণ, মরিচ গুঁড়া, তেজপাতা ও সব গরম মসলা দিয়ে সিদ্ধ করতে হবে পরিমাণমতো পানি দিয়ে। মাঝারি সিদ্ধ হলে তেলে পেঁয়াজ বেরেস্তা করে তা দিয়ে দিতে হবে মাংসে। সিদ্ধ হয়ে যখন মাংস ভাজা ভাজা হবে, তখন চিনি ও কাঁচা মরিচ দিয়ে একটু দমে রেখে পরিবেশন।";
 
-                        Bitmap bitmap_a13 = BitmapFactory.decodeResource(getResources(), R.drawable.kabab_14);
+                        Bitmap bitmap_a13 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a13 = new ByteArrayOutputStream();
                         bitmap_a13.compress(Bitmap.CompressFormat.PNG, 100, baos_a13);
                         byte[] b_a13= baos_a13.toByteArray();
@@ -398,7 +398,7 @@ public class Kabab extends AppCompatActivity
                         String upodetails_obj14= "গরুর/ খাসির মাংসের কিমা- ১/২ কেজি, পিঁয়াজ কুচি- ১/২ কাপ, কাঁচামরিচ কুচি-২ চা চামচ, টমেটো কেচাপ ২ ২ টেবিল চামচ, আদা বাটা ১ চা চামচ, গরম মসলা বাটা ১ চামচ, লেবুর রস-১ চা চামচ, কাবাব মসলা ১ টেবিল চামচ, দুধ ৪ টেবিল চামচ, পাউরুটি ১ পিস, তেল ১ কাপ, গোলমরিচ গুঁড়া ১/২ চা চামচ, বসেল লিফ ১ চা চামচ, সয়াসস ১ টেবিল চামচ, লবণ স্বাদমতো।";
                         String karjodtails_obj14= "দুধে পাউরুটি ভিজিয়ে নরম হলে কিমার সঙ্গে ভালো করে মেখে নিন। এতে বাকি সব মসলা দিয়ে ভালোভাবে মেখে ১ ঘণ্টা রেখে দিন। মুঠি মুঠি করে কাবাব তৈরি করে কাঠিতে গেঁথে নিন। এবার চুলায় কড়াই দিয়ে এতে তেল দিন। তেল ভালো মতো গরম হলে কাবাব লাল করে ভেজে গরম গরম পরিবেশন করুন।";
 
-                        Bitmap bitmap_a14 = BitmapFactory.decodeResource(getResources(), R.drawable.kabab_15);
+                        Bitmap bitmap_a14 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a14 = new ByteArrayOutputStream();
                         bitmap_a14.compress(Bitmap.CompressFormat.PNG, 100, baos_a14);
                         byte[] b_a14 = baos_a14.toByteArray();

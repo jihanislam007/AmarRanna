@@ -54,16 +54,16 @@ public class Bide_shi extends AppCompatActivity
             R.drawable.image,
             R.drawable.image,
             R.drawable.image,
-            R.drawable.bideshi_4,
+            R.drawable.nav,
             R.drawable.image,
-            R.drawable.bideshi_6,
             R.drawable.image,
-            R.drawable.bideshi_8,
-            R.drawable.bideshi_9,
-            R.drawable.bideshi_10,
-            R.drawable.bideshi_11,
             R.drawable.image,
-            R.drawable.bideshi_13,
+            R.drawable.image,
+            R.drawable.image,
+            R.drawable.image,
+            R.drawable.image,
+            R.drawable.image,
+            R.drawable.image,
             R.drawable.image,
             R.drawable.image,
     };
@@ -164,7 +164,7 @@ public class Bide_shi extends AppCompatActivity
                         String upodetails_obj2= "শ্রিম্প ১ কেজি, পেঁয়াজ কুচি আধা কাপ, চাল ৪ কাপ, কর্নঅয়েল ১ কাপ, টমেটো পিউরি ২ কাপ, লবণ পরিমাণমতো, গোলমরিচ গুঁড়া ১ চা চামচ, দারচিনি গুঁড়া ১ চা চামচ, চিনি সামান্য, কাঠবাদাম আধাভাঙা ৩ টেবিল চামচ।";
                         String karjodtails_obj2= "চিংড়ির খোসা বাদ দিয়ে শিরা ফেলে দিতে হবে। চিংড়ি অল্প লবণ দিয়ে মাখিয়ে ময়দায় গড়িয়ে নিতে হবে। হাঁড়িতে ৮ কাপ পানি দিয়ে চুলায় দিতে হবে। পানি ফুটে উঠলে ২ টেবিল চামচ কর্নঅয়েল, টমেটো, লবণ, দারচিনি ও গোলমরিচ দিতে হবে। চাল ধুয়ে পানি ঝরিয়ে নিতে হবে। ভাত সেদ্ধ হয়ে এলে বাদাম ও চিনি দিয়ে কিছুক্ষণ দমে রেখে নামাতে হবে। প্যানে বাকি কর্নঅয়েল গরম করে পেঁয়াজ বাদামি রং করে ভেজে চিংড়ি দিয়ে ৫-৬ মিনিট ভুনতে হবে। সার্ভিং ডিশে ভাত রেখে ভাতের ওপর চিংড়ি ভুনা ঢেলে দিতে হবে।";
 
-                        Bitmap bitmap_a2 = BitmapFactory.decodeResource(getResources(), R.drawable.bideshi_4);
+                        Bitmap bitmap_a2 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a2 = new ByteArrayOutputStream();
                         bitmap_a2.compress(Bitmap.CompressFormat.PNG, 100, baos_a2);
                         byte[] b_a2 = baos_a2.toByteArray();
@@ -207,7 +207,7 @@ public class Bide_shi extends AppCompatActivity
                         String upodetails_obj5= "বড় লবস্টার ১ কেজি, জলপাই তেল আধা কাপ, পেঁয়াজ কুচি সিকি কাপ, রসুন কুচি ১ টেবিল চামচ, লবণ স্বাদমতো, সাদা সিরকা ১ টেবিল চামচ, টুকরা করা বড় লাল টমেটো (খোসা, বীজ ও বাড়তি রস ফেলে) ২ কাপ, পার্সলে কুচি ১ টেবিল চামচ, অরিগেনো ১ চা চামচ, শুকনা মরিচ কুচি সিকি চা চামচ।";
                         String karjodtails_obj5= "বড় লবস্টারের মাথার নিচের ময়লা পরিষ্কার করে নিতে হবে। কিছুটা খোসা ফেলে এবং বড় পা ও গায়ের (চিমটা কাঁটা ফেলে) টুকরাগুলো থেকে ভেতরের মজ্জা বের করে আলাদা করে রাখতে হবে। বড় প্যানে জলপাই তেল দিয়ে ধোঁয়া ওঠা পর্যন্ত গরম জ্বাল দিয়ে বড় লবস্টারগুলো ও পায়ের মজ্জাগুলো ২-৩ মিনিট কড়া জ্বালে ভুনতে হবে। কাঠের নাড়ালি দিয়ে মাছ দু-তিনবার উল্টেপাল্টে পরে একটি পাত্রে লবস্টার উঠিয়ে রাখতে হবে। লবস্টার কখনো খুব বেশি জ্বাল দিয়ে শক্ত করা উচিত নয়। এতে খাদ্যমান কমে যায়। একটি সসপ্যানে অল্প অল্প তেল দিয়ে রসুন কুচি ভুনতে হবে। একটু মজে উঠলে সাদা সিরকা দিয়ে কড়া আঁচে ফুটিয়ে ঘন করে নিতে হবে। টমেটো কুচি, পার্সলে, অরিগেনো, লাল মরিচ, লবণ ইত্যাদি দিয়ে মিশ্রণটি ঘন করে নামাতে হবে। লবস্টারগুলো ওই মিশ্রণের মধ্যে ঢেলে ৮-১০ মিনিট মাঝারি আঁচে মাঝেমধ্যে নেড়েচেড়ে জ্বাল দিয়ে নামাতে হবে। পরিবেশন পাত্রে কিছু পার্সলে দিয়ে সাজাতে হবে।";
 
-                        Bitmap bitmap_a5 = BitmapFactory.decodeResource(getResources(), R.drawable.bideshi_6);
+                        Bitmap bitmap_a5 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a5 = new ByteArrayOutputStream();
                         bitmap_a5.compress(Bitmap.CompressFormat.PNG, 100, baos_a5);
                         byte[] b_a5 = baos_a5.toByteArray();
@@ -249,7 +249,7 @@ public class Bide_shi extends AppCompatActivity
                         String upodetails_obj7= "চিংড়ি মাথা ও খোসা ছাড়িয়ে কুচি করে কাটা দেড় কাপ, ডিম ২টি, বেকিং পাউডার ১ চা চামচ, ময়দা আধা কাপ, কর্নফ্লাওয়ার সিকি কাপ, সাদা গোলমরিচ গুঁড়া ১ চা চামচ, লাইট সয়াসস ১ টেবিল চামচ, লবণ পরিমাণমতো, তেল (ভাজার জন্য) ২ টেবিল চামচ, পেঁয়াজ কুচি সিকি কাপ, কাঁচামরিচ মিহি কুচি ১ টেবিল চামচ।";
                         String karjodtails_obj7= "চিংড়ি কুচি সয়াসস মাখিয়ে ২০ মিনিট রাখতে হবে। ময়দা, কর্নফ্লাওয়ার, বেকিং পাউডার একসঙ্গে মিশিয়ে নিতে হবে। ডিম, পেঁয়াজ, গোলমরিচ, কাঁচামরিচ, লবণ একসঙ্গে মাখিয়ে অল্প অল্প করে মিশ্রিত ময়দার সঙ্গে মিশিয়ে চিংড়ি দিয়ে মেশাতে হবে। কড়াইয়ে তেল গরম করে বড়ার মতো অল্প অল্প করে চিংড়ির মিশ্রণ দিয়ে মচমচে করে ভেজে ওঠাতে হবে। প্রন ফির্টাস গারলিক সস, রেড চিলি সস অথবা টমেটো সসের সঙ্গে গরম গরম পরিবেশন করা যায়।";
 
-                        Bitmap bitmap_a7 = BitmapFactory.decodeResource(getResources(), R.drawable.bideshi_8);
+                        Bitmap bitmap_a7 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a7 = new ByteArrayOutputStream();
                         bitmap_a7.compress(Bitmap.CompressFormat.PNG, 100, baos_a7);
                         byte[] b_a7 = baos_a7.toByteArray();
@@ -270,7 +270,7 @@ public class Bide_shi extends AppCompatActivity
                         String upodetails_obj8= "চিংড়ি (বড় সাইজ) আধা কেজি, ডিম ২টি, পেঁয়াজ বাটা ১ টেবিল চামচ, এরারুট ১ টেবিল চামচ, ময়দা ৬ টেবিল চামচ, কাঁচামরিচ বাটা ২ চা চামচ, লেবুর রস/ভিনেগার ১ টেবিল চামচ, বেকিং পাউডার সিকি চা চামচ, স্বাদলবণ আধা চা চামচ, সয়াসস ২ টেবিল চামচ, আদা+রসুন বাটা ১ চা চামচ, সাদা সরিষা বাটা (তাওয়ায় টালা) ১ টেবিল চামচ, পানি পরিমাণমতো, তেল প্রয়োজনমতো।";
                         String karjodtails_obj8= "চিংড়ি মাছের লেজ রেখে মাথা ও খোসা ফেলে দিতে হবে। মাছের ওপর দিকে (অর্থাৎ মাথা ফেলে দিলে যে অবস্থায় থাকে) একটু চিরে নিতে হবে। ২ টেবিল চামচ সয়াসস দিয়ে ভিজিয়ে রাখতে হবে ২০ থেকে ২৫ মিনিট। এবার পাউরুটিগুলো কিউব করে কেটে নিতে হবে। পাউরুটির ধারের শক্ত অংশগুলো ফেলে দিতে হবে। তেল ও পাউরুটি বাদে সব উপকরণ একসঙ্গে মাখাতে হবে। পাউরুটির একপাশে মসলা মাখিয়ে ওর ওপর সোজা করে মাছটি বসিয়ে দিতে হবে। মনে রাখতে হবে, তেল খুব গরম করতে হবে। পাউরুটিতে মসলা এবং মাছ বসানো অংশটি তেলের ভেতর আগে দিতে হবে। বাদামি রং করে ভেজে নামাতে হবে।";
 
-                        Bitmap bitmap_a8 = BitmapFactory.decodeResource(getResources(), R.drawable.bideshi_9);
+                        Bitmap bitmap_a8 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a8 = new ByteArrayOutputStream();
                         bitmap_a8.compress(Bitmap.CompressFormat.PNG, 100, baos_a8);
                         byte[] b_a8 = baos_a8.toByteArray();
@@ -291,7 +291,7 @@ public class Bide_shi extends AppCompatActivity
                         String upodetails_obj9= "সরু চাল ২০০ গ্রাম। মটরশুঁটি ছাড়ানো ১০০ গ্রাম। মোরগের কলিজা ৪টি। মোরগের মাংস ২০০ গ্রাম। চিংড়ি ৬০ গ্রাম। ডিম ৩টি। সয়াসস ২ টেবিল-চামচ। মরিচ গুঁড়া চা-চামচের ৪ ভাগের ১ ভাগ। অঙ্কুরিত ডাল ৭৫ গ্রাম। তেল ৫ টেবিল-চামচ। লবণ ও গোলমরিচ স্বাদমতো।";
                         String karjodtails_obj9= "চাল ধুয়ে ফুটন্ত লবণ পানিতে ১০ মিনিট ফোটান। ঝাঁঝরিতে ভাত ঢালুন। কলের নিচে ধরে ঠাণ্ডা পানিতে ভাত ধুয়ে নিন। পানি ঝরান। মটরশুঁটি, কলিজা, মাংস, চিংড়ি আলাদা আলাদা আধা সিদ্ধ করে ভাতের সঙ্গে মেশান। ডিমে সয়াসস, মরিচ, লবণ, গোলমরিচ ও চিনি দিয়ে ফেটিয়ে রাখুন। অঙ্কুরিত ডাল গামলায় নিয়ে উপরে ফুটন্ত পানি ঢালুন। সঙ্গে সঙ্গে পানি ঝরিয়ে ঠাণ্ডা পানিতে রাখুন। কড়াইয়ে তেল গরম করুন। ভাত দিয়ে ১০ মিনিট নেড়ে নেড়ে ভাজুন। অঙ্কুরিত ডাল দিয়ে একবার নাড়ুন। ফেটানো ডিম ঢেলে দিন। ডিম ঘন হতে আরম্ভ করলে মাঝে মাঝে নেড়ে মেশান। গরম গরম পরিবেশন করুন।";
 
-                        Bitmap bitmap_a9 = BitmapFactory.decodeResource(getResources(), R.drawable.bideshi_10);
+                        Bitmap bitmap_a9 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a9 = new ByteArrayOutputStream();
                         bitmap_a9.compress(Bitmap.CompressFormat.PNG, 100, baos_a9);
                         byte[] b_a9 = baos_a9.toByteArray();
@@ -313,7 +313,7 @@ public class Bide_shi extends AppCompatActivity
                         String upodetails_obj10= "টমেটো, মাঝারি ৬টি। গাজর ঝুরি আধা কাপ। বাঁধাকপি ঝুরি ১ কাপ। তেল ২ টেবিল-চামচ। পেঁয়াজ কুচি ২ টেবিল-চামচ। তেজপাতা ১টি। কর্নফ্লাওয়ার ১ টেবিল-চামচ। দারুচিনি একটু বড় ২ টুকরা। লবঙ্গ ২টি। আস্ত গোলমরিচ ছেঁচা ৪টি। মটরশুঁটি সিদ্ধ আধা কাপ। টমেটো কুচি ১টি। চিনি আধা কাপ। পনির ঝুরি ৪ টেবিল-চামচ। লবণ স্বাদমতো।";
                         String karjodtails_obj10= "টমেটো বড় টুকরা করুন। ৫ কাপ পানি দিয়ে সিদ্ধ করে ব্লেন্ড করে ছেঁকে নিন। সসপ্যানে তেল গরম করে পেঁয়াজ ও তেজপাতা দিয়ে আধা মিনিট ভাজুন। গাজর ও বাঁধাকপি দিয়ে আরও ১ মিনিট ভাজুন। ছেঁকে নেওয়া টমেটোর রস দিন। অল্প পানিতে কর্নফ্লাওয়ার গুলে নাড়ুন। দারুচিনি, লবঙ্গ, গোলমরিচ পাতলা কাপড়ে পুটলি বেঁধে সুপে দিন। ২ চা-চামচ লবণ দিয়ে ২০ মিনিট সিদ্ধ করুন। মটরশুঁটি, টমেটো, চিনি ও সামান্য গোলমরিচের গুঁড়া দিয়ে একবার ফুটান। চুলা থেকে নামিয়ে মসলার পুটলি তুলে ফেলুন। পরিবেশনের বড় বাটিতে সুপ ঢালুন। উপরে পনির কুচি ছিটিয়ে দিন। ওভেনে দিয়ে ৫ মিনিট গ্রিল করুন। পাউরুটি টোস্ট দিয়ে পরিবেশন করতে পারেন।";
 
-                        Bitmap bitmap_a10 = BitmapFactory.decodeResource(getResources(), R.drawable.bideshi_11);
+                        Bitmap bitmap_a10 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a10 = new ByteArrayOutputStream();
                         bitmap_a10.compress(Bitmap.CompressFormat.PNG, 100, baos_a10);
                         byte[] b_a10 = baos_a10.toByteArray();
@@ -354,7 +354,7 @@ public class Bide_shi extends AppCompatActivity
                         String upodetails_obj12= "চিংড়ি ২৫০ গ্রাম, থাই আদা ১ টুকরা, মাশরুম ৪টি, লেমন গ্রাস ২টি, বড় পেঁয়াজ ১টি, থাই লেবুপাতা ৪টি (সবকিছু চারকোনা করে কেটে নিতে হবে), স্বাদ লবণ ১ চা চামচ, ফিশ সস ৩ টেবিল চামচ, লেবুর রস ২ টেবিল চামচ, লবণ পরিমাণমতো, চিনি ১ টেবিল চামচ বা পরিমাণমতো, সাদা গোলমরিচ গুঁড়া আধা চা চামচ, শুকনা মরিচ ১টি, ধনেপাতা কুচি ১ টেবিল চামচ, কার্নেশন মিল্ক ২ টেবিল চামচ, টম ইয়াম পেস্ট ২ টেবিল চামচ,  স্টক ৫ কাপ।";
                         String karjodtails_obj12= "গরম স্টক চুলায় দিয়ে সব উপকরণ পর্যায়ক্রমে দিয়ে লবণ, চিনি ও টকের পরিমাণ চেখে দেখে কিছুক্ষণ চুলায় রেখে নামাতে হবে।";
 
-                        Bitmap bitmap_a12 = BitmapFactory.decodeResource(getResources(), R.drawable.bideshi_13);
+                        Bitmap bitmap_a12 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a12 = new ByteArrayOutputStream();
                         bitmap_a12.compress(Bitmap.CompressFormat.PNG, 100, baos_a12);
                         byte[] b_a12 = baos_a12.toByteArray();

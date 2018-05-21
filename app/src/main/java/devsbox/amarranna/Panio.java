@@ -46,7 +46,7 @@ public class Panio extends AppCompatActivity
             R.drawable.image,
             R.drawable.image,
             R.drawable.image,
-            R.drawable.panio_6,
+            R.drawable.nav,
             R.drawable.image,
             R.drawable.image,
 
@@ -189,7 +189,7 @@ public class Panio extends AppCompatActivity
                         String upodetails_obj5= "২টি আপেল, চিনি, বরফ কুচি, পুদিনা পাতা।";
                         String karjodtails_obj5= "আপেল ভালো মতো পরিষ্কার করে কেটে রস বের করতে বেল্গন্ডারের মধ্যে নিন (তাতে যেন কোনো খোসা বা বিচি না থাকে)। তারপর ছেঁকে নিন যাতে শরবত পরিষ্কার দেখা যায়। মিনারেল পানি, পরিমাণ মতো চিনি মিশিয়ে ২০ মিনিট ফ্রিজে রেখে দিন। ২০ মিনিট পর ফ্রিজ থেকে বের করে বরফ কুচি আর পুদিনা পাতা দিয়ে পরিবেশন করুন। ";
 
-                        Bitmap bitmap_a5 = BitmapFactory.decodeResource(getResources(), R.drawable.panio_6);
+                        Bitmap bitmap_a5 = BitmapFactory.decodeResource(getResources(), R.drawable.nav);
                         ByteArrayOutputStream baos_a5 = new ByteArrayOutputStream();
                         bitmap_a5.compress(Bitmap.CompressFormat.PNG, 100, baos_a5);
                         byte[] b_a5 = baos_a5.toByteArray();

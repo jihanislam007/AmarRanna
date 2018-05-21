@@ -51,14 +51,14 @@ public class Shak_shobji extends AppCompatActivity
     Integer[] imageId = {
             R.drawable.image,
             R.drawable.image,
-            R.drawable.shak_3,
-            R.drawable.shak_4,
-            R.drawable.shak_5,
-            R.drawable.shak_6,
-            R.drawable.shak_7,
-            R.drawable.shak_8,
             R.drawable.image,
-            R.drawable.shak_10,
+            R.drawable.image,
+            R.drawable.image,
+            R.drawable.image,
+            R.drawable.image,
+            R.drawable.image,
+            R.drawable.image,
+            R.drawable.image,
 
 
     };
@@ -140,7 +140,7 @@ public class Shak_shobji extends AppCompatActivity
                         String upodetails_obj2= "কচি ছোট বা মাঝারি আকারের বেগুন (লম্বালম্বি করে কাটা) ১ কেজি, লবণ আধা চা-চামচ+দেড় চা-চামচ, টমেটো কুচি ছোট ৪টি, কাঁচা মরিচ ফালি ৬টি, লাল মরিচের গুঁড়া ১ চা-চামচ, ধনেগুঁড়া ১ চা-চামচ, মেথিগুঁড়া আধা চা-চামচ, নারকেল বাটা আধা কাপ, ধনেপাতা কুচি ১ টেবিল-চামচ, চিনি ১ টেবিল-চামচ, ঘন তেঁতুলের ক্বাথ ২ টেবিল-চামচ, সরষের তেল ১ কাপ+২ টেবিল-চামচ, হলুদগুঁড়া আধা চা-চামচ+ আধা চা-চামচ, পেঁয়াজ (মিহি কুচি) ১ কাপ, গোটা শুকনা মরিচ ৮টি, জিরা গুঁড়া (ভাজা) ১ চা-চামচ, এলাচি গুঁড়া আধা চা-চামচ, রসুনবাটা ১ চা-চামচ, শাহি গরমমসলার গুঁড়া ১ চা-চামচ, রোস্টেড চিনাবাদামগুঁড়া ২ টেবিল-চামচ, সাদা তিল (ভেজে বেটে নেওয়া) দেড় টেবিল-চামচ, সাদা তিল (ভাজা) ১ টেবিল-চামচ।";
                         String karjodtails_obj2= "বেগুনের বোঁটাসহ লম্বালম্বি করে কেটে নিয়ে সিকি চামচ হলুদগুঁড়া ও আধা চা-চামচ লবণ মেখে ৩০ মিনিট রেখে দিন। এরপর বেগুন থেকে বের হওয়া কালো পানিগুলো ফেলে দিয়ে ভালো করে ধুয়ে পানি ঝরিয়ে নিন। এবার একটি বাটিতে বেগুনগুলো আধা চা-চামচ হলুদ ও আধা চা-চামচ লবণ দিয়ে কিছুক্ষণ মেখে রেখে দিন। কড়াই বা প্যানে আধা কাপ তেল গরম করে বেগুনগুলো ভাজি করে তেল ছেঁকে উঠিয়ে রাখুন। একই তেলে গোটা শুকনো মরিচের ফোঁড়ন দিয়ে পেঁয়াজকুচি হালকা বাদামি করে ভেজে টমেটো কুচি দিয়ে কিছুক্ষণ রান্না করে নিন। কাঁচা মরিচ ফালি, লাল মরিচের গুঁড়া এবং চিনি দিয়ে কিছুক্ষণ কষিয়ে নিন। আঁচ কমিয়ে কিছুক্ষণ ঢেকে রাখুন। একটি বাটিতে ১ কাপ কুসুম গরম পানিতে ধনে, জিরা, এলাচি ও মেথি ইত্যাদি গুঁড়া মসলা, রসুন, নারকেল এবং তিল বাটা একত্রে ভালো করে মিশিয়ে কড়াই বা প্যানে ঢেলে ভালোভাবে কষিয়ে নিন। এরপর খানিকটা গরম পানি দিয়ে ও বাকি লবণ দিয়ে আরও কিছুক্ষণ কষিয়ে নিয়ে তেঁতুলের ক্বাথ দিয়ে মিশিয়ে নেড়ে ভেজে রাখা বেগুনগুলো দিয়ে দিন। ওপরে গরমমসলার ফাকি ছিটিয়ে দিয়ে হালকা নেড়ে নিন। বেগুনগুলো যেন না ভেঙে যায়। এবার ১ টেবিল-চামচ সরষের তেল ও ধনেপাতা কুচি ছিটিয়ে ঢেকে চুলা বন্ধ করে দিন। সবশেষে পাত্রে বেড়ে কিছু রোস্টেড সাদা তিল, ধনেপাতা কুচি ও রোস্টেড চিনাবাদামগুঁড়া ছিটিয়ে সাজিয়ে পরিবেশন করুন।";
 
-                        Bitmap bitmap_a2 = BitmapFactory.decodeResource(getResources(), R.drawable.shak_3);
+                        Bitmap bitmap_a2 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a2 = new ByteArrayOutputStream();
                         bitmap_a2.compress(Bitmap.CompressFormat.PNG, 100, baos_a2);
                         byte[] b_a2 = baos_a2.toByteArray();
@@ -160,7 +160,7 @@ public class Shak_shobji extends AppCompatActivity
                         String upodetails_obj3= "বাঁধাকপি বড় ১টা, মাখন ১৫০ গ্রাম, মুরগির মাংস ২২৫ গ্রাম (সেদ্ধ করে কুচি করা), পাউরুটি ৫০ গ্রাম, সবজিসেদ্ধ পানি ১ কাপ, পেঁয়াজ ২টি, গাজর ১ কাপ, কাঁচা মরিচকুচি ১ টেচিল চামচ, লবণ স্বাদমতো, গোলমরিচগুঁড়া ১ চা-চামচ, পেঁয়াজকুচি আধা কাপ।";
                         String karjodtails_obj3= "ফুটন্ত লবণ-পানিতে গোটা বাঁধাকপি পাঁচ মিনিট সেদ্ধ করে পানি ঝরিয়ে নিন। পানিটা রেখে দিন। কপির ওপরে কেটে ভেতরটা গর্ত করে নিন। ওপরের কাটা অংশ দিয়ে ঢাকনার মতো বানিয়ে নিন। প্যানে ৭০ গ্রাম মাখন গরম করে একটি পেঁয়াজকুচি দিয়ে ভুনে নিন। হালকা বাদামি হলে সেদ্ধ মাংস ও কাঁচা মরিচ দিয়ে দুই বা তিন মিনিট নাড়াচাড়া করুন। দুধে পাউরুটি ভিজিয়ে অতিরিক্ত দুধ চিপে ফেলে দিন। রান্না করা মাংসে ভেজানো পাউরুটি, লবণ ও গোলমরিচ দিয়ে মিলিয়ে পুর তৈরি করে নিন। এবার বাঁধাকপিতে পুর ভরে ঢাকনা দিয়ে সাজিয়ে দিন। ওভেনপ্রুভ ডিশে বাকি মাখন গলিয়ে গাজর ও ভাঁজে খোলা পেঁয়াজ বিছিয়ে দিন। এতে কপিসেদ্ধ পানি দিয়ে পুরভরা কপি বসিয়ে অল্প আঁচে রান্না করুন দেড় বা দুই ঘণ্টা। ঢাকনা দিতে হবে। ওভেন প্রিহিট করে নিতে হবে।";
 
-                        Bitmap bitmap_a3 = BitmapFactory.decodeResource(getResources(), R.drawable.shak_4);
+                        Bitmap bitmap_a3 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a3 = new ByteArrayOutputStream();
                         bitmap_a3.compress(Bitmap.CompressFormat.PNG, 100, baos_a3);
                         byte[] b_a3 = baos_a3.toByteArray();
@@ -181,7 +181,7 @@ public class Shak_shobji extends AppCompatActivity
                         String upodetails_obj4= "বড় ১টি বেগুন, হলুদ গুঁড়া ১ চা চামচ, পাঁচ ফোড়ন ১ চা চামচ, পেঁয়াজ বাটা ১ কাপ, রসুন বাটা ১ টেবিল চামচ, মরিচ গুঁড়া ১ চা চামচ, চিনি ১ টেবিল চামচ, তেঁতুল গোলা ৪ টেবিল চামচ, তেল আধা কাপ, লবণ পরিমাণমতো।";
                         String karjodtails_obj4= "বেগুনটি লম্বালম্বি করে কেটে দুভাগ করতে হবে। মশলা ভেতরে ভালভাবে ঢোকার জন্য বেগুনের ভেতর ছুরি দিয়ে কয়েকটি চিড় দিন। এবার বেগুনে সামান্য হলুদ-লবন মাখিয়ে হালকা করে ভেজে নিন। প্যানে পাঁচ ফোড়ন, পেঁয়াজ-মরিচ বাটা, হলুদ ও লবণ দিয়ে একটু কষিয়ে নিতে হবে। কষানো শেষে চিনি, তেতুল গোলা দিয়ে ভুনা করতে থাকুন। মশলা একটু ভুনা হয়ে আসলে বেগুন দিয়ে প্যান ঢেকে মিনিট পাঁচেক রান্না করতে হবে। ব্যস হয়ে গেল টক-মিষ্টি আচারী বেগুন।";
 
-                        Bitmap bitmap_a4 = BitmapFactory.decodeResource(getResources(), R.drawable.shak_5);
+                        Bitmap bitmap_a4 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a4 = new ByteArrayOutputStream();
                         bitmap_a4.compress(Bitmap.CompressFormat.PNG, 100, baos_a4);
                         byte[] b_a4 = baos_a4.toByteArray();
@@ -202,7 +202,7 @@ public class Shak_shobji extends AppCompatActivity
                         String upodetails_obj5= "লাল শাক ৩ কাপ, কচুর ছড়া ১ কাপ, জলপাই ৭-৮টা, যেকোনো মাছ ৬ টুকরা, পেঁয়াজ কুচি ২ টেবিল চামচ, বাটা পেঁয়াজ ১ টেবিল চামচ, রসুন কুচি ১ টেবিল চামচ, হলুদ গুঁড়া আধা চা-চামচ, মরিচ গুঁড়া ১ চা-চামচ, লবণ স্বাদমতো, মেথি গুঁড়া আধা চা-চামচ, কাঁচা মরিচ ৩-৪টা, ধনেপাতা ১ টেবিল চামচ।";
                         String karjodtails_obj5= "মাছে হলুদ, লবণ মেখে ভেজে নিন। কচুর ছড়া লবণ দিয়ে সেদ্ধ করে নিন। তেলে পেঁয়াজ ও সব মসলা কষিয়ে সেদ্ধ ছড়া ও জলপাই দিয়ে দিন। অল্প পানি দিন। এবার শাক, মাছ ও কাঁচা মরিচ দিন। সবশেষে ধনেপাতা দিয়ে নামিয়ে নিন। গরম গরম ভাতের সঙ্গে পরিবেশন করুন।";
 
-                        Bitmap bitmap_a5 = BitmapFactory.decodeResource(getResources(), R.drawable.shak_6);
+                        Bitmap bitmap_a5 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a5 = new ByteArrayOutputStream();
                         bitmap_a5.compress(Bitmap.CompressFormat.PNG, 100, baos_a5);
                         byte[] b_a5 = baos_a5.toByteArray();
@@ -224,7 +224,7 @@ public class Shak_shobji extends AppCompatActivity
                         String upodetails_obj6= "সেদ্ধ বুটের ডাল ২০০ গ্রাম, সেদ্ধ পালংশাক এক কাপ, সেদ্ধ গাজর কুচি আধাকাপ, সেদ্ধ ফুলকপি আধা কাপ, সেদ্ধ মটরশুঁটি আধা কাপ, আদা-রসুন বাটা এক টেবিল চামচ, কাবাব মশলা আধা চা চামচ, গরম মশলা এক চা চামচ, পেঁয়াজ কুচি আধা কাপ, পেঁয়াজ পাতা কুচি দুই টেবিল চামচ, ধনেপাতা কুচি এক টেবিল চামচ, চিড়া আধা কাপ, তেল ভাজার জন্য, লবণ স্বাদমতো।";
                         String karjodtails_obj6= "একটি কড়াইয়ে তেল দিন। তেল গরম হলে পেঁয়াজ, আদা, রসুন, কাঁচামরিচ লাল করে বেরেস্তা করুন। চিড়া বেছে ধুয়ে পনি ঝরিয়ে নিন। বুটের ডাল বাটা সেদ্ধ শাকসবজি চিড়া ও লবণ দিয়ে ভালো করে মেখে ভাজা মশলা, গরম মশলা, কাবাব মশলা, পেঁয়াজ, ধনেপাতা কুচি মিশিয়ে নিন। এবার গোল গোল বলের মতো পানিতে হাত দিয়ে চেপে চ্যাপ্টা করে গরম ডুবো তেলে হাল্কা মৃদু আঁচে লাল বাদামি করে ভেজে তেল ঝরিয়ে সস বা চাটনির সঙ্গে পরিবেশন করুন।";
 
-                        Bitmap bitmap_a6 = BitmapFactory.decodeResource(getResources(), R.drawable.shak_7);
+                        Bitmap bitmap_a6 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a6 = new ByteArrayOutputStream();
                         bitmap_a6.compress(Bitmap.CompressFormat.PNG, 100, baos_a6);
                         byte[] b_a6 = baos_a6.toByteArray();
@@ -244,7 +244,7 @@ public class Shak_shobji extends AppCompatActivity
                         String upodetails_obj7= "শসা টুকরা করা ২ কাপ, ইলিশ মাছ ৪ টুকরা, পেয়াঁজ বাটা ২ টেবিল চামচ, নারকেলের দুধ ১ কাপ, হলুদ গুঁড়া আধা চা-চামচ, মরিচগুঁড়া আধা চা-চামচ, কাঁচামরিচ ২-৩টি, লবণ স্বাদমতো, তেল প্রয়োজনমতো।";
                         String karjodtails_obj7= "মাছ কেটে ধুয়ে হলুদ, মরিচ ও লবণ মেখে গরম তেলে ভেজে তুলে রাখুন। এবার কড়াইয়ে আরও কিছু তেল দিয়ে তাতে পেঁয়াজ বাটা, হলুদ গুঁড়া, মরিচ গুঁড়া, লবণ দিয়ে একটু কষিয়ে নারকেলের দুধ এবং শসার টুকরোগুলো দিন৷ একটু নেড়েচেড়ে পরিমাণমতো পানি দিয়ে ঢেকে দিন। ফুটে উঠলে ভাজা ইলিশ মাছ দিন৷ শসা এবং মাছ মাখামাখা হলে কাঁচামরিচ দিয়ে নামিয়ে ভাতের সঙ্গে পরিবেশন করুন।";
 
-                        Bitmap bitmap_a7 = BitmapFactory.decodeResource(getResources(), R.drawable.shak_8);
+                        Bitmap bitmap_a7 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a7 = new ByteArrayOutputStream();
                         bitmap_a7.compress(Bitmap.CompressFormat.PNG, 100, baos_a7);
                         byte[] b_a7 = baos_a7.toByteArray();
@@ -286,7 +286,7 @@ public class Shak_shobji extends AppCompatActivity
                         String upodetails_obj9= "আলু কিউব করে কাটা ১ কাপ, মটরশুঁটি ১ কাপ, আদা-রসুন বাটা ১ চা চামচ, এলাচ-দারুচিনি ২-৩ টুকরা, ঘি আধা কাপ, হলুদ গুঁড়া আধা চা চামচ, মরিচ গুঁড়া আধা চা চামচ, কাঁচামরিচ ফালি ২-৩টি, পেঁয়াজ কুচি ১ টেবিল চামচ, পেঁয়াজ বাটা ১ টেবিল চামচ, জিরা গুঁড়া আধা চা চামচ, লবণ স্বাদমতো।";
                         String karjodtails_obj9= "প্যানে ঘি দিয়ে এলাচ, দারুচিনি ও আলু ভেজে নিতে হবে। এবার সব মসলা ও সামান্য পানি দিয়ে কষিয়ে নিতে হবে। মটরশুঁটি ঢেলে অল্প পানি দিয়ে মৃদু আঁচে রান্না করুন। আলু-মটর সিদ্ধ হয়ে গেলে নামিয়ে ভাত বা রুটির সঙ্গে পরিবেশন করুন।";
 
-                        Bitmap bitmap_a9 = BitmapFactory.decodeResource(getResources(), R.drawable.shak_10);
+                        Bitmap bitmap_a9 = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a9 = new ByteArrayOutputStream();
                         bitmap_a9.compress(Bitmap.CompressFormat.PNG, 100, baos_a9);
                         byte[] b_a9 = baos_a9.toByteArray();

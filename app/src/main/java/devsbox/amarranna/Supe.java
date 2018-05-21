@@ -37,8 +37,8 @@ public class Supe extends AppCompatActivity
 
     };
 
-    Integer[] imageId = { R.drawable.sup_1, R.drawable.image, R.drawable.sup_3,
-            R.drawable.sup_4, R.drawable.sup_5, R.drawable.image,
+    Integer[] imageId = { R.drawable.image, R.drawable.image, R.drawable.image,
+            R.drawable.image, R.drawable.image, R.drawable.image,
             R.drawable.image, R.drawable.image };
 
 
@@ -76,7 +76,7 @@ public class Supe extends AppCompatActivity
                         String upodetails_obj0 = "মাখন ২ টেবিল চামচ, গাজর ১ কাপ, আধা কাপ পেঁয়াজ, দারুচিনি ১ টুকরো,ছোট ছোট টুকরো করা মাংস, মাংসের স্টক ৪ কাপ, সয়াসস ১ চা চামচ, রসুন কুচি ১/২ চা চামচ, গোলমরিচের গুঁড়া ১/২ চা চামচ, লেবুর রস ১ টেবিল চামচ, কাঁচা মরিচ কুচি ১ টেবিল চামচ, সিদ্ধ এগ নুডুলস এক কাপ, লবণ সামান্য।";
                         String karjodtails_obj0 = "মুরগির হাড় গুলো ধুয়ে সামান্য আদা বাটা, রসুন বাটা ও লবণ, ১ টি তেজপাতা ও দুই লিটার পানিতে সেদ্ধ করুন। পানি শুকিয়ে অর্ধেক হয়ে গেলে নামিয়ে ছেঁকে নিন। তৈরি হয়ে গেল মুরগির স্টক। মুরগির মাংস লবণ এবং সয়াসস মেখে ২০ মিনিট রেখে দিন। পাত্রে মাখন গরম করে পেঁয়াজ ও রসুন কুচি দিয়ে লাল করে ভেজে মাংস ও গাজর দিন। এবার গোলমরিচের গুড়া দিয়ে আগেই করে রাখা চিকেন স্টক দিয়ে দিন। স্যুপ ফুটে উঠলে এতে নুডুলস দিন, এ সময় ঘন ঘন নাড়তে হবে। সবশেষে সয়াসস, সিরকা দিন। ফুটে উঠলে কাঁচামরিচ কুচি, লেবুর রস দিয়ে নামিয়ে গরম গরম পরিবেশন করুন দারুণ মজার চিকেন নুডুলস স্যুপ।";
 
-                        Bitmap bitmap_a = BitmapFactory.decodeResource(getResources(), R.drawable.sup_1);
+                        Bitmap bitmap_a = BitmapFactory.decodeResource(getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a = new ByteArrayOutputStream();
                         bitmap_a.compress(Bitmap.CompressFormat.PNG, 100, baos_a);
                         byte[] b_a = baos_a.toByteArray();
@@ -121,7 +121,7 @@ public class Supe extends AppCompatActivity
                         String karjodtails_obj2 = "মুরগি টুকরো করে গোটা ভুট্টা, পেঁয়াজ, আদা-কুচি, মরিচ, লবন দিয়ে জলে সেদ্ধ করুন। সেদ্ধ হলে ভুট্টা থেকে দানা খুলে আলাদা রাখুন। মাংস ঝুরা করে নিন। বাকি সুপ ছেঁকে গরম মশলা, মাখন দিয়ে জ্বালে বসান। অল্প জলে কর্ণফ্লাওয়ার, চিনি গুলে সুপে ঢেলে নাড়ুন। ফুটে উঠলে ভুট্টা দানা ও মাংস ঝুরা ঢেলে নাড়তে থাকুন। তারপর গরম গরম পরিবেশন করুন।";
 
                         Bitmap bitmap_a2 = BitmapFactory.decodeResource(
-                                getResources(), R.drawable.sup_3);
+                                getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a2 = new ByteArrayOutputStream();
                         bitmap_a2.compress(Bitmap.CompressFormat.PNG, 100, baos_a2);
                         byte[] b_a2 = baos_a2.toByteArray();
@@ -142,7 +142,7 @@ public class Supe extends AppCompatActivity
                         String karjodtails_obj3 = "পালং শাক এবং বেবি কর্ণের মিশ্রণে তৈরি স্যুপ শীতকালের একটি অতুলনীয় খাদ্য।একটি কড়াইয়ে মাখন গরম করে পেঁয়াজ কুচি ও লবণ দিয়ে হালকা আঁচে ১-২ মিনিট ভাজুন। এরপর পালংশাক কাটা ও বেবি কর্ণ দিয়ে নাড়তে থাকুন। একটু পর দেড় কাপ পানি ও দুধ মিশিয়ে ৩ মিনিট ভালোভাবে ফুটান। এতে কর্ণফ্লাওয়ার ও দুধের মিশ্রিণ এবং লবণ দিয়ে নাড়তে থাকুন। চুলা থেকে নামিয়ে একটু ঠান্ডা করে হ্যান্ড ব্লেন্ডার দিয়ে ব্লেন্ড করে আবারো চুলায় বসিয়ে ২ মিনিট ফুটিয়ে এর উপর গোল মরিচের গুড়া ছড়িয়ে দিন। এবার গরম গরম পরিবেশন করুন।";
 
                         Bitmap bitmap_a3 = BitmapFactory.decodeResource(
-                                getResources(), R.drawable.sup_4);
+                                getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a3 = new ByteArrayOutputStream();
                         bitmap_a3.compress(Bitmap.CompressFormat.PNG, 100, baos_a3);
                         byte[] b_a3 = baos_a3.toByteArray();
@@ -164,7 +164,7 @@ public class Supe extends AppCompatActivity
                         String karjodtails_obj4 = "মুরগির মাংস ভাল করে ধুয়ে সামান্য আদা বাটা, রসুন বাটা , লবন, ১ টি তেজপাতা দুই লিটার পানিতে সিদ্ধ করুন। পানি শুকিয়ে অর্ধেক হয়ে গেলে নামিয়ে ছেঁকে নিন। তৈরি হয়ে গেল মুরগির স্টক।এবার মুরগির মাংস, লবণ এবং সয়াসস মেখে ২০ মিনিট রেখে দিন। পাত্রে মাখন গরম করে পেঁয়াজ ও রসুন কুচি দিয়ে লাল করে ভেজে মাংস ও গাজর দিন। এবার গোলমরিচের গুঁড়া দিয়ে আগেই করে রাখা চিকেন স্টক দিয়ে দিন। স্যুপ ফুটে উঠলে এতে এগ নুডুলস দিন। এ সময় ঘন ঘন নাড়তে থাকুন। সবশেষে টেস্টিং সল্ট, সয়াসস, সিরকা দিন। ফুটে উঠলে কাঁচামরিচ কুচি, লেবুর রস দিয়ে নামিয়ে গরম গরম পরিবেশন করুন দারুণ মজার চিকেন নুডুলস স্যুপ। আপনি চাইলে স্যুপে ইচ্ছেমতো শীতের সবজি ব্যবহার করতে পারেন।";
 
                         Bitmap bitmap_a4 = BitmapFactory.decodeResource(
-                                getResources(), R.drawable.sup_5);
+                                getResources(), R.drawable.image);
                         ByteArrayOutputStream baos_a4 = new ByteArrayOutputStream();
                         bitmap_a4.compress(Bitmap.CompressFormat.PNG, 100, baos_a4);
                         byte[] b_a4 = baos_a4.toByteArray();
